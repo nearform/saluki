@@ -1,0 +1,19 @@
+{
+  "name": "@nearform/cijul",
+  "version": "0.1.0",
+  "description": "The utility library for CSS-in-JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearform/cijul.git"
+  },
+  "author": "NearForm",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nearform/cijul/issues"
+  },
+  "homepage": "https://github.com/nearform/cijul#readme"
+}
