@@ -1,0 +1,537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`spacing when custom config is provided when the custom config overrides a value should replace the default value 1`] = `
+Object {
+  "margin": Object {
+    "bottom": Object {
+      "large": Object {
+        "margin-bottom": "3rem",
+      },
+      "medium": Object {
+        "margin-bottom": "2rem",
+      },
+      "small": Object {
+        "margin-bottom": "1rem",
+      },
+    },
+    "horizontal": Object {
+      "large": Object {
+        "margin-left": "3rem",
+        "margin-right": "3rem",
+      },
+      "medium": Object {
+        "margin-left": "2rem",
+        "margin-right": "2rem",
+      },
+      "small": Object {
+        "margin-left": "1rem",
+        "margin-right": "1rem",
+      },
+    },
+    "large": Object {
+      "margin": "3rem",
+    },
+    "left": Object {
+      "large": Object {
+        "margin-left": "3rem",
+      },
+      "medium": Object {
+        "margin-left": "2rem",
+      },
+      "small": Object {
+        "margin-left": "1rem",
+      },
+    },
+    "medium": Object {
+      "margin": "2rem",
+    },
+    "right": Object {
+      "large": Object {
+        "margin-right": "3rem",
+      },
+      "medium": Object {
+        "margin-right": "2rem",
+      },
+      "small": Object {
+        "margin-right": "1rem",
+      },
+    },
+    "small": Object {
+      "margin": "1rem",
+    },
+    "top": Object {
+      "large": Object {
+        "margin-top": "3rem",
+      },
+      "medium": Object {
+        "margin-top": "2rem",
+      },
+      "small": Object {
+        "margin-top": "1rem",
+      },
+    },
+    "vertical": Object {
+      "large": Object {
+        "margin-bottom": "3rem",
+        "margin-top": "3rem",
+      },
+      "medium": Object {
+        "margin-bottom": "2rem",
+        "margin-top": "2rem",
+      },
+      "small": Object {
+        "margin-bottom": "1rem",
+        "margin-top": "1rem",
+      },
+    },
+  },
+  "padding": Object {
+    "bottom": Object {
+      "large": Object {
+        "padding-bottom": "3rem",
+      },
+      "medium": Object {
+        "padding-bottom": "2rem",
+      },
+      "small": Object {
+        "padding-bottom": "2rem",
+      },
+    },
+    "horizontal": Object {
+      "large": Object {
+        "padding-left": "3rem",
+        "padding-right": "3rem",
+      },
+      "medium": Object {
+        "padding-left": "2rem",
+        "padding-right": "2rem",
+      },
+      "small": Object {
+        "padding-left": "2rem",
+        "padding-right": "2rem",
+      },
+    },
+    "large": Object {
+      "padding": "3rem",
+    },
+    "left": Object {
+      "large": Object {
+        "padding-left": "3rem",
+      },
+      "medium": Object {
+        "padding-left": "2rem",
+      },
+      "small": Object {
+        "padding-left": "2rem",
+      },
+    },
+    "medium": Object {
+      "padding": "2rem",
+    },
+    "right": Object {
+      "large": Object {
+        "padding-right": "3rem",
+      },
+      "medium": Object {
+        "padding-right": "2rem",
+      },
+      "small": Object {
+        "padding-right": "2rem",
+      },
+    },
+    "small": Object {
+      "padding": "2rem",
+    },
+    "top": Object {
+      "large": Object {
+        "padding-top": "3rem",
+      },
+      "medium": Object {
+        "padding-top": "2rem",
+      },
+      "small": Object {
+        "padding-top": "2rem",
+      },
+    },
+    "vertical": Object {
+      "large": Object {
+        "padding-bottom": "3rem",
+        "padding-top": "3rem",
+      },
+      "medium": Object {
+        "padding-bottom": "2rem",
+        "padding-top": "2rem",
+      },
+      "small": Object {
+        "padding-bottom": "2rem",
+        "padding-top": "2rem",
+      },
+    },
+  },
+}
+`;
+
+exports[`spacing when custom config is provided when the custom config provides a new value should add the value 1`] = `
+Object {
+  "margin": Object {
+    "bottom": Object {
+      "large": Object {
+        "margin-bottom": "3rem",
+      },
+      "medium": Object {
+        "margin-bottom": "2rem",
+      },
+      "small": Object {
+        "margin-bottom": "1rem",
+      },
+    },
+    "horizontal": Object {
+      "large": Object {
+        "margin-left": "3rem",
+        "margin-right": "3rem",
+      },
+      "medium": Object {
+        "margin-left": "2rem",
+        "margin-right": "2rem",
+      },
+      "small": Object {
+        "margin-left": "1rem",
+        "margin-right": "1rem",
+      },
+    },
+    "large": Object {
+      "margin": "3rem",
+    },
+    "left": Object {
+      "large": Object {
+        "margin-left": "3rem",
+      },
+      "medium": Object {
+        "margin-left": "2rem",
+      },
+      "small": Object {
+        "margin-left": "1rem",
+      },
+    },
+    "medium": Object {
+      "margin": "2rem",
+    },
+    "right": Object {
+      "large": Object {
+        "margin-right": "3rem",
+      },
+      "medium": Object {
+        "margin-right": "2rem",
+      },
+      "small": Object {
+        "margin-right": "1rem",
+      },
+    },
+    "small": Object {
+      "margin": "1rem",
+    },
+    "top": Object {
+      "large": Object {
+        "margin-top": "3rem",
+      },
+      "medium": Object {
+        "margin-top": "2rem",
+      },
+      "small": Object {
+        "margin-top": "1rem",
+      },
+    },
+    "vertical": Object {
+      "large": Object {
+        "margin-bottom": "3rem",
+        "margin-top": "3rem",
+      },
+      "medium": Object {
+        "margin-bottom": "2rem",
+        "margin-top": "2rem",
+      },
+      "small": Object {
+        "margin-bottom": "1rem",
+        "margin-top": "1rem",
+      },
+    },
+  },
+  "padding": Object {
+    "bottom": Object {
+      "large": Object {
+        "padding-bottom": "3rem",
+      },
+      "medium": Object {
+        "padding-bottom": "2rem",
+      },
+      "small": Object {
+        "padding-bottom": "1rem",
+      },
+      "verysmall": Object {
+        "padding-bottom": ".5rem",
+      },
+    },
+    "horizontal": Object {
+      "large": Object {
+        "padding-left": "3rem",
+        "padding-right": "3rem",
+      },
+      "medium": Object {
+        "padding-left": "2rem",
+        "padding-right": "2rem",
+      },
+      "small": Object {
+        "padding-left": "1rem",
+        "padding-right": "1rem",
+      },
+      "verysmall": Object {
+        "padding-left": ".5rem",
+        "padding-right": ".5rem",
+      },
+    },
+    "large": Object {
+      "padding": "3rem",
+    },
+    "left": Object {
+      "large": Object {
+        "padding-left": "3rem",
+      },
+      "medium": Object {
+        "padding-left": "2rem",
+      },
+      "small": Object {
+        "padding-left": "1rem",
+      },
+      "verysmall": Object {
+        "padding-left": ".5rem",
+      },
+    },
+    "medium": Object {
+      "padding": "2rem",
+    },
+    "right": Object {
+      "large": Object {
+        "padding-right": "3rem",
+      },
+      "medium": Object {
+        "padding-right": "2rem",
+      },
+      "small": Object {
+        "padding-right": "1rem",
+      },
+      "verysmall": Object {
+        "padding-right": ".5rem",
+      },
+    },
+    "small": Object {
+      "padding": "1rem",
+    },
+    "top": Object {
+      "large": Object {
+        "padding-top": "3rem",
+      },
+      "medium": Object {
+        "padding-top": "2rem",
+      },
+      "small": Object {
+        "padding-top": "1rem",
+      },
+      "verysmall": Object {
+        "padding-top": ".5rem",
+      },
+    },
+    "vertical": Object {
+      "large": Object {
+        "padding-bottom": "3rem",
+        "padding-top": "3rem",
+      },
+      "medium": Object {
+        "padding-bottom": "2rem",
+        "padding-top": "2rem",
+      },
+      "small": Object {
+        "padding-bottom": "1rem",
+        "padding-top": "1rem",
+      },
+      "verysmall": Object {
+        "padding-bottom": ".5rem",
+        "padding-top": ".5rem",
+      },
+    },
+    "verysmall": Object {
+      "padding": ".5rem",
+    },
+  },
+}
+`;
+
+exports[`spacing when no custom config is provided should return the default config 1`] = `
+Object {
+  "margin": Object {
+    "bottom": Object {
+      "large": Object {
+        "margin-bottom": "3rem",
+      },
+      "medium": Object {
+        "margin-bottom": "2rem",
+      },
+      "small": Object {
+        "margin-bottom": "1rem",
+      },
+    },
+    "horizontal": Object {
+      "large": Object {
+        "margin-left": "3rem",
+        "margin-right": "3rem",
+      },
+      "medium": Object {
+        "margin-left": "2rem",
+        "margin-right": "2rem",
+      },
+      "small": Object {
+        "margin-left": "1rem",
+        "margin-right": "1rem",
+      },
+    },
+    "large": Object {
+      "margin": "3rem",
+    },
+    "left": Object {
+      "large": Object {
+        "margin-left": "3rem",
+      },
+      "medium": Object {
+        "margin-left": "2rem",
+      },
+      "small": Object {
+        "margin-left": "1rem",
+      },
+    },
+    "medium": Object {
+      "margin": "2rem",
+    },
+    "right": Object {
+      "large": Object {
+        "margin-right": "3rem",
+      },
+      "medium": Object {
+        "margin-right": "2rem",
+      },
+      "small": Object {
+        "margin-right": "1rem",
+      },
+    },
+    "small": Object {
+      "margin": "1rem",
+    },
+    "top": Object {
+      "large": Object {
+        "margin-top": "3rem",
+      },
+      "medium": Object {
+        "margin-top": "2rem",
+      },
+      "small": Object {
+        "margin-top": "1rem",
+      },
+    },
+    "vertical": Object {
+      "large": Object {
+        "margin-bottom": "3rem",
+        "margin-top": "3rem",
+      },
+      "medium": Object {
+        "margin-bottom": "2rem",
+        "margin-top": "2rem",
+      },
+      "small": Object {
+        "margin-bottom": "1rem",
+        "margin-top": "1rem",
+      },
+    },
+  },
+  "padding": Object {
+    "bottom": Object {
+      "large": Object {
+        "padding-bottom": "3rem",
+      },
+      "medium": Object {
+        "padding-bottom": "2rem",
+      },
+      "small": Object {
+        "padding-bottom": "1rem",
+      },
+    },
+    "horizontal": Object {
+      "large": Object {
+        "padding-left": "3rem",
+        "padding-right": "3rem",
+      },
+      "medium": Object {
+        "padding-left": "2rem",
+        "padding-right": "2rem",
+      },
+      "small": Object {
+        "padding-left": "1rem",
+        "padding-right": "1rem",
+      },
+    },
+    "large": Object {
+      "padding": "3rem",
+    },
+    "left": Object {
+      "large": Object {
+        "padding-left": "3rem",
+      },
+      "medium": Object {
+        "padding-left": "2rem",
+      },
+      "small": Object {
+        "padding-left": "1rem",
+      },
+    },
+    "medium": Object {
+      "padding": "2rem",
+    },
+    "right": Object {
+      "large": Object {
+        "padding-right": "3rem",
+      },
+      "medium": Object {
+        "padding-right": "2rem",
+      },
+      "small": Object {
+        "padding-right": "1rem",
+      },
+    },
+    "small": Object {
+      "padding": "1rem",
+    },
+    "top": Object {
+      "large": Object {
+        "padding-top": "3rem",
+      },
+      "medium": Object {
+        "padding-top": "2rem",
+      },
+      "small": Object {
+        "padding-top": "1rem",
+      },
+    },
+    "vertical": Object {
+      "large": Object {
+        "padding-bottom": "3rem",
+        "padding-top": "3rem",
+      },
+      "medium": Object {
+        "padding-bottom": "2rem",
+        "padding-top": "2rem",
+      },
+      "small": Object {
+        "padding-bottom": "1rem",
+        "padding-top": "1rem",
+      },
+    },
+  },
+}
+`;

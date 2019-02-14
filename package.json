@@ -4,7 +4,7 @@
   "description": "The utility library for CSS-in-JS",
   "main": "src/index.js",
   "scripts": {
-    "test": ""
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,23 @@
   "bugs": {
     "url": "https://github.com/nearform/cijul/issues"
   },
-  "homepage": "https://github.com/nearform/cijul#readme"
+  "homepage": "https://github.com/nearform/cijul#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
 }
