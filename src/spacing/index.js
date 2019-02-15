@@ -1,4 +1,4 @@
-const generateRules = (customRules, type) => {
+function generateRules(customRules, type) {
   const defaultRules = {
     small: '1rem',
     medium: '2rem',
