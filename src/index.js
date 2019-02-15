@@ -1,9 +1,10 @@
 import setupSpacing from './spacing'
+import setupBreakpoint from './breakpoint'
 
 export let spacing
+export let breakpoint
 
-export const init = customConfig => {
-  if (customConfig.spacing) {
-    spacing = setupSpacing(customConfig.spacing)
-  }
+export default function(customConfig) {
+  spacing = setupSpacing(customConfig.spacing)
+  breakpoint = setupBreakpoint(customConfig.breakpoint)
 }
