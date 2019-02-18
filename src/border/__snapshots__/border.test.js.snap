@@ -1,0 +1,553 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`border when custom config is provided when the custom config overrides a value should replace the default value 1`] = `
+Object {
+  "border": "solid 1px black",
+  "bottom": Object {
+    "dashed": Object {
+      "border-bottom-style": "dashed",
+    },
+    "dotted": Object {
+      "border-bottom-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-bottom-width": "8px",
+    },
+    "medium": Object {
+      "border-bottom-width": "2px",
+    },
+    "none": Object {
+      "border-bottom-style": "none",
+    },
+    "solid": Object {
+      "border-bottom-style": "solid",
+    },
+    "thick": Object {
+      "border-bottom-width": "45px",
+    },
+    "thin": Object {
+      "border-bottom-width": "1px",
+    },
+  },
+  "dashed": Object {
+    "border-style": "dashed",
+  },
+  "dotted": Object {
+    "border-style": "dotted",
+  },
+  "extraThick": Object {
+    "border-width": "8px",
+  },
+  "left": Object {
+    "dashed": Object {
+      "border-left-style": "dashed",
+    },
+    "dotted": Object {
+      "border-left-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-left-width": "8px",
+    },
+    "medium": Object {
+      "border-left-width": "2px",
+    },
+    "none": Object {
+      "border-left-style": "none",
+    },
+    "solid": Object {
+      "border-left-style": "solid",
+    },
+    "thick": Object {
+      "border-left-width": "45px",
+    },
+    "thin": Object {
+      "border-left-width": "1px",
+    },
+  },
+  "medium": Object {
+    "border-width": "2px",
+  },
+  "none": Object {
+    "border-style": "none",
+  },
+  "right": Object {
+    "dashed": Object {
+      "border-right-style": "dashed",
+    },
+    "dotted": Object {
+      "border-right-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-right-width": "8px",
+    },
+    "medium": Object {
+      "border-right-width": "2px",
+    },
+    "none": Object {
+      "border-right-style": "none",
+    },
+    "solid": Object {
+      "border-right-style": "solid",
+    },
+    "thick": Object {
+      "border-right-width": "45px",
+    },
+    "thin": Object {
+      "border-right-width": "1px",
+    },
+  },
+  "solid": Object {
+    "border-style": "solid",
+  },
+  "thick": Object {
+    "border-width": "45px",
+  },
+  "thin": Object {
+    "border-width": "1px",
+  },
+  "top": Object {
+    "dashed": Object {
+      "border-top-style": "dashed",
+    },
+    "dotted": Object {
+      "border-top-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-top-width": "8px",
+    },
+    "medium": Object {
+      "border-top-width": "2px",
+    },
+    "none": Object {
+      "border-top-style": "none",
+    },
+    "solid": Object {
+      "border-top-style": "solid",
+    },
+    "thick": Object {
+      "border-top-width": "45px",
+    },
+    "thin": Object {
+      "border-top-width": "1px",
+    },
+  },
+}
+`;
+
+exports[`border when custom config is provided when the custom config provides a new value should add the value 1`] = `
+Object {
+  "border": "solid 1px black",
+  "bottom": Object {
+    "dashed": Object {
+      "border-bottom-style": "dashed",
+    },
+    "dotted": Object {
+      "border-bottom-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-bottom-width": "8px",
+    },
+    "medium": Object {
+      "border-bottom-width": "2px",
+    },
+    "none": Object {
+      "border-bottom-style": "none",
+    },
+    "solid": Object {
+      "border-bottom-style": "solid",
+    },
+    "superThick": Object {
+      "border-bottom-width": "100px",
+    },
+    "thick": Object {
+      "border-bottom-width": "4px",
+    },
+    "thin": Object {
+      "border-bottom-width": "1px",
+    },
+  },
+  "dashed": Object {
+    "border-style": "dashed",
+  },
+  "dotted": Object {
+    "border-style": "dotted",
+  },
+  "extraThick": Object {
+    "border-width": "8px",
+  },
+  "left": Object {
+    "dashed": Object {
+      "border-left-style": "dashed",
+    },
+    "dotted": Object {
+      "border-left-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-left-width": "8px",
+    },
+    "medium": Object {
+      "border-left-width": "2px",
+    },
+    "none": Object {
+      "border-left-style": "none",
+    },
+    "solid": Object {
+      "border-left-style": "solid",
+    },
+    "superThick": Object {
+      "border-left-width": "100px",
+    },
+    "thick": Object {
+      "border-left-width": "4px",
+    },
+    "thin": Object {
+      "border-left-width": "1px",
+    },
+  },
+  "medium": Object {
+    "border-width": "2px",
+  },
+  "none": Object {
+    "border-style": "none",
+  },
+  "right": Object {
+    "dashed": Object {
+      "border-right-style": "dashed",
+    },
+    "dotted": Object {
+      "border-right-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-right-width": "8px",
+    },
+    "medium": Object {
+      "border-right-width": "2px",
+    },
+    "none": Object {
+      "border-right-style": "none",
+    },
+    "solid": Object {
+      "border-right-style": "solid",
+    },
+    "superThick": Object {
+      "border-right-width": "100px",
+    },
+    "thick": Object {
+      "border-right-width": "4px",
+    },
+    "thin": Object {
+      "border-right-width": "1px",
+    },
+  },
+  "solid": Object {
+    "border-style": "solid",
+  },
+  "superThick": Object {
+    "border-width": "100px",
+  },
+  "thick": Object {
+    "border-width": "4px",
+  },
+  "thin": Object {
+    "border-width": "1px",
+  },
+  "top": Object {
+    "dashed": Object {
+      "border-top-style": "dashed",
+    },
+    "dotted": Object {
+      "border-top-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-top-width": "8px",
+    },
+    "medium": Object {
+      "border-top-width": "2px",
+    },
+    "none": Object {
+      "border-top-style": "none",
+    },
+    "solid": Object {
+      "border-top-style": "solid",
+    },
+    "superThick": Object {
+      "border-top-width": "100px",
+    },
+    "thick": Object {
+      "border-top-width": "4px",
+    },
+    "thin": Object {
+      "border-top-width": "1px",
+    },
+  },
+}
+`;
+
+exports[`border when no custom config is provided should return the default config 1`] = `
+Object {
+  "black": Object {
+    "border-color": "black",
+  },
+  "blue": Object {
+    "border-color": "blue",
+  },
+  "border": "solid 1px black",
+  "bottom": Object {
+    "black": Object {
+      "border-bottom-color": "black",
+    },
+    "blue": Object {
+      "border-bottom-color": "blue",
+    },
+    "dashed": Object {
+      "border-bottom-style": "dashed",
+    },
+    "dotted": Object {
+      "border-bottom-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-bottom-width": "8px",
+    },
+    "gray": Object {
+      "border-bottom-color": "gray",
+    },
+    "green": Object {
+      "border-bottom-color": "green",
+    },
+    "medium": Object {
+      "border-bottom-width": "2px",
+    },
+    "none": Object {
+      "border-bottom-style": "none",
+    },
+    "orange": Object {
+      "border-bottom-color": "orange",
+    },
+    "purple": Object {
+      "border-bottom-color": "purple",
+    },
+    "red": Object {
+      "border-bottom-color": "red",
+    },
+    "solid": Object {
+      "border-bottom-style": "solid",
+    },
+    "thick": Object {
+      "border-bottom-width": "4px",
+    },
+    "thin": Object {
+      "border-bottom-width": "1px",
+    },
+    "white": Object {
+      "border-bottom-color": "white",
+    },
+    "yellow": Object {
+      "border-bottom-color": "yellow",
+    },
+  },
+  "dashed": Object {
+    "border-style": "dashed",
+  },
+  "dotted": Object {
+    "border-style": "dotted",
+  },
+  "extraThick": Object {
+    "border-width": "8px",
+  },
+  "gray": Object {
+    "border-color": "gray",
+  },
+  "green": Object {
+    "border-color": "green",
+  },
+  "left": Object {
+    "black": Object {
+      "border-left-color": "black",
+    },
+    "blue": Object {
+      "border-left-color": "blue",
+    },
+    "dashed": Object {
+      "border-left-style": "dashed",
+    },
+    "dotted": Object {
+      "border-left-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-left-width": "8px",
+    },
+    "gray": Object {
+      "border-left-color": "gray",
+    },
+    "green": Object {
+      "border-left-color": "green",
+    },
+    "medium": Object {
+      "border-left-width": "2px",
+    },
+    "none": Object {
+      "border-left-style": "none",
+    },
+    "orange": Object {
+      "border-left-color": "orange",
+    },
+    "purple": Object {
+      "border-left-color": "purple",
+    },
+    "red": Object {
+      "border-left-color": "red",
+    },
+    "solid": Object {
+      "border-left-style": "solid",
+    },
+    "thick": Object {
+      "border-left-width": "4px",
+    },
+    "thin": Object {
+      "border-left-width": "1px",
+    },
+    "white": Object {
+      "border-left-color": "white",
+    },
+    "yellow": Object {
+      "border-left-color": "yellow",
+    },
+  },
+  "medium": Object {
+    "border-width": "2px",
+  },
+  "none": Object {
+    "border-style": "none",
+  },
+  "orange": Object {
+    "border-color": "orange",
+  },
+  "purple": Object {
+    "border-color": "purple",
+  },
+  "red": Object {
+    "border-color": "red",
+  },
+  "right": Object {
+    "black": Object {
+      "border-right-color": "black",
+    },
+    "blue": Object {
+      "border-right-color": "blue",
+    },
+    "dashed": Object {
+      "border-right-style": "dashed",
+    },
+    "dotted": Object {
+      "border-right-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-right-width": "8px",
+    },
+    "gray": Object {
+      "border-right-color": "gray",
+    },
+    "green": Object {
+      "border-right-color": "green",
+    },
+    "medium": Object {
+      "border-right-width": "2px",
+    },
+    "none": Object {
+      "border-right-style": "none",
+    },
+    "orange": Object {
+      "border-right-color": "orange",
+    },
+    "purple": Object {
+      "border-right-color": "purple",
+    },
+    "red": Object {
+      "border-right-color": "red",
+    },
+    "solid": Object {
+      "border-right-style": "solid",
+    },
+    "thick": Object {
+      "border-right-width": "4px",
+    },
+    "thin": Object {
+      "border-right-width": "1px",
+    },
+    "white": Object {
+      "border-right-color": "white",
+    },
+    "yellow": Object {
+      "border-right-color": "yellow",
+    },
+  },
+  "solid": Object {
+    "border-style": "solid",
+  },
+  "thick": Object {
+    "border-width": "4px",
+  },
+  "thin": Object {
+    "border-width": "1px",
+  },
+  "top": Object {
+    "black": Object {
+      "border-top-color": "black",
+    },
+    "blue": Object {
+      "border-top-color": "blue",
+    },
+    "dashed": Object {
+      "border-top-style": "dashed",
+    },
+    "dotted": Object {
+      "border-top-style": "dotted",
+    },
+    "extraThick": Object {
+      "border-top-width": "8px",
+    },
+    "gray": Object {
+      "border-top-color": "gray",
+    },
+    "green": Object {
+      "border-top-color": "green",
+    },
+    "medium": Object {
+      "border-top-width": "2px",
+    },
+    "none": Object {
+      "border-top-style": "none",
+    },
+    "orange": Object {
+      "border-top-color": "orange",
+    },
+    "purple": Object {
+      "border-top-color": "purple",
+    },
+    "red": Object {
+      "border-top-color": "red",
+    },
+    "solid": Object {
+      "border-top-style": "solid",
+    },
+    "thick": Object {
+      "border-top-width": "4px",
+    },
+    "thin": Object {
+      "border-top-width": "1px",
+    },
+    "white": Object {
+      "border-top-color": "white",
+    },
+    "yellow": Object {
+      "border-top-color": "yellow",
+    },
+  },
+  "white": Object {
+    "border-color": "white",
+  },
+  "yellow": Object {
+    "border-color": "yellow",
+  },
+}
+`;
