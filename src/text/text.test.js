@@ -1,10 +1,10 @@
-import spacing, { defaultRules, combineRules } from './index'
+import text, { defaultRules, combineRules } from './index'
 
-describe('spacing', () => {
+describe('text', () => {
   describe('when no custom config is provided', () => {
     it('should return the default config', () => {
       const combinedRules = combineRules(defaultRules)
-      expect(spacing(combinedRules)).toMatchSnapshot()
+      expect(text(combinedRules)).toMatchSnapshot()
     })
   })
 
@@ -12,18 +12,18 @@ describe('spacing', () => {
     describe('when the custom config overrides a value', () => {
       it('should replace the default value', () => {
         const combinedRules = combineRules(defaultRules, {
-          padding: { small: '2rem' }
+          size: { small: '.5rem' }
         })
-        expect(spacing(combinedRules)).toMatchSnapshot()
+        expect(text(combinedRules)).toMatchSnapshot()
       })
     })
 
     describe('when the custom config provides a new value', () => {
-      it('should add the value', () => {
+      it('should add the value and not amend any existing values', () => {
         const combinedRules = combineRules(defaultRules, {
-          padding: { verysmall: '.5rem' }
+          size: { extrasmall: '.25rem' }
         })
-        expect(spacing(combinedRules)).toMatchSnapshot()
+        expect(text(combinedRules)).toMatchSnapshot()
       })
     })
   })

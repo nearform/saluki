@@ -1,39 +1,74 @@
-function generateRules(customRules, type) {
-  const defaultRules = {
-    small: '1rem',
-    medium: '2rem',
-    large: '3rem'
-  }
+export const defaultRules = {
+  small: '1rem',
+  medium: '2rem',
+  large: '3rem'
+}
 
-  const combinedRules = {
-    ...defaultRules,
-    ...customRules,
-    top: {
+export function combineRules(
+  defaultRules,
+  customRules = { padding: {}, margin: {} }
+) {
+  return {
+    padding: {
       ...defaultRules,
-      ...customRules
+      ...customRules.padding,
+      top: {
+        ...defaultRules,
+        ...customRules.padding
+      },
+      right: {
+        ...defaultRules,
+        ...customRules.padding
+      },
+      bottom: {
+        ...defaultRules,
+        ...customRules.padding
+      },
+      left: {
+        ...defaultRules,
+        ...customRules.padding
+      },
+      vertical: {
+        ...defaultRules,
+        ...customRules.padding
+      },
+      horizontal: {
+        ...defaultRules,
+        ...customRules.padding
+      }
     },
-    right: {
+    margin: {
       ...defaultRules,
-      ...customRules
-    },
-    bottom: {
-      ...defaultRules,
-      ...customRules
-    },
-    left: {
-      ...defaultRules,
-      ...customRules
-    },
-    vertical: {
-      ...defaultRules,
-      ...customRules
-    },
-    horizontal: {
-      ...defaultRules,
-      ...customRules
+      ...customRules.margin,
+      top: {
+        ...defaultRules,
+        ...customRules.margin
+      },
+      right: {
+        ...defaultRules,
+        ...customRules.margin
+      },
+      bottom: {
+        ...defaultRules,
+        ...customRules.margin
+      },
+      left: {
+        ...defaultRules,
+        ...customRules.margin
+      },
+      vertical: {
+        ...defaultRules,
+        ...customRules.margin
+      },
+      horizontal: {
+        ...defaultRules,
+        ...customRules.margin
+      }
     }
   }
+}
 
+function generateRules(rules, cssProp) {
   const newRules = {
     top: {},
     right: {},
@@ -43,35 +78,35 @@ function generateRules(customRules, type) {
     horizontal: {}
   }
 
-  for (const [key, value] of Object.entries(combinedRules)) {
+  for (const [key, value] of Object.entries(rules)) {
     if (
       key === 'top' ||
       key === 'right' ||
       key === 'bottom' ||
       key === 'left'
     ) {
-      for (const [k, v] of Object.entries(combinedRules[key])) {
+      for (const [k, v] of Object.entries(rules[key])) {
         newRules[key][k] = {
-          [`${type}-${key}`]: v
+          [`${cssProp}-${key}`]: v
         }
       }
     } else if (key === 'vertical') {
-      for (const [k, v] of Object.entries(combinedRules[key])) {
+      for (const [k, v] of Object.entries(rules[key])) {
         newRules[key][k] = {
-          [`${type}-top`]: v,
-          [`${type}-bottom`]: v
+          [`${cssProp}-top`]: v,
+          [`${cssProp}-bottom`]: v
         }
       }
     } else if (key === 'horizontal') {
-      for (const [k, v] of Object.entries(combinedRules[key])) {
+      for (const [k, v] of Object.entries(rules[key])) {
         newRules[key][k] = {
-          [`${type}-right`]: v,
-          [`${type}-left`]: v
+          [`${cssProp}-right`]: v,
+          [`${cssProp}-left`]: v
         }
       }
     } else {
       newRules[key] = {
-        [type]: value
+        [cssProp]: value
       }
     }
   }
@@ -79,9 +114,9 @@ function generateRules(customRules, type) {
   return newRules
 }
 
-export default function(customSpacing = {}) {
+export default function(spacing) {
   return {
-    padding: generateRules(customSpacing.padding, 'padding'),
-    margin: generateRules(customSpacing.margin, 'margin')
+    padding: generateRules(spacing.padding, 'padding'),
+    margin: generateRules(spacing.margin, 'margin')
   }
 }
