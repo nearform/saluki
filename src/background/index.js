@@ -42,14 +42,18 @@ const setupBackgroundProperties = (background, values, name, valTransform) => {
   }
 }
 
-const setupBackground = ({sizes = {}} = {}, colors = {}) => {
+const setupBackground = ({ sizes = {} } = {}, colors = {}) => {
   let background = {}
-  setupBackgroundProperties(background, {...backgroundSizes, ...sizes}, 'size')
+  setupBackgroundProperties(
+    background,
+    { ...backgroundSizes, ...sizes },
+    'size'
+  )
   setupBackgroundProperties(background, backgroundAttachments, 'attachment')
   setupBackgroundProperties(background, backgroundPositions, 'position')
   setupBackgroundProperties(background, backgroundRepeats, 'repeat')
   setupBackgroundColors(background, colors)
-  
+
   return background
 }
 

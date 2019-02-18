@@ -12,7 +12,10 @@ export let background
 
 export default function(customConfig) {
   spacing = setupSpacing(customConfig.spacing)
-  background = setupBackground(customConfig.background, {...defaultColor, ...customConfig.color})
+  background = setupBackground(customConfig.background, {
+    ...defaultColor,
+    ...customConfig.color
+  })
   breakpoint = setupBreakpoint(customConfig.breakpoint)
 
   border = setupBorder(customConfig.borderWidths, {
