@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint src/**",
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci --runInBand --reporters=default --reporters=jest-junit"
   },
   "repository": {
     "type": "git",

@@ -9,9 +9,13 @@ import setupText, {
   defaultRules as defaultTextRules,
   combineRules as combineTextRules
 } from './text'
+import setupBorder from './border'
+import setupColor, { color as defaultColor } from './color'
 
-export let spacing
+export let border
 export let breakpoint
+export let color
+export let spacing
 export let text
 
 export default function(customConfig) {
@@ -21,6 +25,14 @@ export default function(customConfig) {
   breakpoint = setupBreakpoint({
     ...defaultBreakpointRules,
     ...customConfig.breakpoint
+  })
+  border = setupBorder(customConfig.borderWidths, {
+    ...defaultColor,
+    ...customConfig.color
+  })
+  color = setupColor({
+    ...defaultColor,
+    ...customConfig.color
   })
   text = setupText(combineTextRules(defaultTextRules, customConfig.text))
 }
