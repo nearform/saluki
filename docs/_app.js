@@ -1,7 +1,5 @@
-/* eslint-disable no-unused-vars */
 import React from 'react'
 import { SidebarLayout } from '@compositor/x0/components'
-/* eslint-enable no-unused-vars */
 import sortBy from 'lodash.sortby'
 
 const navOrder = [
