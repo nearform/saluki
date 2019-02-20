@@ -9,6 +9,12 @@ export const defaultRules = {
     normal: 'normal',
     bold: 'bold'
   },
+  align: {
+    center: 'center',
+    left: 'left',
+    right: 'right',
+    justify: 'justify'
+  },
   transform: {
     uppercase: 'uppercase',
     lowercase: 'lowercase',
@@ -26,12 +32,12 @@ export const defaultRules = {
     none: 'none'
   },
   lineHeight: {
-    small: 1,
-    medium: 1.5,
-    large: 2
+    small: '1em',
+    medium: '1.5em',
+    large: '2em'
   },
   letterSpacing: {
-    small: '.075em',
+    small: '-.05em',
     medium: '.125em',
     large: '.2em'
   },
@@ -44,6 +50,7 @@ export function combineRules(
   customRules = {
     size: {},
     weight: {},
+    align: {},
     transform: {},
     style: {},
     decoration: {},
@@ -61,6 +68,10 @@ export function combineRules(
     weight: {
       ...defaultRules.weight,
       ...customRules.weight
+    },
+    align: {
+      ...defaultRules.align,
+      ...customRules.align
     },
     transform: {
       ...defaultRules.transform,
@@ -107,8 +118,9 @@ export default function(rules) {
   return {
     size: generateRules(rules.size, 'font-size'),
     weight: generateRules(rules.weight, 'font-weight'),
+    align: generateRules(rules.align, 'text-align'),
     transform: generateRules(rules.transform, 'text-transform'),
-    style: generateRules(rules.style, 'text-style'),
+    style: generateRules(rules.style, 'font-style'),
     decoration: generateRules(rules.decoration, 'text-decoration'),
     lineHeight: generateRules(rules.lineHeight, 'line-height'),
     letterSpacing: generateRules(rules.letterSpacing, 'letter-spacing'),

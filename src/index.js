@@ -13,12 +13,12 @@ import setupText, {
   combineRules as combineTextRules
 } from './text'
 
-export let background
-export let border
-export let breakpoint
-export let color
-export let spacing
-export let text
+export let background = setupBackground({}, defaultColor)
+export let border = setupBorder({}, defaultColor)
+export let breakpoint = setupBreakpoint(defaultBreakpointRules)
+export let color = setupColor(defaultColor)
+export let spacing = setupSpacing(combineSpacingRules(defaultSpacingRules))
+export let text = setupText(combineTextRules(defaultTextRules))
 
 export default function(customConfig) {
   background = setupBackground(customConfig.background, {

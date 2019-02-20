@@ -1,0 +1,27 @@
+# Additions
+
+---
+
+You can add new rules by adding to existing parent rules.
+
+Default rules will stay intact unless overriden.
+
+```js
+import init from '@nearform/cijul'
+
+const cijulConfig = {
+  color: {
+    lightRed: '#ff6f6f'
+  },
+  text: {
+    weight: {
+      thick: 900
+    }
+  },
+  breakpoint: {
+    extraLarge: '1600px'
+  }
+}
+
+init(cijulConfig)
+```
