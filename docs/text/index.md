@@ -24,6 +24,12 @@ text
     normal: 'normal',
     bold: 'bold'
   },
+  align: {
+    center: 'center',
+    left: 'left',
+    right: 'right',
+    justify: 'justify'
+  },
   transform: {
     uppercase: 'uppercase',
     lowercase: 'lowercase',
