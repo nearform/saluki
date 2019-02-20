@@ -2,6 +2,20 @@
 
 exports[`text when custom config is provided when the custom config overrides a value should replace the default value 1`] = `
 Object {
+  "align": Object {
+    "center": Object {
+      "text-align": "center",
+    },
+    "justify": Object {
+      "text-align": "justify",
+    },
+    "left": Object {
+      "text-align": "left",
+    },
+    "right": Object {
+      "text-align": "right",
+    },
+  },
   "decoration": Object {
     "lineThrough": Object {
       "text-decoration": "line-through",
@@ -21,18 +35,18 @@ Object {
       "letter-spacing": ".125em",
     },
     "small": Object {
-      "letter-spacing": ".075em",
+      "letter-spacing": "-.05em",
     },
   },
   "lineHeight": Object {
     "large": Object {
-      "line-height": 2,
+      "line-height": "2em",
     },
     "medium": Object {
-      "line-height": 1.5,
+      "line-height": "1.5em",
     },
     "small": Object {
-      "line-height": 1,
+      "line-height": "1em",
     },
   },
   "sans": Object {
@@ -54,13 +68,13 @@ Object {
   },
   "style": Object {
     "italic": Object {
-      "text-style": "italic",
+      "font-style": "italic",
     },
     "normal": Object {
-      "text-style": "normal",
+      "font-style": "normal",
     },
     "oblique": Object {
-      "text-style": "oblique",
+      "font-style": "oblique",
     },
   },
   "transform": Object {
@@ -93,6 +107,20 @@ Object {
 
 exports[`text when custom config is provided when the custom config provides a new value should add the value and not amend any existing values 1`] = `
 Object {
+  "align": Object {
+    "center": Object {
+      "text-align": "center",
+    },
+    "justify": Object {
+      "text-align": "justify",
+    },
+    "left": Object {
+      "text-align": "left",
+    },
+    "right": Object {
+      "text-align": "right",
+    },
+  },
   "decoration": Object {
     "lineThrough": Object {
       "text-decoration": "line-through",
@@ -112,18 +140,18 @@ Object {
       "letter-spacing": ".125em",
     },
     "small": Object {
-      "letter-spacing": ".075em",
+      "letter-spacing": "-.05em",
     },
   },
   "lineHeight": Object {
     "large": Object {
-      "line-height": 2,
+      "line-height": "2em",
     },
     "medium": Object {
-      "line-height": 1.5,
+      "line-height": "1.5em",
     },
     "small": Object {
-      "line-height": 1,
+      "line-height": "1em",
     },
   },
   "sans": Object {
@@ -148,13 +176,13 @@ Object {
   },
   "style": Object {
     "italic": Object {
-      "text-style": "italic",
+      "font-style": "italic",
     },
     "normal": Object {
-      "text-style": "normal",
+      "font-style": "normal",
     },
     "oblique": Object {
-      "text-style": "oblique",
+      "font-style": "oblique",
     },
   },
   "transform": Object {
@@ -187,6 +215,20 @@ Object {
 
 exports[`text when no custom config is provided should return the default config 1`] = `
 Object {
+  "align": Object {
+    "center": Object {
+      "text-align": "center",
+    },
+    "justify": Object {
+      "text-align": "justify",
+    },
+    "left": Object {
+      "text-align": "left",
+    },
+    "right": Object {
+      "text-align": "right",
+    },
+  },
   "decoration": Object {
     "lineThrough": Object {
       "text-decoration": "line-through",
@@ -206,18 +248,18 @@ Object {
       "letter-spacing": ".125em",
     },
     "small": Object {
-      "letter-spacing": ".075em",
+      "letter-spacing": "-.05em",
     },
   },
   "lineHeight": Object {
     "large": Object {
-      "line-height": 2,
+      "line-height": "2em",
     },
     "medium": Object {
-      "line-height": 1.5,
+      "line-height": "1.5em",
     },
     "small": Object {
-      "line-height": 1,
+      "line-height": "1em",
     },
   },
   "sans": Object {
@@ -239,13 +281,13 @@ Object {
   },
   "style": Object {
     "italic": Object {
-      "text-style": "italic",
+      "font-style": "italic",
     },
     "normal": Object {
-      "text-style": "normal",
+      "font-style": "normal",
     },
     "oblique": Object {
-      "text-style": "oblique",
+      "font-style": "oblique",
     },
   },
   "transform": Object {
