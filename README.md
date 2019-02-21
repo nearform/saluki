@@ -1,6 +1,6 @@
 # Cijul
 
-The utility library for CSS-in-JS
+Utility styles for CSS-in-JS
 
 ## License
 

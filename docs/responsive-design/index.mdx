@@ -1,0 +1,35 @@
+import { Breakpoint } from './'
+
+# Responsive Design
+
+---
+
+## Example
+
+<Breakpoint>Hello</Breakpoint>
+
+```js
+const Breakpoint = styled.h1`
+  ${color.red}
+  ${breakpoint.medium(color.blue)}
+  ${breakpoint.large(color.green)}
+`
+```
+
+## Configuration
+
+Configurable via;
+
+```
+breakpoint
+```
+
+## Defaults
+
+```js
+{
+  small: '500px',
+  medium: '900px',
+  large: '1200px'
+}
+```

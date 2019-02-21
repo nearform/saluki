@@ -1,0 +1,84 @@
+# Configuration
+
+---
+
+Cijul doesn't need any configuration to get started.
+
+It is, however, fairly inevitable that you'll want to provide your own custom config for certain rules.
+
+You can do this by passing a custom config object into the default function exported from Cijul.
+
+```js
+import init from '@nearform/cijul'
+
+const cijulConfig = {
+  color: {
+    red: '#bd0000'
+  }
+}
+
+init(cijulConfig)
+```
+
+You only need to call `init` once so it's best to do so as early in your application startup as possible.
+
+For example, in [`create-react-app`](https://github.com/facebook/create-react-app) you can initiate Cijul in `./src/index.js`.
+
+```jsx
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
+import * as serviceWorker from './serviceWorker'
+import init from '@nearform/cijul'
+
+const cijulConfig = {
+  color: {
+    red: '#bd0000'
+  }
+}
+
+init(cijulConfig)
+
+ReactDOM.render(<App />, document.getElementById('root'))
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister()
+```
+
+As your custom config grows you might want to extract it out into its own module.
+
+```js
+export default {
+  color: {
+    red: '#bd0000'
+  }
+}
+```
+
+```js
+import init from '@nearform/cijul'
+import cijulConfig from './cijul-config'
+
+init(cijulConfig)
+```
+
+Or even abstract the whole initialisation out.
+
+```js
+import init from '@nearform/cijul'
+
+const cijulConfig = {
+  color: {
+    red: '#bd0000'
+  }
+}
+
+init(cijulConfig)
+```
+
+```js
+import './cijul-config'
+```
