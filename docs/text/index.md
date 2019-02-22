@@ -2,6 +2,48 @@
 
 ---
 
+## Rules
+
+```
+text.sans
+
+text.serif
+
+text.size.small
+text.size.medium
+text.size.large
+
+text.weight.thin
+text.weight.normal
+text.weight.bold
+
+text.align.center
+text.align.left
+text.align.right
+text.align.justify
+
+text.transform.uppercase
+text.transform.lowercase
+text.transform.capitalize
+text.transform.none
+
+text.style.italic
+text.style.oblique
+text.style.normal
+
+text.decoration.underline
+text.decoration.lineThrough
+text.decoration.normal
+
+text.lineHeight.small
+text.lineHeight.medium
+text.lineHeight.large
+
+text.letterSpacing.small
+text.letterSpacing.medium
+text.letterSpacing.large
+```
+
 ## Configuration
 
 Configurable via;
@@ -14,6 +56,8 @@ text
 
 ```js
 {
+  sans: 'sans',
+  serif: 'serif',
   size: {
     small: '1rem',
     medium: '2rem',
@@ -55,8 +99,6 @@ text
     small: '.075em',
     medium: '.125em',
     large: '.2em'
-  },
-  sans: 'sans',
-  serif: 'serif'
+  }
 }
 ```

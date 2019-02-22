@@ -1,0 +1,50 @@
+import { Direction, DirectionBox } from './'
+
+# Flex Direction
+
+---
+
+## Example
+
+<Direction>
+  <DirectionBox light />
+  <DirectionBox />
+  <DirectionBox light />
+</Direction>
+
+```jsx
+const Container = styled.div`
+  ${layout.display.flex}
+  ${layout.direction.rowReverse}
+`
+
+const Box = styled.div`
+  ${size.height.medium}
+  ${size.width.sixth}
+  ${({ light }) => (light ? background.red : background.black)};
+`
+```
+
+## Rules
+
+```js
+layout.direction.row
+layout.direction.rowReverse
+layout.direction.column
+layout.direction.columnReverse
+```
+
+## Defaults
+
+```js
+{
+  layout: {
+    direction: {
+      row: 'row',
+      rowReverse: 'row-reverse',
+      column: 'column',
+      columnReverse: 'column-reverse'
+    }
+  }
+}
+```

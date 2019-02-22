@@ -14,10 +14,24 @@ const Text = styled.h1`
 `
 ```
 
-## Configuration
+## Rules
 
-Configurable via;
-
+```js
+text.decoration.underline
+text.decoration.lineThrough
+text.decoration.normal
 ```
-text.decoration
+
+## Defaults
+
+```js
+{
+  text: {
+    decoration: {
+      underline: 'underline',
+      lineThrough: 'line-through',
+      none: 'none'
+    }
+  }
+}
 ```

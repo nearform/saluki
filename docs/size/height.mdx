@@ -1,0 +1,46 @@
+import { Height } from './'
+
+# Height
+
+---
+
+## Example
+
+<Height />
+
+```js
+const Height = styled.div`
+  ${size.height.large}
+  ${background.black}
+`
+```
+
+## Rules
+
+```js
+size.height.small
+size.height.medium
+size.height.large
+```
+
+## Configuration
+
+Configurable via;
+
+```
+size.height
+```
+
+## Defaults
+
+```js
+{
+  size: {
+    height: {
+      small: '1rem',
+      medium: '3rem',
+      large: '6rem'
+    }
+  }
+}
+```

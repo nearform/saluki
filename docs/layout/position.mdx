@@ -1,0 +1,43 @@
+import { PositionContainer, Position } from './'
+
+# Position
+
+---
+
+## Example
+
+<PositionContainer>
+  <Position>Hello</Position>
+</PositionContainer>
+
+```jsx
+const Box = styled.div`
+  ${layout.position.fixed}
+`
+```
+
+## Rules
+
+```js
+layout.position.fixed
+layout.position.static
+layout.position.relative
+layout.position.absolute
+layout.position.sticky
+```
+
+## Defaults
+
+```js
+{
+  layout: {
+    position: {
+      fixed: 'fixed',
+      static: 'static',
+      relative: 'relative',
+      absolute: 'absolute',
+      sticky: 'sticky'
+    }
+  }
+}
+```

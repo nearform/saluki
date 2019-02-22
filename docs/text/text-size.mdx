@@ -1,0 +1,45 @@
+import { Size } from './'
+
+# Text Size
+
+---
+
+## Example
+
+<Size>Hello</Size>
+
+```js
+const Text = styled.h1`
+  ${text.size.large}
+`
+```
+
+## Rules
+
+```js
+text.size.small
+text.size.medium
+text.size.large
+```
+
+## Configuration
+
+Configurable via;
+
+```
+text.size
+```
+
+## Defaults
+
+```js
+{
+  text: {
+    size: {
+      small: '1rem',
+      medium: '2rem',
+      large: '3rem'
+    }
+  }
+}
+```

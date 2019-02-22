@@ -1,0 +1,48 @@
+import { Container, Box } from './'
+
+# Display
+
+---
+
+## Example
+
+<Container>
+  <Box light />
+  <Box />
+</Container>
+
+```jsx
+const Container = styled.div`
+  ${layout.display.flex}
+`
+
+const Box = styled.div`
+  ${size.height.medium}
+  ${size.width.half}
+  ${({ light }) => (light ? background.red : background.black)};
+`
+```
+
+## Rules
+
+```js
+layout.display.block
+layout.display.inlineBlock
+layout.display.flex
+layout.display.inlineFlex
+```
+
+## Defaults
+
+```js
+{
+  layout: {
+    display: {
+      flex: 'flex',
+      inlineFlex: 'inline-flex',
+      block: 'block',
+      inlineBlock: 'inline-block'
+    }
+  }
+}
+```

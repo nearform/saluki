@@ -51,9 +51,6 @@ export function combineRules(
     size: {},
     weight: {},
     align: {},
-    transform: {},
-    style: {},
-    decoration: {},
     lineHeight: {},
     letterSpacing: {}
   }
@@ -69,21 +66,12 @@ export function combineRules(
       ...defaultRules.weight,
       ...customRules.weight
     },
+    transform: defaultRules.transform,
+    style: defaultRules.style,
+    decoration: defaultRules.decoration,
     align: {
       ...defaultRules.align,
       ...customRules.align
-    },
-    transform: {
-      ...defaultRules.transform,
-      ...customRules.transform
-    },
-    style: {
-      ...defaultRules.style,
-      ...customRules.style
-    },
-    decoration: {
-      ...defaultRules.decoration,
-      ...customRules.decoration
     },
     lineHeight: {
       ...defaultRules.lineHeight,

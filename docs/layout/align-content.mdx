@@ -1,0 +1,54 @@
+import { AlignContent, AlignContentBox } from './'
+
+# Align Content
+
+---
+
+## Example
+
+<AlignContent>
+  <AlignContentBox light />
+  <AlignContentBox />
+</AlignContent>
+
+```jsx
+const Container = styled.div`
+  ${size.height.large}
+  ${layout.wrap.wrap}
+  ${layout.display.flex}
+  ${layout.alignContent.between}
+  ${background.yellow}
+`
+
+const Box = styled.div`
+  ${size.height.small}
+  ${size.width.full}
+  ${({ light }) => (light ? background.red : background.black)};
+`
+```
+
+## Rules
+
+```js
+layout.alignContent.start
+layout.alignContent.end
+layout.alignContent.center
+layout.alignContent.between
+layout.alignContent.around
+```
+
+## Values
+
+```js
+{
+  layout: {
+    alignContent: {
+      start: 'flex-start',
+      end: 'flex-end',
+      center: 'center',
+      between: 'space-between',
+      around: 'space-around'
+    }
+  }
+}
+```
