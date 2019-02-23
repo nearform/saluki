@@ -27,7 +27,7 @@ export let size = setupSize(combineSizeRules(defaultSizeRules))
 export let spacing = setupSpacing(combineSpacingRules(defaultSpacingRules))
 export let text = setupText(combineTextRules(defaultTextRules))
 
-export default function(customConfig) {
+export function init(customConfig) {
   background = setupBackground(customConfig.background, {
     ...defaultColor,
     ...customConfig.color
