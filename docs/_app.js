@@ -42,6 +42,7 @@ const navOrder = [
   'spacing',
   'padding',
   'margin',
+  'psuedo',
   'border',
   'border-color',
   'border-width',
@@ -66,7 +67,8 @@ const pageNames = {
   'letter-spacing': 'Letter Spacing',
   'border-color': 'Color',
   'border-width': 'Width',
-  'background-color': 'Color'
+  'background-color': 'Color',
+  psuedo: 'Psuedo Classes'
 }
 
 export default props => {
