@@ -17,6 +17,7 @@ import setupText, {
   defaultRules as defaultTextRules,
   combineRules as combineTextRules
 } from './text'
+export { default as state } from './state'
 
 export let background = setupBackground({}, defaultColor)
 export let border = setupBorder({}, defaultColor)
