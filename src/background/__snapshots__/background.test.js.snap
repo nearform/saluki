@@ -46,42 +46,42 @@ Object {
     "bottom": Object {
       "background-position": "bottom",
     },
+    "bottomLeft": Object {
+      "background-position": "left bottom",
+    },
+    "bottomRight": Object {
+      "background-position": "right bottom",
+    },
     "center": Object {
       "background-position": "center",
     },
     "left": Object {
       "background-position": "left",
     },
-    "left-bottom": Object {
-      "background-position": "left bottom",
-    },
-    "left-top": Object {
-      "background-position": "left top",
-    },
     "right": Object {
       "background-position": "right",
-    },
-    "right-bottom": Object {
-      "background-position": "right bottom",
-    },
-    "right-top": Object {
-      "background-position": "right top",
     },
     "top": Object {
       "background-position": "top",
     },
+    "topLeft": Object {
+      "background-position": "left top",
+    },
+    "topRight": Object {
+      "background-position": "right top",
+    },
   },
   "repeat": Object {
-    "no-repeat": Object {
+    "none": Object {
       "background-repeat": "no-repeat",
     },
     "repeat": Object {
       "background-repeat": "repeat",
     },
-    "repeat-x": Object {
+    "repeatX": Object {
       "background-repeat": "repeat-x",
     },
-    "repeat-y": Object {
+    "repeatY": Object {
       "background-repeat": "repeat-y",
     },
   },
