@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shadow when custom config is provided when the custom config overrides a value should replace the default value 1`] = `
+Object {
+  "large": Object {
+    "box-shadow": "5px 10px rgba(0,0,0,0.25)",
+  },
+  "medium": Object {
+    "box-shadow": "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)",
+  },
+  "small": Object {
+    "box-shadow": "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)",
+  },
+}
+`;
+
+exports[`shadow when custom config is provided when the custom config provides a new value should add the value 1`] = `
+Object {
+  "large": Object {
+    "box-shadow": "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)",
+  },
+  "medium": Object {
+    "box-shadow": "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)",
+  },
+  "small": Object {
+    "box-shadow": "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)",
+  },
+  "solid": Object {
+    "box-shadow": "10px 20px",
+  },
+}
+`;
+
+exports[`shadow when no custom config is provided should return the default config 1`] = `
+Object {
+  "large": Object {
+    "box-shadow": "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)",
+  },
+  "medium": Object {
+    "box-shadow": "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)",
+  },
+  "small": Object {
+    "box-shadow": "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)",
+  },
+}
+`;

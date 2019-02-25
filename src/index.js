@@ -6,6 +6,7 @@ import setupBreakpoint, {
 import setupColor, { color as defaultColor } from './color'
 import setupLayout, { defaultRules as defaultLayoutRules } from './layout'
 import setupOpacity, { defaultRules as defaultOpacityRules } from './opacity'
+import setupShadow, { defaultRules as defaultShadowRules } from './shadow'
 import setupSize, {
   defaultRules as defaultSizeRules,
   combineRules as combineSizeRules
@@ -26,6 +27,7 @@ export let breakpoint = setupBreakpoint(defaultBreakpointRules)
 export let color = setupColor(defaultColor)
 export const layout = setupLayout(defaultLayoutRules)
 export let opacity = setupOpacity(defaultOpacityRules)
+export let shadow = setupShadow(defaultShadowRules)
 export let size = setupSize(combineSizeRules(defaultSizeRules))
 export let spacing = setupSpacing(combineSpacingRules(defaultSpacingRules))
 export let text = setupText(combineTextRules(defaultTextRules))
@@ -50,6 +52,10 @@ export function init(customConfig) {
   opacity = setupOpacity({
     ...defaultOpacityRules,
     ...customConfig.opacity
+  })
+  shadow = setupShadow({
+    ...defaultShadowRules,
+    ...customConfig.shadow
   })
   size = setupSize(combineSizeRules(defaultSizeRules, customConfig.size))
   spacing = setupSpacing(
