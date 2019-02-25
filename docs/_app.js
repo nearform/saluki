@@ -48,7 +48,8 @@ const navOrder = [
   'border-width',
   'style',
   'background',
-  'background-color'
+  'background-color',
+  'opacity'
 ]
 
 const pageNames = {

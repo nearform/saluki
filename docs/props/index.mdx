@@ -92,7 +92,7 @@ const Text = ({ children, invert }) => (
 -->
 
 ```jsx
-const Text4 = styled.h1(props => ({
+const Text = styled.h1(props => ({
   ...(props.invert && color.white),
   ...(props.invert ? background.black : background.white)
 }))

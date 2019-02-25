@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`opacity when custom config is provided when the custom config overrides a value should replace the default value 1`] = `
+Object {
+  "full": Object {
+    "opacity": 0.99,
+  },
+  "half": Object {
+    "opacity": 0.5,
+  },
+  "inherit": Object {
+    "opacity": "inherit",
+  },
+  "none": Object {
+    "opacity": 0,
+  },
+}
+`;
+
+exports[`opacity when custom config is provided when the custom config provides a new value should add the value 1`] = `
+Object {
+  "full": Object {
+    "opacity": 1,
+  },
+  "half": Object {
+    "opacity": 0.5,
+  },
+  "inherit": Object {
+    "opacity": "inherit",
+  },
+  "none": Object {
+    "opacity": 0,
+  },
+  "quarter": Object {
+    "opacity": 0.25,
+  },
+}
+`;
+
+exports[`opacity when no custom config is provided should return the default config 1`] = `
+Object {
+  "full": Object {
+    "opacity": 1,
+  },
+  "half": Object {
+    "opacity": 0.5,
+  },
+  "inherit": Object {
+    "opacity": "inherit",
+  },
+  "none": Object {
+    "opacity": 0,
+  },
+}
+`;
