@@ -1,4 +1,7 @@
-import setupBackground from './background'
+import setupBackground, {
+  defaultRules as defaultBackgroundRules,
+  combineRules as combineBackgroundRules
+} from './background'
 import setupBorder, {
   defaultRules as defaultBorderRules,
   combineRules as combineBorderRules
@@ -24,13 +27,11 @@ import setupText, {
 } from './text'
 export { default as psuedo } from './psuedo'
 
-export let background = setupBackground({}, defaultColorRules)
+export let background = setupBackground(
+  combineBackgroundRules(defaultBackgroundRules, undefined, defaultColorRules)
+)
 export let border = setupBorder(
-  combineBorderRules(
-    defaultBorderRules,
-    { width: {}, radius: {} },
-    defaultColorRules
-  )
+  combineBorderRules(defaultBorderRules, undefined, defaultColorRules)
 )
 export let breakpoint = setupBreakpoint(defaultBreakpointRules)
 export let color = setupColor(defaultColorRules)
@@ -42,10 +43,12 @@ export let spacing = setupSpacing(combineSpacingRules(defaultSpacingRules))
 export let text = setupText(combineTextRules(defaultTextRules))
 
 export function init(customConfig) {
-  background = setupBackground(customConfig.background, {
-    ...defaultColorRules,
-    ...customConfig.color
-  })
+  background = setupBackground(
+    combineBackgroundRules(defaultBackgroundRules, customConfig.background, {
+      ...defaultColorRules,
+      ...customConfig.color
+    })
+  )
   border = setupBorder(
     combineBorderRules(defaultBorderRules, customConfig.border, {
       ...defaultColorRules,

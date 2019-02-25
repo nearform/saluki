@@ -4,14 +4,7 @@ import { color } from '../color'
 describe('border', () => {
   describe('when no custom config is provided', () => {
     it('should return the default config', () => {
-      const combinedRules = combineRules(
-        defaultRules,
-        {
-          width: {},
-          radius: {}
-        },
-        color
-      )
+      const combinedRules = combineRules(defaultRules, undefined, color)
       expect(border(combinedRules)).toMatchSnapshot()
     })
   })

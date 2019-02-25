@@ -1,217 +1,101 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`background when custom config is provided when the custom config overrides a value should replace the default value 1`] = `
-Object {
-  "auto": Object {
-    "background-size": "auto",
-  },
-  "bottom": Object {
-    "background-position": "bottom",
-  },
-  "center": Object {
-    "background-position": "center",
-  },
-  "contain": Object {
-    "background-size": "contain",
-  },
-  "cover": Object {
-    "background-size": "50%",
-  },
-  "fixed": Object {
-    "background-attachment": "fixed",
-  },
-  "left": Object {
-    "background-position": "left",
-  },
-  "left-bottom": Object {
-    "background-position": "left bottom",
-  },
-  "left-top": Object {
-    "background-position": "left top",
-  },
-  "local": Object {
-    "background-attachment": "local",
-  },
-  "no-repeat": Object {
-    "background-repeat": "no-repeat",
-  },
-  "repeat": Object {
-    "background-repeat": "repeat",
-  },
-  "repeat-x": Object {
-    "background-repeat": "repeat-x",
-  },
-  "repeat-y": Object {
-    "background-repeat": "repeat-y",
-  },
-  "right": Object {
-    "background-position": "right",
-  },
-  "right-bottom": Object {
-    "background-position": "right bottom",
-  },
-  "right-top": Object {
-    "background-position": "right top",
-  },
-  "scroll": Object {
-    "background-attachment": "scroll",
-  },
-  "top": Object {
-    "background-position": "top",
-  },
-}
-`;
-
-exports[`background when custom config is provided when the custom config provides a new value should add the value 1`] = `
-Object {
-  "75": Object {
-    "background-size": "75%",
-  },
-  "auto": Object {
-    "background-size": "auto",
-  },
-  "bottom": Object {
-    "background-position": "bottom",
-  },
-  "center": Object {
-    "background-position": "center",
-  },
-  "contain": Object {
-    "background-size": "contain",
-  },
-  "cover": Object {
-    "background-size": "cover",
-  },
-  "fixed": Object {
-    "background-attachment": "fixed",
-  },
-  "left": Object {
-    "background-position": "left",
-  },
-  "left-bottom": Object {
-    "background-position": "left bottom",
-  },
-  "left-top": Object {
-    "background-position": "left top",
-  },
-  "local": Object {
-    "background-attachment": "local",
-  },
-  "no-repeat": Object {
-    "background-repeat": "no-repeat",
-  },
-  "repeat": Object {
-    "background-repeat": "repeat",
-  },
-  "repeat-x": Object {
-    "background-repeat": "repeat-x",
-  },
-  "repeat-y": Object {
-    "background-repeat": "repeat-y",
-  },
-  "right": Object {
-    "background-position": "right",
-  },
-  "right-bottom": Object {
-    "background-position": "right bottom",
-  },
-  "right-top": Object {
-    "background-position": "right top",
-  },
-  "scroll": Object {
-    "background-attachment": "scroll",
-  },
-  "top": Object {
-    "background-position": "top",
-  },
-}
-`;
-
 exports[`background when no custom config is provided should return the default config 1`] = `
 Object {
-  "auto": Object {
-    "background-size": "auto",
+  "attachment": Object {
+    "fixed": Object {
+      "background-attachment": "fixed",
+    },
+    "local": Object {
+      "background-attachment": "local",
+    },
+    "scroll": Object {
+      "background-attachment": "scroll",
+    },
   },
-  "black": Object {
-    "background-color": "black",
+  "color": Object {
+    "black": Object {
+      "background": "black",
+    },
+    "blue": Object {
+      "background": "blue",
+    },
+    "gray": Object {
+      "background": "gray",
+    },
+    "green": Object {
+      "background": "green",
+    },
+    "orange": Object {
+      "background": "orange",
+    },
+    "purple": Object {
+      "background": "purple",
+    },
+    "red": Object {
+      "background": "red",
+    },
+    "white": Object {
+      "background": "white",
+    },
+    "yellow": Object {
+      "background": "yellow",
+    },
   },
-  "blue": Object {
-    "background-color": "blue",
-  },
-  "bottom": Object {
-    "background-position": "bottom",
-  },
-  "center": Object {
-    "background-position": "center",
-  },
-  "contain": Object {
-    "background-size": "contain",
-  },
-  "cover": Object {
-    "background-size": "cover",
-  },
-  "fixed": Object {
-    "background-attachment": "fixed",
-  },
-  "gray": Object {
-    "background-color": "gray",
-  },
-  "green": Object {
-    "background-color": "green",
-  },
-  "left": Object {
-    "background-position": "left",
-  },
-  "left-bottom": Object {
-    "background-position": "left bottom",
-  },
-  "left-top": Object {
-    "background-position": "left top",
-  },
-  "local": Object {
-    "background-attachment": "local",
-  },
-  "no-repeat": Object {
-    "background-repeat": "no-repeat",
-  },
-  "orange": Object {
-    "background-color": "orange",
-  },
-  "purple": Object {
-    "background-color": "purple",
-  },
-  "red": Object {
-    "background-color": "red",
+  "position": Object {
+    "bottom": Object {
+      "background-position": "bottom",
+    },
+    "center": Object {
+      "background-position": "center",
+    },
+    "left": Object {
+      "background-position": "left",
+    },
+    "left-bottom": Object {
+      "background-position": "left bottom",
+    },
+    "left-top": Object {
+      "background-position": "left top",
+    },
+    "right": Object {
+      "background-position": "right",
+    },
+    "right-bottom": Object {
+      "background-position": "right bottom",
+    },
+    "right-top": Object {
+      "background-position": "right top",
+    },
+    "top": Object {
+      "background-position": "top",
+    },
   },
   "repeat": Object {
-    "background-repeat": "repeat",
+    "no-repeat": Object {
+      "background-repeat": "no-repeat",
+    },
+    "repeat": Object {
+      "background-repeat": "repeat",
+    },
+    "repeat-x": Object {
+      "background-repeat": "repeat-x",
+    },
+    "repeat-y": Object {
+      "background-repeat": "repeat-y",
+    },
   },
-  "repeat-x": Object {
-    "background-repeat": "repeat-x",
+  "size": Object {
+    "auto": Object {
+      "background-size": "auto",
+    },
+    "contain": Object {
+      "background-size": "contain",
+    },
+    "cover": Object {
+      "background-size": "cover",
+    },
   },
-  "repeat-y": Object {
-    "background-repeat": "repeat-y",
-  },
-  "right": Object {
-    "background-position": "right",
-  },
-  "right-bottom": Object {
-    "background-position": "right bottom",
-  },
-  "right-top": Object {
-    "background-position": "right top",
-  },
-  "scroll": Object {
-    "background-attachment": "scroll",
-  },
-  "top": Object {
-    "background-position": "top",
-  },
-  "white": Object {
-    "background-color": "white",
-  },
-  "yellow": Object {
-    "background-color": "yellow",
-  },
+  "url": [Function],
 }
 `;

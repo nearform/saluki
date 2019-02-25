@@ -281,7 +281,7 @@ Object {
         "border-bottom-width": "2px",
       },
       "none": Object {
-        "border-bottom-width": 0,
+        "border-bottom-width": "none",
       },
       "thick": Object {
         "border-bottom-width": "4px",
@@ -301,7 +301,7 @@ Object {
         "border-left-width": "2px",
       },
       "none": Object {
-        "border-left-width": 0,
+        "border-left-width": "none",
       },
       "thick": Object {
         "border-left-width": "4px",
@@ -314,7 +314,7 @@ Object {
       "border-width": "2px",
     },
     "none": Object {
-      "border-width": 0,
+      "border-width": "none",
     },
     "right": Object {
       "extraThick": Object {
@@ -324,7 +324,7 @@ Object {
         "border-right-width": "2px",
       },
       "none": Object {
-        "border-right-width": 0,
+        "border-right-width": "none",
       },
       "thick": Object {
         "border-right-width": "4px",
@@ -347,7 +347,7 @@ Object {
         "border-top-width": "2px",
       },
       "none": Object {
-        "border-top-width": 0,
+        "border-top-width": "none",
       },
       "thick": Object {
         "border-top-width": "4px",
@@ -656,7 +656,7 @@ Object {
         "border-bottom-width": "2px",
       },
       "none": Object {
-        "border-bottom-width": 0,
+        "border-bottom-width": "none",
       },
       "thick": Object {
         "border-bottom-width": "4px",
@@ -676,7 +676,7 @@ Object {
         "border-left-width": "2px",
       },
       "none": Object {
-        "border-left-width": 0,
+        "border-left-width": "none",
       },
       "thick": Object {
         "border-left-width": "4px",
@@ -689,7 +689,7 @@ Object {
       "border-width": "2px",
     },
     "none": Object {
-      "border-width": 0,
+      "border-width": "none",
     },
     "right": Object {
       "extraThick": Object {
@@ -699,7 +699,7 @@ Object {
         "border-right-width": "2px",
       },
       "none": Object {
-        "border-right-width": 0,
+        "border-right-width": "none",
       },
       "thick": Object {
         "border-right-width": "4px",
@@ -722,7 +722,7 @@ Object {
         "border-top-width": "2px",
       },
       "none": Object {
-        "border-top-width": 0,
+        "border-top-width": "none",
       },
       "thick": Object {
         "border-top-width": "4px",
@@ -1016,7 +1016,7 @@ Object {
         "border-bottom-width": "2px",
       },
       "none": Object {
-        "border-bottom-width": 0,
+        "border-bottom-width": "none",
       },
       "thick": Object {
         "border-bottom-width": "4px",
@@ -1036,7 +1036,7 @@ Object {
         "border-left-width": "2px",
       },
       "none": Object {
-        "border-left-width": 0,
+        "border-left-width": "none",
       },
       "thick": Object {
         "border-left-width": "4px",
@@ -1049,7 +1049,7 @@ Object {
       "border-width": "2px",
     },
     "none": Object {
-      "border-width": 0,
+      "border-width": "none",
     },
     "right": Object {
       "extraThick": Object {
@@ -1059,7 +1059,7 @@ Object {
         "border-right-width": "2px",
       },
       "none": Object {
-        "border-right-width": 0,
+        "border-right-width": "none",
       },
       "thick": Object {
         "border-right-width": "4px",
@@ -1082,7 +1082,7 @@ Object {
         "border-top-width": "2px",
       },
       "none": Object {
-        "border-top-width": 0,
+        "border-top-width": "none",
       },
       "thick": Object {
         "border-top-width": "4px",

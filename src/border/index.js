@@ -44,7 +44,6 @@ export function combineRules(
 }
 
 function generateRules(rules, cssProp) {
-  console.log('rrrrr', rules, cssProp)
   const newRules =
     cssProp === 'radius'
       ? {
@@ -81,7 +80,6 @@ function generateRules(rules, cssProp) {
 }
 
 export default function(rules) {
-  console.log(rules)
   return {
     style: generateRules(rules.style, 'style'),
     width: generateRules(rules.width, 'width'),
