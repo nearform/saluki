@@ -1,0 +1,58 @@
+import { Radius } from './'
+
+# Border Radius
+
+---
+
+## Example
+
+<Radius>Hello</Radius>
+
+```js
+const Text = styled.h1`
+  ${border.style.solid}
+  ${border.radius.large}
+`
+```
+
+## Rules
+
+```js
+border.radius.small
+border.radius.medium
+border.radius.large
+
+border.radius.topRight.small
+border.radius.topRight.medium
+border.radius.topRight.large
+
+border.radius.bottomRight.small
+border.radius.bottomRight.medium
+border.radius.bottomRight.large
+
+border.radius.bottomLeft.small
+border.radius.bottomLeft.medium
+border.radius.bottomLeft.large
+
+border.radius.topLeft.small
+border.radius.topLeft.medium
+border.radius.topLeft.large
+```
+
+## Configuration
+
+Configurable via;
+
+```
+border.radius
+```
+
+## Defaults
+
+```js
+{
+  small: '2px',
+  medium: '4px',
+  large: '6px'
+}
+```

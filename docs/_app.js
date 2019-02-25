@@ -47,8 +47,14 @@ const navOrder = [
   'border-color',
   'border-width',
   'style',
+  'radius',
   'background',
   'background-color',
+  'image',
+  'background-size',
+  'attachment',
+  'background-position',
+  'repeat',
   'opacity',
   'shadow'
 ]
@@ -70,6 +76,8 @@ const pageNames = {
   'border-color': 'Color',
   'border-width': 'Width',
   'background-color': 'Color',
+  'background-size': 'Size',
+  'background-position': 'Position',
   psuedo: 'Psuedo Classes'
 }
 

@@ -1,60 +1,70 @@
-const backgroundSizes = {
-  auto: 'auto',
-  cover: 'cover',
-  contain: 'contain'
-}
-const backgroundAttachments = {
-  fixed: 'fixed',
-  local: 'local',
-  scroll: 'scroll'
-}
-const backgroundPositions = {
-  bottom: 'bottom',
-  center: 'center',
-  left: 'left',
-  'left-bottom': 'left bottom',
-  'left-top': 'left top',
-  right: 'right',
-  'right-bottom': 'right bottom',
-  'right-top': 'right top',
-  top: 'top'
-}
-const backgroundRepeats = {
-  'no-repeat': 'no-repeat',
-  repeat: 'repeat',
-  'repeat-x': 'repeat-x',
-  'repeat-y': 'repeat-y'
-}
-const setupBackgroundColors = (background, colors) => {
-  for (const [key, value] of Object.entries(colors)) {
-    background[key] = {
-      'background-color': value
-    }
+export const defaultRules = {
+  size: {
+    auto: 'auto',
+    cover: 'cover',
+    contain: 'contain'
+  },
+  attachment: {
+    fixed: 'fixed',
+    local: 'local',
+    scroll: 'scroll'
+  },
+  position: {
+    bottom: 'bottom',
+    center: 'center',
+    left: 'left',
+    bottomLeft: 'left bottom',
+    topLeft: 'left top',
+    right: 'right',
+    bottomRight: 'right bottom',
+    topRight: 'right top',
+    top: 'top'
+  },
+  repeat: {
+    none: 'no-repeat',
+    repeat: 'repeat',
+    repeatX: 'repeat-x',
+    repeatY: 'repeat-y'
   }
 }
 
-const setupBackgroundProperties = (background, values, name, valTransform) => {
-  for (const [key, value] of Object.entries(values)) {
-    const val = valTransform ? valTransform(value) : value
-    background[key] = {
-      [`background-${name}`]: val
-    }
+export function combineRules(defaultRules, customRules, color) {
+  return {
+    ...defaultRules,
+    ...customRules,
+    size: defaultRules.size,
+    attachment: defaultRules.attachment,
+    position: defaultRules.position,
+    repeat: defaultRules.repeat,
+    color
   }
 }
 
-const setupBackground = ({ sizes = {} } = {}, colors = {}) => {
-  let background = {}
-  setupBackgroundProperties(
-    background,
-    { ...backgroundSizes, ...sizes },
-    'size'
-  )
-  setupBackgroundProperties(background, backgroundAttachments, 'attachment')
-  setupBackgroundProperties(background, backgroundPositions, 'position')
-  setupBackgroundProperties(background, backgroundRepeats, 'repeat')
-  setupBackgroundColors(background, colors)
+function generateRules(rules, cssProp) {
+  const newRules = {}
 
-  return background
+  for (const [key, value] of Object.entries(rules)) {
+    newRules[key] = {
+      [cssProp]: value
+    }
+  }
+
+  return newRules
 }
 
-export default setupBackground
+function url(url) {
+  return {
+    'background-image': `url(${url})`
+  }
+}
+
+export default function(rules) {
+  return {
+    size: generateRules(rules.size, 'background-size'),
+    attachment: generateRules(rules.attachment, 'background-attachment'),
+    position: generateRules(rules.position, 'background-position'),
+    repeat: generateRules(rules.repeat, 'background-repeat'),
+    color: generateRules(rules.color, 'background'),
+    url
+  }
+}

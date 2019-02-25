@@ -11,8 +11,22 @@ import { Color } from './'
 ```js
 const Text = styled.h1`
   ${color.white}
-  ${background.blue}
+  ${background.color.blue}
 `
+```
+
+## Rules
+
+```js
+background.color.black
+background.color.blue
+background.color.gray
+background.color.green
+background.color.orange
+background.color.red
+background.color.purple
+background.color.yellow
+background.color.white
 ```
 
 ## Configuration
@@ -21,4 +35,20 @@ Configurable via;
 
 ```
 color
+```
+
+## Defaults
+
+```js
+{
+  black: 'black',
+  blue: 'blue',
+  gray: 'gray',
+  green: 'green',
+  orange: 'orange',
+  red: 'red',
+  purple: 'purple',
+  yellow: 'yellow',
+  white: 'white'
+}
 ```

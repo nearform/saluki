@@ -1,23 +1,38 @@
-import background from './'
+import background, { defaultRules, combineRules } from './'
 import { color } from '../color'
 
 describe('background', () => {
   describe('when no custom config is provided', () => {
     it('should return the default config', () => {
-      expect(background(undefined, color)).toMatchSnapshot()
+      const combinedRules = combineRules(defaultRules, undefined, color)
+      expect(background(combinedRules)).toMatchSnapshot()
+    })
+  })
+
+  describe('url', () => {
+    it('should create a rule using the string passed in', () => {
+      const combinedRules = combineRules(defaultRules, undefined, color)
+      expect(
+        background(combinedRules).url('https://nearform.com/logo.png')
+      ).toEqual({
+        'background-image': 'url(https://nearform.com/logo.png)'
+      })
     })
   })
 
   describe('when custom config is provided', () => {
-    describe('when the custom config overrides a value', () => {
-      it('should replace the default value', () => {
-        expect(background({ sizes: { cover: '50%' } })).toMatchSnapshot()
-      })
-    })
-
-    describe('when the custom config provides a new value', () => {
-      it('should add the value', () => {
-        expect(background({ sizes: { 75: '75%' } })).toMatchSnapshot()
+    describe('when the custom config attempts to amend a static value', () => {
+      it('should not amend the static value', () => {
+        const combinedRules = combineRules(
+          defaultRules,
+          {
+            size: { auto: 'cover' }
+          },
+          color
+        )
+        expect(background(combinedRules).size.auto['background-size']).toBe(
+          'auto'
+        )
       })
     })
   })
