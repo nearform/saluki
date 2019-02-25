@@ -2,15 +2,21 @@ import styled from 'styled-components/macro'
 import { border } from '../../src'
 
 export const Color = styled.h1`
-  ${border.solid}
-  ${border.blue}
+  ${border.style.solid}
+  ${border.color.blue}
 `
 
 export const Style = styled.h1`
-  ${border.bottom.dashed}
+  ${border.color.black}
+  ${border.style.bottom.dashed}
 `
 
 export const Width = styled.h1`
-  ${border.solid}
-  ${border.thick}
+  ${border.style.solid}
+  ${border.width.thick}
+`
+
+export const Radius = styled.h1`
+  ${border.style.solid}
+  ${border.radius.large}
 `

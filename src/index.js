@@ -1,9 +1,12 @@
 import setupBackground from './background'
-import setupBorder from './border'
+import setupBorder, {
+  defaultRules as defaultBorderRules,
+  combineRules as combineBorderRules
+} from './border'
 import setupBreakpoint, {
   defaultRules as defaultBreakpointRules
 } from './breakpoint'
-import setupColor, { color as defaultColor } from './color'
+import setupColor, { color as defaultColorRules } from './color'
 import setupLayout, { defaultRules as defaultLayoutRules } from './layout'
 import setupOpacity, { defaultRules as defaultOpacityRules } from './opacity'
 import setupShadow, { defaultRules as defaultShadowRules } from './shadow'
@@ -21,10 +24,16 @@ import setupText, {
 } from './text'
 export { default as psuedo } from './psuedo'
 
-export let background = setupBackground({}, defaultColor)
-export let border = setupBorder({}, defaultColor)
+export let background = setupBackground({}, defaultColorRules)
+export let border = setupBorder(
+  combineBorderRules(
+    defaultBorderRules,
+    { width: {}, radius: {} },
+    defaultColorRules
+  )
+)
 export let breakpoint = setupBreakpoint(defaultBreakpointRules)
-export let color = setupColor(defaultColor)
+export let color = setupColor(defaultColorRules)
 export const layout = setupLayout(defaultLayoutRules)
 export let opacity = setupOpacity(defaultOpacityRules)
 export let shadow = setupShadow(defaultShadowRules)
@@ -34,19 +43,21 @@ export let text = setupText(combineTextRules(defaultTextRules))
 
 export function init(customConfig) {
   background = setupBackground(customConfig.background, {
-    ...defaultColor,
+    ...defaultColorRules,
     ...customConfig.color
   })
-  border = setupBorder(customConfig.borderWidths, {
-    ...defaultColor,
-    ...customConfig.color
-  })
+  border = setupBorder(
+    combineBorderRules(defaultBorderRules, customConfig.border, {
+      ...defaultColorRules,
+      ...customConfig.color
+    })
+  )
   breakpoint = setupBreakpoint({
     ...defaultBreakpointRules,
     ...customConfig.breakpoint
   })
   color = setupColor({
-    ...defaultColor,
+    ...defaultColorRules,
     ...customConfig.color
   })
   opacity = setupOpacity({

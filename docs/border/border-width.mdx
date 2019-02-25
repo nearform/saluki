@@ -10,9 +10,19 @@ import { Width } from './'
 
 ```js
 const Text = styled.h1`
-  ${border.solid}
-  ${border.thick}
+  ${border.style.solid}
+  ${border.width.thick}
 `
+```
+
+## Rules
+
+```js
+border.width.none
+border.width.thin
+border.width.medium
+border.width.thick
+border.width.extraThick
 ```
 
 ## Configuration
@@ -21,4 +31,16 @@ Configurable via;
 
 ```
 border.width
+```
+
+## Defaults
+
+```js
+{
+  none: 'none',
+  thin: '1px',
+  medium: '2px',
+  thick: '4px',
+  extraThick: '8px'
+}
 ```

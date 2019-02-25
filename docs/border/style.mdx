@@ -10,14 +10,16 @@ import { Style } from './'
 
 ```js
 const Text = styled.h1`
-  ${border.bottom.dashed}
+  ${border.color.black}
+  ${border.style.bottom.dashed}
 `
 ```
 
-## Configuration
+## Rules
 
-Configurable via;
-
-```
-border.style
+```js
+border.style.solid
+border.style.dashed
+border.style.dotted
+border.style.none
 ```

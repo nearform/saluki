@@ -2,282 +2,734 @@
 
 exports[`border when custom config is provided when the custom config overrides a value should replace the default value 1`] = `
 Object {
-  "border": "solid 1px black",
-  "bottom": Object {
-    "dashed": Object {
-      "border-bottom-style": "dashed",
+  "color": Object {
+    "black": Object {
+      "border-color": "black",
     },
-    "dotted": Object {
-      "border-bottom-style": "dotted",
+    "blue": Object {
+      "border-color": "blue",
     },
-    "extraThick": Object {
-      "border-bottom-width": "8px",
+    "bottom": Object {
+      "black": Object {
+        "border-bottom-color": "black",
+      },
+      "blue": Object {
+        "border-bottom-color": "blue",
+      },
+      "gray": Object {
+        "border-bottom-color": "gray",
+      },
+      "green": Object {
+        "border-bottom-color": "green",
+      },
+      "orange": Object {
+        "border-bottom-color": "orange",
+      },
+      "purple": Object {
+        "border-bottom-color": "purple",
+      },
+      "red": Object {
+        "border-bottom-color": "red",
+      },
+      "white": Object {
+        "border-bottom-color": "white",
+      },
+      "yellow": Object {
+        "border-bottom-color": "yellow",
+      },
+    },
+    "gray": Object {
+      "border-color": "gray",
+    },
+    "green": Object {
+      "border-color": "green",
+    },
+    "left": Object {
+      "black": Object {
+        "border-left-color": "black",
+      },
+      "blue": Object {
+        "border-left-color": "blue",
+      },
+      "gray": Object {
+        "border-left-color": "gray",
+      },
+      "green": Object {
+        "border-left-color": "green",
+      },
+      "orange": Object {
+        "border-left-color": "orange",
+      },
+      "purple": Object {
+        "border-left-color": "purple",
+      },
+      "red": Object {
+        "border-left-color": "red",
+      },
+      "white": Object {
+        "border-left-color": "white",
+      },
+      "yellow": Object {
+        "border-left-color": "yellow",
+      },
+    },
+    "orange": Object {
+      "border-color": "orange",
+    },
+    "purple": Object {
+      "border-color": "purple",
+    },
+    "red": Object {
+      "border-color": "red",
+    },
+    "right": Object {
+      "black": Object {
+        "border-right-color": "black",
+      },
+      "blue": Object {
+        "border-right-color": "blue",
+      },
+      "gray": Object {
+        "border-right-color": "gray",
+      },
+      "green": Object {
+        "border-right-color": "green",
+      },
+      "orange": Object {
+        "border-right-color": "orange",
+      },
+      "purple": Object {
+        "border-right-color": "purple",
+      },
+      "red": Object {
+        "border-right-color": "red",
+      },
+      "white": Object {
+        "border-right-color": "white",
+      },
+      "yellow": Object {
+        "border-right-color": "yellow",
+      },
+    },
+    "top": Object {
+      "black": Object {
+        "border-top-color": "black",
+      },
+      "blue": Object {
+        "border-top-color": "blue",
+      },
+      "gray": Object {
+        "border-top-color": "gray",
+      },
+      "green": Object {
+        "border-top-color": "green",
+      },
+      "orange": Object {
+        "border-top-color": "orange",
+      },
+      "purple": Object {
+        "border-top-color": "purple",
+      },
+      "red": Object {
+        "border-top-color": "red",
+      },
+      "white": Object {
+        "border-top-color": "white",
+      },
+      "yellow": Object {
+        "border-top-color": "yellow",
+      },
+    },
+    "white": Object {
+      "border-color": "white",
+    },
+    "yellow": Object {
+      "border-color": "yellow",
+    },
+  },
+  "radius": Object {
+    "bottomLeft": Object {
+      "large": Object {
+        "border-bottom-left-radius": "6px",
+      },
+      "medium": Object {
+        "border-bottom-left-radius": "4px",
+      },
+      "small": Object {
+        "border-bottom-left-radius": "2px",
+      },
+    },
+    "bottomRight": Object {
+      "large": Object {
+        "border-bottom-right-radius": "6px",
+      },
+      "medium": Object {
+        "border-bottom-right-radius": "4px",
+      },
+      "small": Object {
+        "border-bottom-right-radius": "2px",
+      },
+    },
+    "large": Object {
+      "border-radius": "6px",
     },
     "medium": Object {
-      "border-bottom-width": "2px",
+      "border-radius": "4px",
     },
-    "none": Object {
-      "border-bottom-style": "none",
+    "small": Object {
+      "border-radius": "2px",
     },
-    "solid": Object {
-      "border-bottom-style": "solid",
+    "topLeft": Object {
+      "large": Object {
+        "border-top-left-radius": "6px",
+      },
+      "medium": Object {
+        "border-top-left-radius": "4px",
+      },
+      "small": Object {
+        "border-top-left-radius": "2px",
+      },
     },
-    "thick": Object {
-      "border-bottom-width": "45px",
-    },
-    "thin": Object {
-      "border-bottom-width": "1px",
+    "topRight": Object {
+      "large": Object {
+        "border-top-right-radius": "6px",
+      },
+      "medium": Object {
+        "border-top-right-radius": "4px",
+      },
+      "small": Object {
+        "border-top-right-radius": "2px",
+      },
     },
   },
-  "dashed": Object {
-    "border-style": "dashed",
-  },
-  "dotted": Object {
-    "border-style": "dotted",
-  },
-  "extraThick": Object {
-    "border-width": "8px",
-  },
-  "left": Object {
+  "style": Object {
+    "bottom": Object {
+      "dashed": Object {
+        "border-bottom-style": "dashed",
+      },
+      "dotted": Object {
+        "border-bottom-style": "dotted",
+      },
+      "none": Object {
+        "border-bottom-style": "none",
+      },
+      "solid": Object {
+        "border-bottom-style": "solid",
+      },
+    },
     "dashed": Object {
-      "border-left-style": "dashed",
+      "border-style": "dashed",
     },
     "dotted": Object {
-      "border-left-style": "dotted",
+      "border-style": "dotted",
     },
-    "extraThick": Object {
-      "border-left-width": "8px",
-    },
-    "medium": Object {
-      "border-left-width": "2px",
-    },
-    "none": Object {
-      "border-left-style": "none",
-    },
-    "solid": Object {
-      "border-left-style": "solid",
-    },
-    "thick": Object {
-      "border-left-width": "45px",
-    },
-    "thin": Object {
-      "border-left-width": "1px",
-    },
-  },
-  "medium": Object {
-    "border-width": "2px",
-  },
-  "none": Object {
-    "border-style": "none",
-  },
-  "right": Object {
-    "dashed": Object {
-      "border-right-style": "dashed",
-    },
-    "dotted": Object {
-      "border-right-style": "dotted",
-    },
-    "extraThick": Object {
-      "border-right-width": "8px",
-    },
-    "medium": Object {
-      "border-right-width": "2px",
+    "left": Object {
+      "dashed": Object {
+        "border-left-style": "dashed",
+      },
+      "dotted": Object {
+        "border-left-style": "dotted",
+      },
+      "none": Object {
+        "border-left-style": "none",
+      },
+      "solid": Object {
+        "border-left-style": "solid",
+      },
     },
     "none": Object {
-      "border-right-style": "none",
+      "border-style": "none",
+    },
+    "right": Object {
+      "dashed": Object {
+        "border-right-style": "dashed",
+      },
+      "dotted": Object {
+        "border-right-style": "dotted",
+      },
+      "none": Object {
+        "border-right-style": "none",
+      },
+      "solid": Object {
+        "border-right-style": "solid",
+      },
     },
     "solid": Object {
-      "border-right-style": "solid",
+      "border-style": "solid",
     },
-    "thick": Object {
-      "border-right-width": "45px",
-    },
-    "thin": Object {
-      "border-right-width": "1px",
+    "top": Object {
+      "dashed": Object {
+        "border-top-style": "dashed",
+      },
+      "dotted": Object {
+        "border-top-style": "dotted",
+      },
+      "none": Object {
+        "border-top-style": "none",
+      },
+      "solid": Object {
+        "border-top-style": "solid",
+      },
     },
   },
-  "solid": Object {
-    "border-style": "solid",
-  },
-  "thick": Object {
-    "border-width": "45px",
-  },
-  "thin": Object {
-    "border-width": "1px",
-  },
-  "top": Object {
-    "dashed": Object {
-      "border-top-style": "dashed",
-    },
-    "dotted": Object {
-      "border-top-style": "dotted",
+  "width": Object {
+    "bottom": Object {
+      "extraThick": Object {
+        "border-bottom-width": "8px",
+      },
+      "medium": Object {
+        "border-bottom-width": "2px",
+      },
+      "none": Object {
+        "border-bottom-width": 0,
+      },
+      "thick": Object {
+        "border-bottom-width": "4px",
+      },
+      "thin": Object {
+        "border-bottom-width": ".5rem",
+      },
     },
     "extraThick": Object {
-      "border-top-width": "8px",
+      "border-width": "8px",
+    },
+    "left": Object {
+      "extraThick": Object {
+        "border-left-width": "8px",
+      },
+      "medium": Object {
+        "border-left-width": "2px",
+      },
+      "none": Object {
+        "border-left-width": 0,
+      },
+      "thick": Object {
+        "border-left-width": "4px",
+      },
+      "thin": Object {
+        "border-left-width": ".5rem",
+      },
     },
     "medium": Object {
-      "border-top-width": "2px",
+      "border-width": "2px",
     },
     "none": Object {
-      "border-top-style": "none",
+      "border-width": 0,
     },
-    "solid": Object {
-      "border-top-style": "solid",
+    "right": Object {
+      "extraThick": Object {
+        "border-right-width": "8px",
+      },
+      "medium": Object {
+        "border-right-width": "2px",
+      },
+      "none": Object {
+        "border-right-width": 0,
+      },
+      "thick": Object {
+        "border-right-width": "4px",
+      },
+      "thin": Object {
+        "border-right-width": ".5rem",
+      },
     },
     "thick": Object {
-      "border-top-width": "45px",
+      "border-width": "4px",
     },
     "thin": Object {
-      "border-top-width": "1px",
+      "border-width": ".5rem",
+    },
+    "top": Object {
+      "extraThick": Object {
+        "border-top-width": "8px",
+      },
+      "medium": Object {
+        "border-top-width": "2px",
+      },
+      "none": Object {
+        "border-top-width": 0,
+      },
+      "thick": Object {
+        "border-top-width": "4px",
+      },
+      "thin": Object {
+        "border-top-width": ".5rem",
+      },
     },
   },
 }
 `;
 
-exports[`border when custom config is provided when the custom config provides a new value should add the value 1`] = `
+exports[`border when custom config is provided when the custom config provides a new value should add the value and not amend any existing values 1`] = `
 Object {
-  "border": "solid 1px black",
-  "bottom": Object {
-    "dashed": Object {
-      "border-bottom-style": "dashed",
+  "color": Object {
+    "black": Object {
+      "border-color": "black",
     },
-    "dotted": Object {
-      "border-bottom-style": "dotted",
+    "blue": Object {
+      "border-color": "blue",
     },
-    "extraThick": Object {
-      "border-bottom-width": "8px",
+    "bottom": Object {
+      "black": Object {
+        "border-bottom-color": "black",
+      },
+      "blue": Object {
+        "border-bottom-color": "blue",
+      },
+      "gray": Object {
+        "border-bottom-color": "gray",
+      },
+      "green": Object {
+        "border-bottom-color": "green",
+      },
+      "orange": Object {
+        "border-bottom-color": "orange",
+      },
+      "purple": Object {
+        "border-bottom-color": "purple",
+      },
+      "red": Object {
+        "border-bottom-color": "red",
+      },
+      "white": Object {
+        "border-bottom-color": "white",
+      },
+      "yellow": Object {
+        "border-bottom-color": "yellow",
+      },
+    },
+    "gray": Object {
+      "border-color": "gray",
+    },
+    "green": Object {
+      "border-color": "green",
+    },
+    "left": Object {
+      "black": Object {
+        "border-left-color": "black",
+      },
+      "blue": Object {
+        "border-left-color": "blue",
+      },
+      "gray": Object {
+        "border-left-color": "gray",
+      },
+      "green": Object {
+        "border-left-color": "green",
+      },
+      "orange": Object {
+        "border-left-color": "orange",
+      },
+      "purple": Object {
+        "border-left-color": "purple",
+      },
+      "red": Object {
+        "border-left-color": "red",
+      },
+      "white": Object {
+        "border-left-color": "white",
+      },
+      "yellow": Object {
+        "border-left-color": "yellow",
+      },
+    },
+    "orange": Object {
+      "border-color": "orange",
+    },
+    "purple": Object {
+      "border-color": "purple",
+    },
+    "red": Object {
+      "border-color": "red",
+    },
+    "right": Object {
+      "black": Object {
+        "border-right-color": "black",
+      },
+      "blue": Object {
+        "border-right-color": "blue",
+      },
+      "gray": Object {
+        "border-right-color": "gray",
+      },
+      "green": Object {
+        "border-right-color": "green",
+      },
+      "orange": Object {
+        "border-right-color": "orange",
+      },
+      "purple": Object {
+        "border-right-color": "purple",
+      },
+      "red": Object {
+        "border-right-color": "red",
+      },
+      "white": Object {
+        "border-right-color": "white",
+      },
+      "yellow": Object {
+        "border-right-color": "yellow",
+      },
+    },
+    "top": Object {
+      "black": Object {
+        "border-top-color": "black",
+      },
+      "blue": Object {
+        "border-top-color": "blue",
+      },
+      "gray": Object {
+        "border-top-color": "gray",
+      },
+      "green": Object {
+        "border-top-color": "green",
+      },
+      "orange": Object {
+        "border-top-color": "orange",
+      },
+      "purple": Object {
+        "border-top-color": "purple",
+      },
+      "red": Object {
+        "border-top-color": "red",
+      },
+      "white": Object {
+        "border-top-color": "white",
+      },
+      "yellow": Object {
+        "border-top-color": "yellow",
+      },
+    },
+    "white": Object {
+      "border-color": "white",
+    },
+    "yellow": Object {
+      "border-color": "yellow",
+    },
+  },
+  "radius": Object {
+    "bottomLeft": Object {
+      "huge": Object {
+        "border-bottom-left-radius": "20px",
+      },
+      "large": Object {
+        "border-bottom-left-radius": "6px",
+      },
+      "medium": Object {
+        "border-bottom-left-radius": "4px",
+      },
+      "small": Object {
+        "border-bottom-left-radius": "2px",
+      },
+    },
+    "bottomRight": Object {
+      "huge": Object {
+        "border-bottom-right-radius": "20px",
+      },
+      "large": Object {
+        "border-bottom-right-radius": "6px",
+      },
+      "medium": Object {
+        "border-bottom-right-radius": "4px",
+      },
+      "small": Object {
+        "border-bottom-right-radius": "2px",
+      },
+    },
+    "huge": Object {
+      "border-radius": "20px",
+    },
+    "large": Object {
+      "border-radius": "6px",
     },
     "medium": Object {
-      "border-bottom-width": "2px",
+      "border-radius": "4px",
     },
-    "none": Object {
-      "border-bottom-style": "none",
+    "small": Object {
+      "border-radius": "2px",
     },
-    "solid": Object {
-      "border-bottom-style": "solid",
+    "topLeft": Object {
+      "huge": Object {
+        "border-top-left-radius": "20px",
+      },
+      "large": Object {
+        "border-top-left-radius": "6px",
+      },
+      "medium": Object {
+        "border-top-left-radius": "4px",
+      },
+      "small": Object {
+        "border-top-left-radius": "2px",
+      },
     },
-    "superThick": Object {
-      "border-bottom-width": "100px",
-    },
-    "thick": Object {
-      "border-bottom-width": "4px",
-    },
-    "thin": Object {
-      "border-bottom-width": "1px",
+    "topRight": Object {
+      "huge": Object {
+        "border-top-right-radius": "20px",
+      },
+      "large": Object {
+        "border-top-right-radius": "6px",
+      },
+      "medium": Object {
+        "border-top-right-radius": "4px",
+      },
+      "small": Object {
+        "border-top-right-radius": "2px",
+      },
     },
   },
-  "dashed": Object {
-    "border-style": "dashed",
-  },
-  "dotted": Object {
-    "border-style": "dotted",
-  },
-  "extraThick": Object {
-    "border-width": "8px",
-  },
-  "left": Object {
+  "style": Object {
+    "bottom": Object {
+      "dashed": Object {
+        "border-bottom-style": "dashed",
+      },
+      "dotted": Object {
+        "border-bottom-style": "dotted",
+      },
+      "none": Object {
+        "border-bottom-style": "none",
+      },
+      "solid": Object {
+        "border-bottom-style": "solid",
+      },
+    },
     "dashed": Object {
-      "border-left-style": "dashed",
+      "border-style": "dashed",
     },
     "dotted": Object {
-      "border-left-style": "dotted",
+      "border-style": "dotted",
     },
-    "extraThick": Object {
-      "border-left-width": "8px",
-    },
-    "medium": Object {
-      "border-left-width": "2px",
-    },
-    "none": Object {
-      "border-left-style": "none",
-    },
-    "solid": Object {
-      "border-left-style": "solid",
-    },
-    "superThick": Object {
-      "border-left-width": "100px",
-    },
-    "thick": Object {
-      "border-left-width": "4px",
-    },
-    "thin": Object {
-      "border-left-width": "1px",
-    },
-  },
-  "medium": Object {
-    "border-width": "2px",
-  },
-  "none": Object {
-    "border-style": "none",
-  },
-  "right": Object {
-    "dashed": Object {
-      "border-right-style": "dashed",
-    },
-    "dotted": Object {
-      "border-right-style": "dotted",
-    },
-    "extraThick": Object {
-      "border-right-width": "8px",
-    },
-    "medium": Object {
-      "border-right-width": "2px",
+    "left": Object {
+      "dashed": Object {
+        "border-left-style": "dashed",
+      },
+      "dotted": Object {
+        "border-left-style": "dotted",
+      },
+      "none": Object {
+        "border-left-style": "none",
+      },
+      "solid": Object {
+        "border-left-style": "solid",
+      },
     },
     "none": Object {
-      "border-right-style": "none",
+      "border-style": "none",
+    },
+    "right": Object {
+      "dashed": Object {
+        "border-right-style": "dashed",
+      },
+      "dotted": Object {
+        "border-right-style": "dotted",
+      },
+      "none": Object {
+        "border-right-style": "none",
+      },
+      "solid": Object {
+        "border-right-style": "solid",
+      },
     },
     "solid": Object {
-      "border-right-style": "solid",
+      "border-style": "solid",
     },
-    "superThick": Object {
-      "border-right-width": "100px",
-    },
-    "thick": Object {
-      "border-right-width": "4px",
-    },
-    "thin": Object {
-      "border-right-width": "1px",
+    "top": Object {
+      "dashed": Object {
+        "border-top-style": "dashed",
+      },
+      "dotted": Object {
+        "border-top-style": "dotted",
+      },
+      "none": Object {
+        "border-top-style": "none",
+      },
+      "solid": Object {
+        "border-top-style": "solid",
+      },
     },
   },
-  "solid": Object {
-    "border-style": "solid",
-  },
-  "superThick": Object {
-    "border-width": "100px",
-  },
-  "thick": Object {
-    "border-width": "4px",
-  },
-  "thin": Object {
-    "border-width": "1px",
-  },
-  "top": Object {
-    "dashed": Object {
-      "border-top-style": "dashed",
-    },
-    "dotted": Object {
-      "border-top-style": "dotted",
+  "width": Object {
+    "bottom": Object {
+      "extraThick": Object {
+        "border-bottom-width": "8px",
+      },
+      "medium": Object {
+        "border-bottom-width": "2px",
+      },
+      "none": Object {
+        "border-bottom-width": 0,
+      },
+      "thick": Object {
+        "border-bottom-width": "4px",
+      },
+      "thin": Object {
+        "border-bottom-width": "1px",
+      },
     },
     "extraThick": Object {
-      "border-top-width": "8px",
+      "border-width": "8px",
+    },
+    "left": Object {
+      "extraThick": Object {
+        "border-left-width": "8px",
+      },
+      "medium": Object {
+        "border-left-width": "2px",
+      },
+      "none": Object {
+        "border-left-width": 0,
+      },
+      "thick": Object {
+        "border-left-width": "4px",
+      },
+      "thin": Object {
+        "border-left-width": "1px",
+      },
     },
     "medium": Object {
-      "border-top-width": "2px",
+      "border-width": "2px",
     },
     "none": Object {
-      "border-top-style": "none",
+      "border-width": 0,
     },
-    "solid": Object {
-      "border-top-style": "solid",
-    },
-    "superThick": Object {
-      "border-top-width": "100px",
+    "right": Object {
+      "extraThick": Object {
+        "border-right-width": "8px",
+      },
+      "medium": Object {
+        "border-right-width": "2px",
+      },
+      "none": Object {
+        "border-right-width": 0,
+      },
+      "thick": Object {
+        "border-right-width": "4px",
+      },
+      "thin": Object {
+        "border-right-width": "1px",
+      },
     },
     "thick": Object {
-      "border-top-width": "4px",
+      "border-width": "4px",
     },
     "thin": Object {
-      "border-top-width": "1px",
+      "border-width": "1px",
+    },
+    "top": Object {
+      "extraThick": Object {
+        "border-top-width": "8px",
+      },
+      "medium": Object {
+        "border-top-width": "2px",
+      },
+      "none": Object {
+        "border-top-width": 0,
+      },
+      "thick": Object {
+        "border-top-width": "4px",
+      },
+      "thin": Object {
+        "border-top-width": "1px",
+      },
     },
   },
 }
@@ -285,269 +737,360 @@ Object {
 
 exports[`border when no custom config is provided should return the default config 1`] = `
 Object {
-  "black": Object {
-    "border-color": "black",
-  },
-  "blue": Object {
-    "border-color": "blue",
-  },
-  "border": "solid 1px black",
-  "bottom": Object {
+  "color": Object {
     "black": Object {
-      "border-bottom-color": "black",
+      "border-color": "black",
     },
     "blue": Object {
-      "border-bottom-color": "blue",
+      "border-color": "blue",
     },
-    "dashed": Object {
-      "border-bottom-style": "dashed",
-    },
-    "dotted": Object {
-      "border-bottom-style": "dotted",
-    },
-    "extraThick": Object {
-      "border-bottom-width": "8px",
-    },
-    "gray": Object {
-      "border-bottom-color": "gray",
-    },
-    "green": Object {
-      "border-bottom-color": "green",
-    },
-    "medium": Object {
-      "border-bottom-width": "2px",
-    },
-    "none": Object {
-      "border-bottom-style": "none",
-    },
-    "orange": Object {
-      "border-bottom-color": "orange",
-    },
-    "purple": Object {
-      "border-bottom-color": "purple",
-    },
-    "red": Object {
-      "border-bottom-color": "red",
-    },
-    "solid": Object {
-      "border-bottom-style": "solid",
-    },
-    "thick": Object {
-      "border-bottom-width": "4px",
-    },
-    "thin": Object {
-      "border-bottom-width": "1px",
-    },
-    "white": Object {
-      "border-bottom-color": "white",
-    },
-    "yellow": Object {
-      "border-bottom-color": "yellow",
-    },
-  },
-  "dashed": Object {
-    "border-style": "dashed",
-  },
-  "dotted": Object {
-    "border-style": "dotted",
-  },
-  "extraThick": Object {
-    "border-width": "8px",
-  },
-  "gray": Object {
-    "border-color": "gray",
-  },
-  "green": Object {
-    "border-color": "green",
-  },
-  "left": Object {
-    "black": Object {
-      "border-left-color": "black",
-    },
-    "blue": Object {
-      "border-left-color": "blue",
-    },
-    "dashed": Object {
-      "border-left-style": "dashed",
-    },
-    "dotted": Object {
-      "border-left-style": "dotted",
-    },
-    "extraThick": Object {
-      "border-left-width": "8px",
+    "bottom": Object {
+      "black": Object {
+        "border-bottom-color": "black",
+      },
+      "blue": Object {
+        "border-bottom-color": "blue",
+      },
+      "gray": Object {
+        "border-bottom-color": "gray",
+      },
+      "green": Object {
+        "border-bottom-color": "green",
+      },
+      "orange": Object {
+        "border-bottom-color": "orange",
+      },
+      "purple": Object {
+        "border-bottom-color": "purple",
+      },
+      "red": Object {
+        "border-bottom-color": "red",
+      },
+      "white": Object {
+        "border-bottom-color": "white",
+      },
+      "yellow": Object {
+        "border-bottom-color": "yellow",
+      },
     },
     "gray": Object {
-      "border-left-color": "gray",
+      "border-color": "gray",
     },
     "green": Object {
-      "border-left-color": "green",
+      "border-color": "green",
     },
-    "medium": Object {
-      "border-left-width": "2px",
-    },
-    "none": Object {
-      "border-left-style": "none",
+    "left": Object {
+      "black": Object {
+        "border-left-color": "black",
+      },
+      "blue": Object {
+        "border-left-color": "blue",
+      },
+      "gray": Object {
+        "border-left-color": "gray",
+      },
+      "green": Object {
+        "border-left-color": "green",
+      },
+      "orange": Object {
+        "border-left-color": "orange",
+      },
+      "purple": Object {
+        "border-left-color": "purple",
+      },
+      "red": Object {
+        "border-left-color": "red",
+      },
+      "white": Object {
+        "border-left-color": "white",
+      },
+      "yellow": Object {
+        "border-left-color": "yellow",
+      },
     },
     "orange": Object {
-      "border-left-color": "orange",
+      "border-color": "orange",
     },
     "purple": Object {
-      "border-left-color": "purple",
+      "border-color": "purple",
     },
     "red": Object {
-      "border-left-color": "red",
+      "border-color": "red",
     },
-    "solid": Object {
-      "border-left-style": "solid",
+    "right": Object {
+      "black": Object {
+        "border-right-color": "black",
+      },
+      "blue": Object {
+        "border-right-color": "blue",
+      },
+      "gray": Object {
+        "border-right-color": "gray",
+      },
+      "green": Object {
+        "border-right-color": "green",
+      },
+      "orange": Object {
+        "border-right-color": "orange",
+      },
+      "purple": Object {
+        "border-right-color": "purple",
+      },
+      "red": Object {
+        "border-right-color": "red",
+      },
+      "white": Object {
+        "border-right-color": "white",
+      },
+      "yellow": Object {
+        "border-right-color": "yellow",
+      },
     },
-    "thick": Object {
-      "border-left-width": "4px",
-    },
-    "thin": Object {
-      "border-left-width": "1px",
+    "top": Object {
+      "black": Object {
+        "border-top-color": "black",
+      },
+      "blue": Object {
+        "border-top-color": "blue",
+      },
+      "gray": Object {
+        "border-top-color": "gray",
+      },
+      "green": Object {
+        "border-top-color": "green",
+      },
+      "orange": Object {
+        "border-top-color": "orange",
+      },
+      "purple": Object {
+        "border-top-color": "purple",
+      },
+      "red": Object {
+        "border-top-color": "red",
+      },
+      "white": Object {
+        "border-top-color": "white",
+      },
+      "yellow": Object {
+        "border-top-color": "yellow",
+      },
     },
     "white": Object {
-      "border-left-color": "white",
+      "border-color": "white",
     },
     "yellow": Object {
-      "border-left-color": "yellow",
+      "border-color": "yellow",
     },
   },
-  "medium": Object {
-    "border-width": "2px",
-  },
-  "none": Object {
-    "border-style": "none",
-  },
-  "orange": Object {
-    "border-color": "orange",
-  },
-  "purple": Object {
-    "border-color": "purple",
-  },
-  "red": Object {
-    "border-color": "red",
-  },
-  "right": Object {
-    "black": Object {
-      "border-right-color": "black",
+  "radius": Object {
+    "bottomLeft": Object {
+      "large": Object {
+        "border-bottom-left-radius": "6px",
+      },
+      "medium": Object {
+        "border-bottom-left-radius": "4px",
+      },
+      "small": Object {
+        "border-bottom-left-radius": "2px",
+      },
     },
-    "blue": Object {
-      "border-right-color": "blue",
+    "bottomRight": Object {
+      "large": Object {
+        "border-bottom-right-radius": "6px",
+      },
+      "medium": Object {
+        "border-bottom-right-radius": "4px",
+      },
+      "small": Object {
+        "border-bottom-right-radius": "2px",
+      },
+    },
+    "large": Object {
+      "border-radius": "6px",
+    },
+    "medium": Object {
+      "border-radius": "4px",
+    },
+    "small": Object {
+      "border-radius": "2px",
+    },
+    "topLeft": Object {
+      "large": Object {
+        "border-top-left-radius": "6px",
+      },
+      "medium": Object {
+        "border-top-left-radius": "4px",
+      },
+      "small": Object {
+        "border-top-left-radius": "2px",
+      },
+    },
+    "topRight": Object {
+      "large": Object {
+        "border-top-right-radius": "6px",
+      },
+      "medium": Object {
+        "border-top-right-radius": "4px",
+      },
+      "small": Object {
+        "border-top-right-radius": "2px",
+      },
+    },
+  },
+  "style": Object {
+    "bottom": Object {
+      "dashed": Object {
+        "border-bottom-style": "dashed",
+      },
+      "dotted": Object {
+        "border-bottom-style": "dotted",
+      },
+      "none": Object {
+        "border-bottom-style": "none",
+      },
+      "solid": Object {
+        "border-bottom-style": "solid",
+      },
     },
     "dashed": Object {
-      "border-right-style": "dashed",
+      "border-style": "dashed",
     },
     "dotted": Object {
-      "border-right-style": "dotted",
+      "border-style": "dotted",
     },
-    "extraThick": Object {
-      "border-right-width": "8px",
-    },
-    "gray": Object {
-      "border-right-color": "gray",
-    },
-    "green": Object {
-      "border-right-color": "green",
-    },
-    "medium": Object {
-      "border-right-width": "2px",
-    },
-    "none": Object {
-      "border-right-style": "none",
-    },
-    "orange": Object {
-      "border-right-color": "orange",
-    },
-    "purple": Object {
-      "border-right-color": "purple",
-    },
-    "red": Object {
-      "border-right-color": "red",
-    },
-    "solid": Object {
-      "border-right-style": "solid",
-    },
-    "thick": Object {
-      "border-right-width": "4px",
-    },
-    "thin": Object {
-      "border-right-width": "1px",
-    },
-    "white": Object {
-      "border-right-color": "white",
-    },
-    "yellow": Object {
-      "border-right-color": "yellow",
-    },
-  },
-  "solid": Object {
-    "border-style": "solid",
-  },
-  "thick": Object {
-    "border-width": "4px",
-  },
-  "thin": Object {
-    "border-width": "1px",
-  },
-  "top": Object {
-    "black": Object {
-      "border-top-color": "black",
-    },
-    "blue": Object {
-      "border-top-color": "blue",
-    },
-    "dashed": Object {
-      "border-top-style": "dashed",
-    },
-    "dotted": Object {
-      "border-top-style": "dotted",
-    },
-    "extraThick": Object {
-      "border-top-width": "8px",
-    },
-    "gray": Object {
-      "border-top-color": "gray",
-    },
-    "green": Object {
-      "border-top-color": "green",
-    },
-    "medium": Object {
-      "border-top-width": "2px",
+    "left": Object {
+      "dashed": Object {
+        "border-left-style": "dashed",
+      },
+      "dotted": Object {
+        "border-left-style": "dotted",
+      },
+      "none": Object {
+        "border-left-style": "none",
+      },
+      "solid": Object {
+        "border-left-style": "solid",
+      },
     },
     "none": Object {
-      "border-top-style": "none",
+      "border-style": "none",
     },
-    "orange": Object {
-      "border-top-color": "orange",
-    },
-    "purple": Object {
-      "border-top-color": "purple",
-    },
-    "red": Object {
-      "border-top-color": "red",
+    "right": Object {
+      "dashed": Object {
+        "border-right-style": "dashed",
+      },
+      "dotted": Object {
+        "border-right-style": "dotted",
+      },
+      "none": Object {
+        "border-right-style": "none",
+      },
+      "solid": Object {
+        "border-right-style": "solid",
+      },
     },
     "solid": Object {
-      "border-top-style": "solid",
+      "border-style": "solid",
+    },
+    "top": Object {
+      "dashed": Object {
+        "border-top-style": "dashed",
+      },
+      "dotted": Object {
+        "border-top-style": "dotted",
+      },
+      "none": Object {
+        "border-top-style": "none",
+      },
+      "solid": Object {
+        "border-top-style": "solid",
+      },
+    },
+  },
+  "width": Object {
+    "bottom": Object {
+      "extraThick": Object {
+        "border-bottom-width": "8px",
+      },
+      "medium": Object {
+        "border-bottom-width": "2px",
+      },
+      "none": Object {
+        "border-bottom-width": 0,
+      },
+      "thick": Object {
+        "border-bottom-width": "4px",
+      },
+      "thin": Object {
+        "border-bottom-width": "1px",
+      },
+    },
+    "extraThick": Object {
+      "border-width": "8px",
+    },
+    "left": Object {
+      "extraThick": Object {
+        "border-left-width": "8px",
+      },
+      "medium": Object {
+        "border-left-width": "2px",
+      },
+      "none": Object {
+        "border-left-width": 0,
+      },
+      "thick": Object {
+        "border-left-width": "4px",
+      },
+      "thin": Object {
+        "border-left-width": "1px",
+      },
+    },
+    "medium": Object {
+      "border-width": "2px",
+    },
+    "none": Object {
+      "border-width": 0,
+    },
+    "right": Object {
+      "extraThick": Object {
+        "border-right-width": "8px",
+      },
+      "medium": Object {
+        "border-right-width": "2px",
+      },
+      "none": Object {
+        "border-right-width": 0,
+      },
+      "thick": Object {
+        "border-right-width": "4px",
+      },
+      "thin": Object {
+        "border-right-width": "1px",
+      },
     },
     "thick": Object {
-      "border-top-width": "4px",
+      "border-width": "4px",
     },
     "thin": Object {
-      "border-top-width": "1px",
+      "border-width": "1px",
     },
-    "white": Object {
-      "border-top-color": "white",
+    "top": Object {
+      "extraThick": Object {
+        "border-top-width": "8px",
+      },
+      "medium": Object {
+        "border-top-width": "2px",
+      },
+      "none": Object {
+        "border-top-width": 0,
+      },
+      "thick": Object {
+        "border-top-width": "4px",
+      },
+      "thin": Object {
+        "border-top-width": "1px",
+      },
     },
-    "yellow": Object {
-      "border-top-color": "yellow",
-    },
-  },
-  "white": Object {
-    "border-color": "white",
-  },
-  "yellow": Object {
-    "border-color": "yellow",
   },
 }
 `;

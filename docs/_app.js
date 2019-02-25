@@ -47,6 +47,7 @@ const navOrder = [
   'border-color',
   'border-width',
   'style',
+  'radius',
   'background',
   'background-color',
   'opacity',
