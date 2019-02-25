@@ -1,4 +1,4 @@
-import text, { defaultRules, combineRules } from './index'
+import text, { defaultRules, combineRules } from './'
 
 describe('text', () => {
   describe('when no custom config is provided', () => {
@@ -24,6 +24,17 @@ describe('text', () => {
           size: { extrasmall: '.25rem' }
         })
         expect(text(combinedRules)).toMatchSnapshot()
+      })
+    })
+
+    describe('when the custom config attempts to amend a static value', () => {
+      it('should not amend the static value', () => {
+        const combinedRules = combineRules(defaultRules, {
+          transform: { uppercase: 'lowercase' }
+        })
+        expect(text(combinedRules).transform.uppercase['text-transform']).toBe(
+          'uppercase'
+        )
       })
     })
   })

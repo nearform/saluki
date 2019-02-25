@@ -4,6 +4,11 @@ import setupBreakpoint, {
   defaultRules as defaultBreakpointRules
 } from './breakpoint'
 import setupColor, { color as defaultColor } from './color'
+import setupLayout, { defaultRules as defaultLayoutRules } from './layout'
+import setupSize, {
+  defaultRules as defaultSizeRules,
+  combineRules as combineSizeRules
+} from './size'
 import setupSpacing, {
   defaultRules as defaultSpacingRules,
   combineRules as combineSpacingRules
@@ -17,6 +22,8 @@ export let background = setupBackground({}, defaultColor)
 export let border = setupBorder({}, defaultColor)
 export let breakpoint = setupBreakpoint(defaultBreakpointRules)
 export let color = setupColor(defaultColor)
+export const layout = setupLayout(defaultLayoutRules)
+export let size = setupSize(combineSizeRules(defaultSizeRules))
 export let spacing = setupSpacing(combineSpacingRules(defaultSpacingRules))
 export let text = setupText(combineTextRules(defaultTextRules))
 
@@ -37,6 +44,7 @@ export default function(customConfig) {
     ...defaultColor,
     ...customConfig.color
   })
+  size = setupSize(combineSizeRules(defaultSizeRules, customConfig.size))
   spacing = setupSpacing(
     combineSpacingRules(defaultSpacingRules, customConfig.spacing)
   )

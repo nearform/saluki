@@ -1,51 +1,46 @@
-import { LineHeight } from './'
+import { OverflowContainer, Overflow } from './'
 
-# Line Height
+# Overflow
 
 ---
 
 ## Example
 
-<LineHeight>
+<Overflow>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
   eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
   in culpa qui officia deserunt mollit anim id est laborum.
-</LineHeight>
+</Overflow>
 
 ```jsx
-const Text = styled.p`
-  ${text.lineHeight.large}
+const Box = styled.div`
+  ${layout.overflow.scroll}
+  ${size.height.medium}
 `
 ```
 
 ## Rules
 
 ```js
-text.lineHeight.small
-text.lineHeight.medium
-text.lineHeight.large
-```
-
-## Configuration
-
-Configurable via;
-
-```
-text.lineHeight
+layout.overflow.hidden
+layout.overflow.visible
+layout.overflow.scroll
+layout.overflow.auto
 ```
 
 ## Defaults
 
 ```js
 {
-  text: {
-    lineHeight: {
-      small: 1,
-      medium: 1.5,
-      large: 2
+  layout: {
+    overflow: {
+      hidden: 'hidden',
+      visible: 'visible',
+      scroll: 'scroll',
+      auto: 'auto'
     }
   }
 }

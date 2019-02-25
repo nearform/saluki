@@ -8,10 +8,19 @@ import { Align } from './'
 
 <Align>Hello</Align>
 
-```jsx
+```js
 const Text = styled.h1`
   ${text.align.center}
 `
+```
+
+## Rules
+
+```js
+text.align.center
+text.align.left
+text.align.right
+text.align.justify
 ```
 
 ## Configuration
@@ -20,4 +29,19 @@ Configurable via;
 
 ```
 text.align
+```
+
+## Defaults
+
+```js
+{
+  text: {
+    align: {
+      center: 'center',
+      left: 'left',
+      right: 'right',
+      justify: 'justify'
+    }
+  }
+}
 ```

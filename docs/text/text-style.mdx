@@ -14,10 +14,24 @@ const Text = styled.h1`
 `
 ```
 
-## Configuration
+## Rules
 
-Configurable via;
-
+```js
+text.style.italic
+text.style.oblique
+text.style.normal
 ```
-text.style
+
+## Defaults
+
+```js
+{
+  text: {
+    style: {
+      normal: 'normal',
+      italic: 'italic',
+      oblique: 'oblique'
+    }
+  }
+}
 ```

@@ -14,10 +14,32 @@ const Text = styled.h1`
 `
 ```
 
+## Rules
+
+```js
+text.letterSpacing.small
+text.letterSpacing.medium
+text.letterSpacing.large
+```
+
 ## Configuration
 
 Configurable via;
 
 ```
 text.letterSpacing
+```
+
+## Defaults
+
+```js
+{
+  text: {
+    letterSpacing: {
+      small: '.075em',
+      medium: '.125em',
+      large: '.2em'
+    }
+  }
+}
 ```

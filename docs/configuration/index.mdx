@@ -20,7 +20,9 @@ const cijulConfig = {
 init(cijulConfig)
 ```
 
-You only need to call `init` once so it's best to do so as early in your application startup as possible.
+You only need to call `init` once and it needs to be called before you import any modules which use Cijul.
+
+The best way to achieve this is to create a config file and import it into your application entry point.
 
 For example, in [`create-react-app`](https://github.com/facebook/create-react-app) you can initiate Cijul in `./src/index.js`.
 
@@ -28,17 +30,9 @@ For example, in [`create-react-app`](https://github.com/facebook/create-react-ap
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
+import './cijul-config'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
-import init from '@nearform/cijul'
-
-const cijulConfig = {
-  color: {
-    red: '#bd0000'
-  }
-}
-
-init(cijulConfig)
 
 ReactDOM.render(<App />, document.getElementById('root'))
 
@@ -48,37 +42,4 @@ ReactDOM.render(<App />, document.getElementById('root'))
 serviceWorker.unregister()
 ```
 
-As your custom config grows you might want to extract it out into its own module.
-
-```js
-export default {
-  color: {
-    red: '#bd0000'
-  }
-}
-```
-
-```js
-import init from '@nearform/cijul'
-import cijulConfig from './cijul-config'
-
-init(cijulConfig)
-```
-
-Or even abstract the whole initialisation out.
-
-```js
-import init from '@nearform/cijul'
-
-const cijulConfig = {
-  color: {
-    red: '#bd0000'
-  }
-}
-
-init(cijulConfig)
-```
-
-```js
-import './cijul-config'
-```
+With `./cijul-config.js` containing the example shown above.

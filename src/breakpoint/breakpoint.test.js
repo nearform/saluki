@@ -1,4 +1,4 @@
-import breakpoint, { defaultRules } from './index'
+import breakpoint, { defaultRules } from './'
 
 describe('breakpoint', () => {
   describe('when no custom config is provided', () => {

@@ -1,0 +1,62 @@
+import { AlignItems, Box } from './'
+
+# Align Items
+
+---
+
+## Example
+
+<AlignItems>
+  <Box light />
+  <Box />
+  <Box light />
+</AlignItems>
+
+```jsx
+const Container = styled.div`
+  ${size.height.large}
+  ${layout.display.flex}
+  ${layout.alignItems.center}
+  ${background.yellow}
+`
+
+const Box = styled.div`
+  ${size.height.medium}
+  ${size.width.third}
+  ${({ light }) => (light ? background.red : background.black)};
+`
+```
+
+## Rules
+
+```js
+layout.alignItems.start
+layout.alignItems.end
+layout.alignItems.stretch
+layout.alignItems.center
+layout.alignItems.baseline
+```
+
+## Configuration
+
+Configurable via;
+
+```
+layout.alignItems
+```
+
+## Defaults
+
+```js
+{
+  layout: {
+    alignItems: {
+      start: 'flex-start',
+      end: 'flex-end',
+      stretch: 'stretch',
+      center: 'center',
+      baseline: 'baseline'
+    }
+  }
+}
+```

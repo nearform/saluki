@@ -1,0 +1,54 @@
+import { AlignSelf, AlignSelfBox } from './'
+
+# Align Self
+
+---
+
+## Example
+
+<AlignSelf>
+  <AlignSelfBox stretch />
+  <AlignSelfBox />
+  <AlignSelfBox stretch />
+  <AlignSelfBox />
+</AlignSelf>
+
+```jsx
+const Container = styled.div`
+  ${size.height.large}
+  ${layout.display.flex}
+  ${background.yellow}
+`
+
+const Box = styled.div`
+  ${({ stretch }) => (stretch ? layout.alignSelf.stretch : size.height.medium)};
+  ${size.width.quarter}
+  ${({ stretch }) => (stretch ? background.red : background.black)};
+`
+```
+
+## Rules
+
+```js
+layout.alignSelf.start
+layout.alignSelf.end
+layout.alignSelf.stretch
+layout.alignSelf.center
+layout.alignSelf.auto
+```
+
+## Defaults
+
+```js
+{
+  layout: {
+    alignSelf: {
+      start: 'flex-start',
+      end: 'flex-end',
+      center: 'center',
+      auto: 'auto',
+      stretch: 'stretch'
+    }
+  }
+}
+```

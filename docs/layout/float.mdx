@@ -1,0 +1,47 @@
+import { FloatContainer, Float } from './'
+
+# Float
+
+---
+
+## Example
+
+<FloatContainer>
+  <Float />
+</FloatContainer>
+
+```jsx
+const Container = styled.div`
+  ${layout.display.block}
+  ${size.height.large}
+`
+
+const Box = styled.div`
+  ${size.width.half}
+  ${size.height.medium}
+  ${layout.float.right}
+  ${background.red}
+`
+```
+
+## Rules
+
+```js
+layout.float.left
+layout.float.right
+layout.float.none
+```
+
+## Defaults
+
+```js
+{
+  layout: {
+    float: {
+      left: 'left',
+      right: 'right',
+      none: 'none'
+    }
+  }
+}
+```
