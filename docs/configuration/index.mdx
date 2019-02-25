@@ -6,10 +6,10 @@ Cijul doesn't need any configuration to get started.
 
 It is, however, fairly inevitable that you'll want to provide your own custom config for certain rules.
 
-You can do this by passing a custom config object into the default function exported from Cijul.
+You can do this by passing a custom config object into `init`.
 
 ```js
-import init from '@nearform/cijul'
+import { init } from '@nearform/cijul'
 
 const cijulConfig = {
   color: {
