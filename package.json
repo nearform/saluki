@@ -1,5 +1,5 @@
 {
-  "name": "@nearform/saluki",
+  "name": "saluki",
   "version": "0.1.0",
   "description": "Utility styles for CSS-in-JS",
   "main": "dist/index.js",
