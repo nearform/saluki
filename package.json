@@ -11,6 +11,7 @@
     "clean": "rm -rf dist",
     "docs": "x0 docs",
     "docs:build": "x0 build docs -d dist-docs",
+    "docs:publish": "gh-pages -d dist-docs",
     "lint": "eslint src/** docs/**/*.js",
     "size": "size-limit",
     "test": "jest --coverage",
@@ -27,6 +28,14 @@
     "url": "https://github.com/nearform/cijul/issues"
   },
   "homepage": "https://github.com/nearform/cijul#readme",
+  "keywords": [
+    "css-in-js",
+    "styled-components",
+    "emotion",
+    "utility",
+    "css utility",
+    "react"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
@@ -46,6 +55,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "^4.0.0",
+    "gh-pages": "^2.0.1",
     "husky": "^1.3.1",
     "jest": "^24.1.0",
     "lint-staged": "^8.1.4",

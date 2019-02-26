@@ -21,14 +21,8 @@ All contributions should pass lint rules and tests.
 You can test this by running:
 
 ```
+npm run lint
 npm test
-```
-
-In addition, make sure to add tests for any new features.
-You can test the test coverage by running:
-
-```
-npm run ci-cov
 ```
 
 ## For Collaborators

@@ -1,6 +1,18 @@
 # Cijul
 
-Utility styles for CSS-in-JS
+Utility styles for CSS-in-JS.
+
+Please note: breaking changes are expected in these early stages whilst we settle on the best API possible, it is not recommended to use Cijul in production.
+
+Check Cijul's issues for discussions on potential changes or feel free to raise your own.
+
+## Documentation
+
+Visit [nearform.github.io/cijul](https://nearform.github.io/cijul) for full documentation.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to Cijul.
 
 ## License
 
