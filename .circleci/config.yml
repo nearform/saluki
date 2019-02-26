@@ -18,13 +18,7 @@ jobs:
           paths:
             - node_modules
       - run: npm run lint
-      - run:
-          name: Install JUnit coverage reporter for jest
-          command: npm i -D jest-junit
-      - run:
-          name: Run tests with JUnit as reporter
-          command: npm run test:ci
-          environment:
-            JEST_JUNIT_OUTPUT: 'reports/jest/js-test-results.xml'
-      - store_test_results:
-          path: reports
+      - run: npm test
+      - run: |
+          npm install coveralls
+          cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
