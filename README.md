@@ -23,7 +23,7 @@ Utility styles for CSS-in-JS.
 
 ## Documentation
 
-Please visit [https://nearform.github.io/saluki](https://nearform.github.io/saluki) for the documentation.
+Visit [https://nearform.github.io/saluki](https://nearform.github.io/saluki) for full documentation.
 
 ## Quick Start
 
