@@ -127,7 +127,7 @@ export default props => {
         </p>
         <p>
           Check the{' '}
-          <Link href="https://github.com/nearform/cijuink/issues">
+          <Link href="https://github.com/nearform/saluki/issues">
             issue tracker
           </Link>{' '}
           for discussions on potential changes or feel free to raise your own.
