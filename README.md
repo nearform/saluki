@@ -14,6 +14,15 @@ Visit [nearform.github.io/cijul](https://nearform.github.io/cijul) for full docu
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to Cijul.
 
+## Inspiration
+
+Cijul owes inspiration to;
+
+- [Tailwind CSS](https://tailwindcss.com)
+- [Tachyons](http://tachyons.io/)
+- [Rebass](https://rebassjs.org/)
+- [tailwind.macro](https://github.com/bradlc/tailwind.macro)
+
 ## License
 
 Copyright 2019 NearForm
