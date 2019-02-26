@@ -21,7 +21,7 @@ const Container = styled.div`
 const Box = styled.div`
   ${size.height.medium}
   ${size.width.sixth}
-  ${({ light }) => (light ? background.red : background.black)};
+  ${({ light }) => (light ? background.red : background.black)}
 `
 ```
 
@@ -32,19 +32,4 @@ layout.direction.row
 layout.direction.rowReverse
 layout.direction.column
 layout.direction.columnReverse
-```
-
-## Defaults
-
-```js
-{
-  layout: {
-    direction: {
-      row: 'row',
-      rowReverse: 'row-reverse',
-      column: 'column',
-      columnReverse: 'column-reverse'
-    }
-  }
-}
 ```

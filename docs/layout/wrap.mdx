@@ -21,7 +21,7 @@ const Container = styled.div`
 const Box = styled.div`
   ${size.height.medium}
   ${size.width.half}
-  ${({ light }) => (light ? background.red : background.black)};
+  ${({ light }) => (light ? background.color.red : background.color.black)}
 `
 ```
 
@@ -31,18 +31,4 @@ const Box = styled.div`
 layout.wrap.noWrap
 layout.wrap.wrap
 layout.wrap.reverse
-```
-
-## Defaults
-
-```js
-{
-  layout: {
-    wrap: {
-      noWrap: 'nowrap',
-      wrap: 'wrap',
-      reverse: 'wrap-reverse'
-    }
-  }
-}
 ```

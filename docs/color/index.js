@@ -5,5 +5,5 @@ export const Color = styled.h1`
   ${color.white}
   ${border.solid}
   ${border.blue}
-  ${background.black}
+  ${background.color.black}
 `

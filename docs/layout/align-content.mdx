@@ -17,13 +17,13 @@ const Container = styled.div`
   ${layout.wrap.wrap}
   ${layout.display.flex}
   ${layout.alignContent.between}
-  ${background.yellow}
+  ${background.color.yellow}
 `
 
 const Box = styled.div`
   ${size.height.small}
   ${size.width.full}
-  ${({ light }) => (light ? background.red : background.black)};
+  ${({ light }) => (light ? background.color.red : background.color.black)}
 `
 ```
 
@@ -35,20 +35,4 @@ layout.alignContent.end
 layout.alignContent.center
 layout.alignContent.between
 layout.alignContent.around
-```
-
-## Values
-
-```js
-{
-  layout: {
-    alignContent: {
-      start: 'flex-start',
-      end: 'flex-end',
-      center: 'center',
-      between: 'space-between',
-      around: 'space-around'
-    }
-  }
-}
 ```

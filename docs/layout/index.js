@@ -13,19 +13,19 @@ export const Direction = styled.div`
 export const Box = styled.div`
   ${size.height.medium}
   ${size.width.half}
-  ${({ light }) => (light ? background.red : background.black)};
+  ${({ light }) => (light ? background.color.red : background.color.black)}
 `
 
 export const DirectionBox = styled.div`
   ${size.height.medium}
   ${size.width.sixth}
-  ${({ light }) => (light ? background.red : background.black)};
+  ${({ light }) => (light ? background.color.red : background.color.black)}
 `
 export const AlignItems = styled.div`
   ${size.height.large}
   ${layout.display.flex}
   ${layout.alignItems.center}
-  ${background.yellow}
+  ${background.color.yellow}
 `
 
 export const AlignContent = styled.div`
@@ -33,13 +33,13 @@ export const AlignContent = styled.div`
   ${layout.wrap.wrap}
   ${layout.display.flex}
   ${layout.alignContent.between}
-  ${background.yellow}
+  ${background.color.yellow}
 `
 
 export const AlignContentBox = styled.div`
   ${size.height.small}
   ${size.width.full}
-  ${({ light }) => (light ? background.red : background.black)};
+  ${({ light }) => (light ? background.color.red : background.color.black)}
 `
 
 export const Wrap = styled.div`
@@ -50,13 +50,13 @@ export const Wrap = styled.div`
 export const AlignSelf = styled.div`
   ${size.height.large}
   ${layout.display.flex}
-  ${background.yellow}
+  ${background.color.yellow}
 `
 
 export const AlignSelfBox = styled.div`
-  ${({ stretch }) => (stretch ? layout.alignSelf.stretch : size.height.medium)};
+  ${({ stretch }) => (stretch ? layout.alignSelf.stretch : size.height.medium)}
   ${size.width.quarter}
-  ${({ stretch }) => (stretch ? background.red : background.black)};
+  ${({ stretch }) => (stretch ? background.color.red : background.color.black)}
 `
 
 export const JustifyContent = styled.div`
@@ -67,7 +67,7 @@ export const JustifyContent = styled.div`
 export const JustifyContentBox = styled.div`
   ${size.height.medium}
   ${size.width.sixth}
-  ${({ light }) => (light ? background.red : background.black)};
+  ${({ light }) => (light ? background.color.red : background.color.black)}
 `
 
 export const FloatContainer = styled.div`
@@ -79,7 +79,7 @@ export const Float = styled.div`
   ${size.width.half}
   ${size.height.medium}
   ${layout.float.right}
-  ${background.red}
+  ${background.color.red}
 `
 
 export const OverflowContainer = styled.div`

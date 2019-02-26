@@ -1,6 +1,27 @@
-# Cijul
+# Saluki
 
-Utility styles for CSS-in-JS
+Utility styles for CSS-in-JS.
+
+Please note: breaking changes are expected in these early stages whilst we settle on the best API possible, it is not recommended to use Saluki in production.
+
+Check Saluki's issues for discussions on potential changes or feel free to raise your own.
+
+## Documentation
+
+Visit [nearform.github.io/saluki](https://nearform.github.io/saluki) for full documentation.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to Saluki.
+
+## Inspiration
+
+Saluki owes inspiration to;
+
+- [Tailwind CSS](https://tailwindcss.com)
+- [Tachyons](http://tachyons.io/)
+- [Rebass](https://rebassjs.org/)
+- [tailwind.macro](https://github.com/bradlc/tailwind.macro)
 
 ## License
 
