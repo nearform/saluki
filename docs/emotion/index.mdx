@@ -23,7 +23,7 @@ There are various ways Saluki can be used alongside Emotion.
 ```jsx
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core'
-import { color, text } from 'saluki'
+import { color, text } from '@nearform/saluki'
 
 export const Header = ({ children }) => (
   <h1
@@ -44,7 +44,7 @@ export const Header = ({ children }) => (
 ```jsx
 /** @jsx jsx */
 import { jsx } from '@emotion/core'
-import { color, text } from 'saluki'
+import { color, text } from '@nearform/saluki'
 
 export const Header = ({ children }) => (
   <h1 css={[color.red, text.size.large]}>{children}</h1>
@@ -58,7 +58,7 @@ export const Header = ({ children }) => (
 ```jsx
 /** @jsx jsx */
 import { jsx } from '@emotion/core'
-import { color, text } from 'saluki'
+import { color, text } from '@nearform/saluki'
 
 export const Header = ({ children }) => (
   <h1
@@ -78,7 +78,7 @@ export const Header = ({ children }) => (
 
 ```jsx
 import styled from '@emotion/styled'
-import { color, text } from 'saluki'
+import { color, text } from '@nearform/saluki'
 
 const StyledHeader = styled.h1`
   ${color.red}
@@ -94,7 +94,7 @@ export const Header = ({ children }) => <StyledHeader>{children}</StyledHeader>
 
 ```jsx
 import styled from '@emotion/styled'
-import { color, text } from 'saluki'
+import { color, text } from '@nearform/saluki'
 
 const StyledHeader = styled.h1({
   ...color.red,

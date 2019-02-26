@@ -30,7 +30,7 @@ import {
   spacing,
   size,
   text
-} from 'saluki'
+} from '@nearform/saluki'
 ```
 
 Create visual primitives using your favorite CSS-in-JS solution and use them in your React components.
@@ -42,7 +42,7 @@ Create visual primitives using your favorite CSS-in-JS solution and use them in 
 ```jsx
 import React from 'react'
 import styled from 'styled-components/macro'
-import { color, text } from 'saluki'
+import { color, text } from '@nearform/saluki'
 
 const StyledHeader = styled.h1`
   ${color.red}
@@ -61,7 +61,7 @@ export const Header = ({ children }) => <StyledHeader>{children}</StyledHeader>
 ```jsx
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core'
-import { color, text } from 'saluki'
+import { color, text } from '@nearform/saluki'
 
 export const Header = ({ children }) => (
   <h1
