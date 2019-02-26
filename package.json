@@ -8,15 +8,13 @@
   ],
   "scripts": {
     "build": "babel src -d dist --ignore **/*.test.js",
-    "clean": "rm -rf dist",
     "docs": "x0 docs",
     "docs:build": "x0 build docs -d dist-docs",
     "docs:publish": "gh-pages -d dist-docs",
     "lint": "eslint src/** docs/**/*.js",
     "size": "size-limit",
     "test": "jest --coverage",
-    "test:watch": "jest --watch",
-    "test:ci": "jest --ci --runInBand --reporters=default --reporters=jest-junit"
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
