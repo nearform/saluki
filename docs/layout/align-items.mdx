@@ -17,13 +17,13 @@ const Container = styled.div`
   ${size.height.large}
   ${layout.display.flex}
   ${layout.alignItems.center}
-  ${background.yellow}
+  ${background.color.yellow}
 `
 
 const Box = styled.div`
   ${size.height.medium}
   ${size.width.third}
-  ${({ light }) => (light ? background.red : background.black)};
+  ${({ light }) => (light ? background.color.red : background.color.black)}
 `
 ```
 
@@ -35,28 +35,4 @@ layout.alignItems.end
 layout.alignItems.stretch
 layout.alignItems.center
 layout.alignItems.baseline
-```
-
-## Configuration
-
-Configurable via;
-
-```
-layout.alignItems
-```
-
-## Defaults
-
-```js
-{
-  layout: {
-    alignItems: {
-      start: 'flex-start',
-      end: 'flex-end',
-      stretch: 'stretch',
-      center: 'center',
-      baseline: 'baseline'
-    }
-  }
-}
 ```
