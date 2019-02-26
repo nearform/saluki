@@ -1,5 +1,5 @@
 {
-  "name": "@nearform/cijul",
+  "name": "saluki",
   "version": "0.1.0",
   "description": "Utility styles for CSS-in-JS",
   "main": "dist/index.js",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nearform/cijul.git"
+    "url": "git+https://github.com/nearform/saluki.git"
   },
   "author": "NearForm",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/nearform/cijul/issues"
+    "url": "https://github.com/nearform/saluki/issues"
   },
-  "homepage": "https://github.com/nearform/cijul#readme",
+  "homepage": "https://github.com/nearform/saluki#readme",
   "keywords": [
     "css-in-js",
     "styled-components",
@@ -105,7 +105,7 @@
     "*.js": "npm run lint"
   },
   "x0": {
-    "title": "Cijul - Utility styles for CSS-in-JS"
+    "title": "Saluki - Utility styles for CSS-in-JS"
   },
   "size-limit": [
     {

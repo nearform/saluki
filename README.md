@@ -1,22 +1,22 @@
-# Cijul
+# Saluki
 
 Utility styles for CSS-in-JS.
 
-Please note: breaking changes are expected in these early stages whilst we settle on the best API possible, it is not recommended to use Cijul in production.
+Please note: breaking changes are expected in these early stages whilst we settle on the best API possible, it is not recommended to use Saluki in production.
 
-Check Cijul's issues for discussions on potential changes or feel free to raise your own.
+Check Saluki's issues for discussions on potential changes or feel free to raise your own.
 
 ## Documentation
 
-Visit [nearform.github.io/cijul](https://nearform.github.io/cijul) for full documentation.
+Visit [nearform.github.io/saluki](https://nearform.github.io/saluki) for full documentation.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to Cijul.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to Saluki.
 
 ## Inspiration
 
-Cijul owes inspiration to;
+Saluki owes inspiration to;
 
 - [Tailwind CSS](https://tailwindcss.com)
 - [Tachyons](http://tachyons.io/)

@@ -119,7 +119,7 @@ export default props => {
   `
 
   return (
-    <SidebarLayout title={'Cijul'} {...props} routes={r}>
+    <SidebarLayout title={'Saluki'} {...props} routes={r}>
       <Warning>
         <p>
           <Note>Please note:</Note> breaking changes are expected in these early

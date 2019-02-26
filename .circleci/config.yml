@@ -5,7 +5,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/cijul
+    working_directory: ~/saluki
     docker:
       - image: circleci/node:10.15
     steps:
@@ -25,6 +25,6 @@ jobs:
           name: Run tests with JUnit as reporter
           command: npm run test:ci
           environment:
-            JEST_JUNIT_OUTPUT: "reports/jest/js-test-results.xml"
+            JEST_JUNIT_OUTPUT: 'reports/jest/js-test-results.xml'
       - store_test_results:
           path: reports

@@ -14,7 +14,7 @@ import {
 
 ---
 
-There are various ways Cijul can be used alongside Styled Components.
+There are various ways Saluki can be used alongside Styled Components.
 
 ## Tagged Template Literal
 
@@ -23,7 +23,7 @@ There are various ways Cijul can be used alongside Styled Components.
 ```jsx
 import React from 'react'
 import styled from 'styled-components/macro'
-import { color, text } from '@nearform/cijul'
+import { color, text } from 'saluki'
 
 const StyledHeader = styled.h1`
   ${color.red}
@@ -39,7 +39,7 @@ export const Header = ({ children }) => <StyledHeader>{children}</StyledHeader>
 
 ```jsx
 import React from 'react'
-import { color, text } from '@nearform/cijul'
+import { color, text } from 'saluki'
 
 export const Header = ({ children }) => (
   <h1
@@ -59,7 +59,7 @@ export const Header = ({ children }) => (
 
 ```jsx
 import React from 'react'
-import { color, text } from '@nearform/cijul'
+import { color, text } from 'saluki'
 
 export const Header = ({ children }) => (
   <h1 css={[color.red, text.size.large]}>{children}</h1>
@@ -72,7 +72,7 @@ export const Header = ({ children }) => (
 
 ```jsx
 import React from 'react'
-import { color, text } from '@nearform/cijul'
+import { color, text } from 'saluki'
 
 export const Header = ({ children }) => (
   <h1
@@ -93,7 +93,7 @@ export const Header = ({ children }) => (
 ```jsx
 import React from 'react'
 import styled from 'styled-components/macro'
-import { color, text } from '@nearform/cijul'
+import { color, text } from 'saluki'
 
 const StyledHeader = styled.h1({
   ...color.red,

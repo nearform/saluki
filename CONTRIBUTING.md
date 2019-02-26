@@ -1,4 +1,4 @@
-# Welcome to Cijul!
+# Welcome to Saluki!
 
 Please take a second to read over this before opening an issue. Providing complete information upfront will help us address any issue (and ship new features!) faster.
 
@@ -9,7 +9,7 @@ We greatly appreciate bug fixes, documentation improvements and new features, ho
 A perfect bug report would have the following:
 
 1. Summary of the issue you are experiencing.
-2. Details on what versions of node and Cijul you are using (`node -v`).
+2. Details on what versions of node and Saluki you are using (`node -v`).
 3. A simple repeatable test case for us to run. Please try to run through it 2-3 times to ensure it is completely repeatable.
 
 We would like to avoid issues that require a follow up questions to identify the bug. These follow ups are difficult to do unless we have a repeatable test case.
