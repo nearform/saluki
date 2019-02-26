@@ -105,7 +105,8 @@
     "*.js": "npm run lint"
   },
   "x0": {
-    "title": "Saluki - Utility styles for CSS-in-JS"
+    "title": "Saluki - Utility styles for CSS-in-JS",
+    "basename": "/saluki"
   },
   "size-limit": [
     {
