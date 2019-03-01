@@ -1,4 +1,4 @@
-import { Color } from './'
+import { Color, Container, Box, Text } from './'
 
 # Color
 
@@ -17,18 +17,190 @@ const Text = styled.h1`
 `
 ```
 
+## Palette
+
+<Container>
+  <Box color="black">
+    <Text light={true}>black</Text>
+  </Box>
+  <Box color="white">
+    <Text>white</Text>
+  </Box>
+</Container>
+
+<Container>
+  <Box color="lighterGray">
+    <Text>lighterGray</Text>
+  </Box>
+  <Box color="lightGray">
+    <Text>lightGray</Text>
+  </Box>
+  <Box color="gray">
+    <Text light={true}>gray</Text>
+  </Box>
+  <Box color="darkGray">
+    <Text light={true}>darkGray</Text>
+  </Box>
+  <Box color="darkerGray">
+    <Text light={true}>darkerGray</Text>
+  </Box>
+</Container>
+
+<Container>
+  <Box color="lighterRed">
+    <Text>lighterRed</Text>
+  </Box>
+  <Box color="lightRed">
+    <Text>lightRed</Text>
+  </Box>
+  <Box color="red">
+    <Text light={true}>red</Text>
+  </Box>
+  <Box color="darkRed">
+    <Text light={true}>darkRed</Text>
+  </Box>
+  <Box color="darkerRed">
+    <Text light={true}>dakerRed</Text>
+  </Box>
+</Container>
+
+<Container>
+  <Box color="lighterBlue">
+    <Text>lighterBlue</Text>
+  </Box>
+  <Box color="lightBlue">
+    <Text>lightBlue</Text>
+  </Box>
+  <Box color="blue">
+    <Text light={true}>blue</Text>
+  </Box>
+  <Box color="darkBlue">
+    <Text light={true}>darkBlue</Text>
+  </Box>
+  <Box color="darkerBlue">
+    <Text light={true}>darkerBlue</Text>
+  </Box>
+</Container>
+
+<Container>
+  <Box color="lighterYellow">
+    <Text>lighterYellow</Text>
+  </Box>
+  <Box color="lightYellow">
+    <Text>lightYellow</Text>
+  </Box>
+  <Box color="yellow">
+    <Text light={true}>yellow</Text>
+  </Box>
+  <Box color="darkYellow">
+    <Text light={true}>darkYellow</Text>
+  </Box>
+  <Box color="darkerYellow">
+    <Text light={true}>darkerYellow</Text>
+  </Box>
+</Container>
+
+<Container>
+  <Box color="lighterGreen">
+    <Text>lighterGreen</Text>
+  </Box>
+  <Box color="lightGreen">
+    <Text>lightGreen</Text>
+  </Box>
+  <Box color="green">
+    <Text light={true}>green</Text>
+  </Box>
+  <Box color="darkGreen">
+    <Text light={true}>darkGreen</Text>
+  </Box>
+  <Box color="darkerGreen">
+    <Text light={true}>darkerGreen</Text>
+  </Box>
+</Container>
+
+<Container>
+  <Box color="lighterOrange">
+    <Text>lighterOrange</Text>
+  </Box>
+  <Box color="lightOrange">
+    <Text>lightOrange</Text>
+  </Box>
+  <Box color="orange">
+    <Text light={true}>orange</Text>
+  </Box>
+  <Box color="darkOrange">
+    <Text light={true}>darkOrange</Text>
+  </Box>
+  <Box color="darkerOrange">
+    <Text light={true}>darkerOrange</Text>
+  </Box>
+</Container>
+
+<Container>
+  <Box color="lighterPurple">
+    <Text>lighterPurple</Text>
+  </Box>
+  <Box color="lightPurple">
+    <Text>lightPurple</Text>
+  </Box>
+  <Box color="purple">
+    <Text light={true}>purple</Text>
+  </Box>
+  <Box color="darkPurple">
+    <Text light={true}>darkPurple</Text>
+  </Box>
+  <Box color="darkerPurple">
+    <Text light={true}>darkerPurple</Text>
+  </Box>
+</Container>
+
 ## Rules
 
 ```js
 color.black
-color.blue
-color.gray
-color.green
-color.orange
-color.red
-color.purple
-color.yellow
 color.white
+
+color.lighterGray
+color.lightGray
+color.gray
+color.darkGray
+color.darkerGray
+
+color.lighterRed
+color.lightRed
+color.red
+color.darkRed
+color.darkerRed
+
+color.lighterBlue
+color.lightBlue
+color.blue
+color.darkBlue
+color.darkerBlue
+
+color.lighterYellow
+color.lightYellow
+color.yellow
+color.darkYellow
+color.darkerYellow
+
+color.lighterGreen
+color.lightGreen
+color.green
+color.darkGreen
+color.darkerGreen
+
+color.lighterOrange
+color.lightOrange
+color.orange
+color.darkOrange
+color.darkerOrange
+
+color.lighterPurple
+color.lightPurple
+color.purple
+color.darkPurple
+color.darkerPurple
 ```
 
 ## Configuration
@@ -44,13 +216,41 @@ color
 ```js
 {
   black: 'black',
-  blue: 'blue',
-  gray: 'gray',
-  green: 'green',
-  orange: 'orange',
-  red: 'red',
-  purple: 'purple',
-  yellow: 'yellow',
-  white: 'white'
+  white: 'white',
+  lighterGray: '#d5d9dc',
+  lightGray: '#9ea6ae',
+  gray: '#495057',
+  darkGray: '#3a4045',
+  darkerGray: '#23262a',
+  lighterRed: '#f9b8b8',
+  lightRed: '#f25959',
+  red: '#f03e3e',
+  darkRed: '#a60d0d',
+  darkerRed: '#470606',
+  lighterBlue: '#bbdaf6',
+  lightBlue: '#61a9ea',
+  blue: '#1c7ed6',
+  darkBlue: '#155d9e',
+  darkerBlue: '#092844',
+  lighterYellow: '#ffe4b3',
+  lightYellow: '#ffc04d',
+  yellow: '#f59f00',
+  darkYellow: '#b37400',
+  darkerYellow: '#4d3200',
+  lighterGreen: '#c5edcc',
+  lightGreen: '#77d587',
+  green: '#37b24d',
+  darkGreen: '#2a883b',
+  darkerGreen: '#123a19',
+  lighterOrange: '#fdd2b5',
+  lightOrange: '#fa9551',
+  orange: '#f76707',
+  darkOrange: '#ae4805',
+  darkerOrange: '#4a1f02',
+  lighterPurple: '#e6c3ee',
+  lightPurple: '#c474d8',
+  purple: '#ae3ec9',
+  darkPurple: '#78278b',
+  darkerPurple: '#33113c'
 }
 ```

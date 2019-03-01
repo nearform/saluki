@@ -9,7 +9,7 @@ import setupBorder, {
 import setupBreakpoint, {
   defaultRules as defaultBreakpointRules
 } from './breakpoint'
-import setupColor, { color as defaultColorRules } from './color'
+import setupColor, { defaultRules as defaultColorRules } from './color'
 import setupLayout, { defaultRules as defaultLayoutRules } from './layout'
 import setupOpacity, { defaultRules as defaultOpacityRules } from './opacity'
 import setupShadow, { defaultRules as defaultShadowRules } from './shadow'

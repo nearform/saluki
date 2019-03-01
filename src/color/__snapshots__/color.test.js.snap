@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`color when custom config is provided when the custom config overrides a value should replace the default value 1`] = `
+Object {
+  "black": Object {
+    "color": "black",
+  },
+  "blue": Object {
+    "color": "#1c7ed6",
+  },
+  "darkBlue": Object {
+    "color": "#155d9e",
+  },
+  "darkGray": Object {
+    "color": "#3a4045",
+  },
+  "darkGreen": Object {
+    "color": "#2a883b",
+  },
+  "darkOrange": Object {
+    "color": "#ae4805",
+  },
+  "darkPurple": Object {
+    "color": "#78278b",
+  },
+  "darkRed": Object {
+    "color": "#a60d0d",
+  },
+  "darkYellow": Object {
+    "color": "#b37400",
+  },
+  "darkerBlue": Object {
+    "color": "#092844",
+  },
+  "darkerGray": Object {
+    "color": "#23262a",
+  },
+  "darkerGreen": Object {
+    "color": "#123a19",
+  },
+  "darkerOrange": Object {
+    "color": "#4a1f02",
+  },
+  "darkerPurple": Object {
+    "color": "#33113c",
+  },
+  "darkerRed": Object {
+    "color": "#470606",
+  },
+  "darkerYellow": Object {
+    "color": "#4d3200",
+  },
+  "gray": Object {
+    "color": "#495057",
+  },
+  "green": Object {
+    "color": "#37b24d",
+  },
+  "lightBlue": Object {
+    "color": "#61a9ea",
+  },
+  "lightGray": Object {
+    "color": "#9ea6ae",
+  },
+  "lightGreen": Object {
+    "color": "#77d587",
+  },
+  "lightOrange": Object {
+    "color": "#fa9551",
+  },
+  "lightPurple": Object {
+    "color": "#c474d8",
+  },
+  "lightRed": Object {
+    "color": "#f25959",
+  },
+  "lightYellow": Object {
+    "color": "#ffc04d",
+  },
+  "lighterBlue": Object {
+    "color": "#bbdaf6",
+  },
+  "lighterGray": Object {
+    "color": "#d5d9dc",
+  },
+  "lighterGreen": Object {
+    "color": "#c5edcc",
+  },
+  "lighterOrange": Object {
+    "color": "#fdd2b5",
+  },
+  "lighterPurple": Object {
+    "color": "#e6c3ee",
+  },
+  "lighterRed": Object {
+    "color": "#f9b8b8",
+  },
+  "lighterYellow": Object {
+    "color": "#ffe4b3",
+  },
+  "orange": Object {
+    "color": "#f76707",
+  },
+  "purple": Object {
+    "color": "#ae3ec9",
+  },
+  "red": Object {
+    "color": "#ff0000",
+  },
+  "white": Object {
+    "color": "white",
+  },
+  "yellow": Object {
+    "color": "#f59f00",
+  },
+}
+`;
+
+exports[`color when custom config is provided when the custom config provides a new value should add the value and not amend any existing values 1`] = `
+Object {
+  "black": Object {
+    "color": "black",
+  },
+  "blue": Object {
+    "color": "#1c7ed6",
+  },
+  "darkBlue": Object {
+    "color": "#155d9e",
+  },
+  "darkGray": Object {
+    "color": "#3a4045",
+  },
+  "darkGreen": Object {
+    "color": "#2a883b",
+  },
+  "darkOrange": Object {
+    "color": "#ae4805",
+  },
+  "darkPurple": Object {
+    "color": "#78278b",
+  },
+  "darkRed": Object {
+    "color": "#a60d0d",
+  },
+  "darkYellow": Object {
+    "color": "#b37400",
+  },
+  "darkerBlue": Object {
+    "color": "#092844",
+  },
+  "darkerGray": Object {
+    "color": "#23262a",
+  },
+  "darkerGreen": Object {
+    "color": "#123a19",
+  },
+  "darkerOrange": Object {
+    "color": "#4a1f02",
+  },
+  "darkerPurple": Object {
+    "color": "#33113c",
+  },
+  "darkerRed": Object {
+    "color": "#470606",
+  },
+  "darkerYellow": Object {
+    "color": "#4d3200",
+  },
+  "darkestRed": Object {
+    "color": "#540000",
+  },
+  "gray": Object {
+    "color": "#495057",
+  },
+  "green": Object {
+    "color": "#37b24d",
+  },
+  "lightBlue": Object {
+    "color": "#61a9ea",
+  },
+  "lightGray": Object {
+    "color": "#9ea6ae",
+  },
+  "lightGreen": Object {
+    "color": "#77d587",
+  },
+  "lightOrange": Object {
+    "color": "#fa9551",
+  },
+  "lightPurple": Object {
+    "color": "#c474d8",
+  },
+  "lightRed": Object {
+    "color": "#f25959",
+  },
+  "lightYellow": Object {
+    "color": "#ffc04d",
+  },
+  "lighterBlue": Object {
+    "color": "#bbdaf6",
+  },
+  "lighterGray": Object {
+    "color": "#d5d9dc",
+  },
+  "lighterGreen": Object {
+    "color": "#c5edcc",
+  },
+  "lighterOrange": Object {
+    "color": "#fdd2b5",
+  },
+  "lighterPurple": Object {
+    "color": "#e6c3ee",
+  },
+  "lighterRed": Object {
+    "color": "#f9b8b8",
+  },
+  "lighterYellow": Object {
+    "color": "#ffe4b3",
+  },
+  "orange": Object {
+    "color": "#f76707",
+  },
+  "purple": Object {
+    "color": "#ae3ec9",
+  },
+  "red": Object {
+    "color": "#f03e3e",
+  },
+  "white": Object {
+    "color": "white",
+  },
+  "yellow": Object {
+    "color": "#f59f00",
+  },
+}
+`;
+
+exports[`color when no custom config is provided should return the default config 1`] = `
+Object {
+  "black": Object {
+    "color": "black",
+  },
+  "blue": Object {
+    "color": "#1c7ed6",
+  },
+  "darkBlue": Object {
+    "color": "#155d9e",
+  },
+  "darkGray": Object {
+    "color": "#3a4045",
+  },
+  "darkGreen": Object {
+    "color": "#2a883b",
+  },
+  "darkOrange": Object {
+    "color": "#ae4805",
+  },
+  "darkPurple": Object {
+    "color": "#78278b",
+  },
+  "darkRed": Object {
+    "color": "#a60d0d",
+  },
+  "darkYellow": Object {
+    "color": "#b37400",
+  },
+  "darkerBlue": Object {
+    "color": "#092844",
+  },
+  "darkerGray": Object {
+    "color": "#23262a",
+  },
+  "darkerGreen": Object {
+    "color": "#123a19",
+  },
+  "darkerOrange": Object {
+    "color": "#4a1f02",
+  },
+  "darkerPurple": Object {
+    "color": "#33113c",
+  },
+  "darkerRed": Object {
+    "color": "#470606",
+  },
+  "darkerYellow": Object {
+    "color": "#4d3200",
+  },
+  "gray": Object {
+    "color": "#495057",
+  },
+  "green": Object {
+    "color": "#37b24d",
+  },
+  "lightBlue": Object {
+    "color": "#61a9ea",
+  },
+  "lightGray": Object {
+    "color": "#9ea6ae",
+  },
+  "lightGreen": Object {
+    "color": "#77d587",
+  },
+  "lightOrange": Object {
+    "color": "#fa9551",
+  },
+  "lightPurple": Object {
+    "color": "#c474d8",
+  },
+  "lightRed": Object {
+    "color": "#f25959",
+  },
+  "lightYellow": Object {
+    "color": "#ffc04d",
+  },
+  "lighterBlue": Object {
+    "color": "#bbdaf6",
+  },
+  "lighterGray": Object {
+    "color": "#d5d9dc",
+  },
+  "lighterGreen": Object {
+    "color": "#c5edcc",
+  },
+  "lighterOrange": Object {
+    "color": "#fdd2b5",
+  },
+  "lighterPurple": Object {
+    "color": "#e6c3ee",
+  },
+  "lighterRed": Object {
+    "color": "#f9b8b8",
+  },
+  "lighterYellow": Object {
+    "color": "#ffe4b3",
+  },
+  "orange": Object {
+    "color": "#f76707",
+  },
+  "purple": Object {
+    "color": "#ae3ec9",
+  },
+  "red": Object {
+    "color": "#f03e3e",
+  },
+  "white": Object {
+    "color": "white",
+  },
+  "yellow": Object {
+    "color": "#f59f00",
+  },
+}
+`;
