@@ -83,6 +83,24 @@ const pageNames = {
   psuedo: 'Psuedo Classes'
 }
 
+const Note = styled.span`
+  ${text.weight.bold}
+  ${text.style.italic}
+`
+
+const Warning = styled.h1`
+  ${text.weight.thin}
+  ${text.size.small}
+  ${background.color.blue}
+  ${color.white}
+  ${spacing.padding.small}
+`
+
+const Link = styled.a`
+  ${text.weight.bold}
+  ${color.white}
+`
+
 export default props => {
   const sortedRoutes = routes =>
     [
@@ -99,24 +117,6 @@ export default props => {
     })
 
   const r = sortedRoutes(props.routes)
-
-  const Note = styled.span`
-    ${text.weight.bold}
-    ${text.style.italic}
-  `
-
-  const Warning = styled.h1`
-  ${text.weight.thin}
-  ${text.size.small}
-  ${background.color.blue}
-  ${color.white}
-  ${spacing.padding.small}
-`
-
-  const Link = styled.a`
-    ${text.weight.bold}
-    ${color.white}
-  `
 
   return (
     <SidebarLayout title={'Saluki'} {...props} routes={r}>
