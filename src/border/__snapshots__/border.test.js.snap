@@ -7,108 +7,444 @@ Object {
       "border-color": "black",
     },
     "blue": Object {
-      "border-color": "blue",
+      "border-color": "#1c7ed6",
     },
     "bottom": Object {
       "black": Object {
         "border-bottom-color": "black",
       },
       "blue": Object {
-        "border-bottom-color": "blue",
+        "border-bottom-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-bottom-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-bottom-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-bottom-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-bottom-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-bottom-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-bottom-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-bottom-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-bottom-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-bottom-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-bottom-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-bottom-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-bottom-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-bottom-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-bottom-color": "#4d3200",
       },
       "gray": Object {
-        "border-bottom-color": "gray",
+        "border-bottom-color": "#495057",
       },
       "green": Object {
-        "border-bottom-color": "green",
+        "border-bottom-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-bottom-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-bottom-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-bottom-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-bottom-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-bottom-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-bottom-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-bottom-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-bottom-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-bottom-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-bottom-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-bottom-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-bottom-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-bottom-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-bottom-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-bottom-color": "orange",
+        "border-bottom-color": "#f76707",
       },
       "purple": Object {
-        "border-bottom-color": "purple",
+        "border-bottom-color": "#ae3ec9",
       },
       "red": Object {
-        "border-bottom-color": "red",
+        "border-bottom-color": "#f03e3e",
       },
       "white": Object {
         "border-bottom-color": "white",
       },
       "yellow": Object {
-        "border-bottom-color": "yellow",
+        "border-bottom-color": "#f59f00",
       },
     },
+    "darkBlue": Object {
+      "border-color": "#155d9e",
+    },
+    "darkGray": Object {
+      "border-color": "#3a4045",
+    },
+    "darkGreen": Object {
+      "border-color": "#2a883b",
+    },
+    "darkOrange": Object {
+      "border-color": "#ae4805",
+    },
+    "darkPurple": Object {
+      "border-color": "#78278b",
+    },
+    "darkRed": Object {
+      "border-color": "#a60d0d",
+    },
+    "darkYellow": Object {
+      "border-color": "#b37400",
+    },
+    "darkerBlue": Object {
+      "border-color": "#092844",
+    },
+    "darkerGray": Object {
+      "border-color": "#23262a",
+    },
+    "darkerGreen": Object {
+      "border-color": "#123a19",
+    },
+    "darkerOrange": Object {
+      "border-color": "#4a1f02",
+    },
+    "darkerPurple": Object {
+      "border-color": "#33113c",
+    },
+    "darkerRed": Object {
+      "border-color": "#470606",
+    },
+    "darkerYellow": Object {
+      "border-color": "#4d3200",
+    },
     "gray": Object {
-      "border-color": "gray",
+      "border-color": "#495057",
     },
     "green": Object {
-      "border-color": "green",
+      "border-color": "#37b24d",
     },
     "left": Object {
       "black": Object {
         "border-left-color": "black",
       },
       "blue": Object {
-        "border-left-color": "blue",
+        "border-left-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-left-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-left-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-left-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-left-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-left-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-left-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-left-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-left-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-left-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-left-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-left-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-left-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-left-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-left-color": "#4d3200",
       },
       "gray": Object {
-        "border-left-color": "gray",
+        "border-left-color": "#495057",
       },
       "green": Object {
-        "border-left-color": "green",
+        "border-left-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-left-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-left-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-left-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-left-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-left-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-left-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-left-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-left-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-left-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-left-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-left-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-left-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-left-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-left-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-left-color": "orange",
+        "border-left-color": "#f76707",
       },
       "purple": Object {
-        "border-left-color": "purple",
+        "border-left-color": "#ae3ec9",
       },
       "red": Object {
-        "border-left-color": "red",
+        "border-left-color": "#f03e3e",
       },
       "white": Object {
         "border-left-color": "white",
       },
       "yellow": Object {
-        "border-left-color": "yellow",
+        "border-left-color": "#f59f00",
       },
     },
+    "lightBlue": Object {
+      "border-color": "#61a9ea",
+    },
+    "lightGray": Object {
+      "border-color": "#9ea6ae",
+    },
+    "lightGreen": Object {
+      "border-color": "#77d587",
+    },
+    "lightOrange": Object {
+      "border-color": "#fa9551",
+    },
+    "lightPurple": Object {
+      "border-color": "#c474d8",
+    },
+    "lightRed": Object {
+      "border-color": "#f25959",
+    },
+    "lightYellow": Object {
+      "border-color": "#ffc04d",
+    },
+    "lighterBlue": Object {
+      "border-color": "#bbdaf6",
+    },
+    "lighterGray": Object {
+      "border-color": "#d5d9dc",
+    },
+    "lighterGreen": Object {
+      "border-color": "#c5edcc",
+    },
+    "lighterOrange": Object {
+      "border-color": "#fdd2b5",
+    },
+    "lighterPurple": Object {
+      "border-color": "#e6c3ee",
+    },
+    "lighterRed": Object {
+      "border-color": "#f9b8b8",
+    },
+    "lighterYellow": Object {
+      "border-color": "#ffe4b3",
+    },
     "orange": Object {
-      "border-color": "orange",
+      "border-color": "#f76707",
     },
     "purple": Object {
-      "border-color": "purple",
+      "border-color": "#ae3ec9",
     },
     "red": Object {
-      "border-color": "red",
+      "border-color": "#f03e3e",
     },
     "right": Object {
       "black": Object {
         "border-right-color": "black",
       },
       "blue": Object {
-        "border-right-color": "blue",
+        "border-right-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-right-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-right-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-right-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-right-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-right-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-right-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-right-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-right-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-right-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-right-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-right-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-right-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-right-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-right-color": "#4d3200",
       },
       "gray": Object {
-        "border-right-color": "gray",
+        "border-right-color": "#495057",
       },
       "green": Object {
-        "border-right-color": "green",
+        "border-right-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-right-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-right-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-right-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-right-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-right-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-right-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-right-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-right-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-right-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-right-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-right-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-right-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-right-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-right-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-right-color": "orange",
+        "border-right-color": "#f76707",
       },
       "purple": Object {
-        "border-right-color": "purple",
+        "border-right-color": "#ae3ec9",
       },
       "red": Object {
-        "border-right-color": "red",
+        "border-right-color": "#f03e3e",
       },
       "white": Object {
         "border-right-color": "white",
       },
       "yellow": Object {
-        "border-right-color": "yellow",
+        "border-right-color": "#f59f00",
       },
     },
     "top": Object {
@@ -116,35 +452,119 @@ Object {
         "border-top-color": "black",
       },
       "blue": Object {
-        "border-top-color": "blue",
+        "border-top-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-top-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-top-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-top-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-top-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-top-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-top-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-top-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-top-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-top-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-top-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-top-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-top-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-top-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-top-color": "#4d3200",
       },
       "gray": Object {
-        "border-top-color": "gray",
+        "border-top-color": "#495057",
       },
       "green": Object {
-        "border-top-color": "green",
+        "border-top-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-top-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-top-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-top-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-top-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-top-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-top-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-top-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-top-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-top-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-top-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-top-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-top-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-top-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-top-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-top-color": "orange",
+        "border-top-color": "#f76707",
       },
       "purple": Object {
-        "border-top-color": "purple",
+        "border-top-color": "#ae3ec9",
       },
       "red": Object {
-        "border-top-color": "red",
+        "border-top-color": "#f03e3e",
       },
       "white": Object {
         "border-top-color": "white",
       },
       "yellow": Object {
-        "border-top-color": "yellow",
+        "border-top-color": "#f59f00",
       },
     },
     "white": Object {
       "border-color": "white",
     },
     "yellow": Object {
-      "border-color": "yellow",
+      "border-color": "#f59f00",
     },
   },
   "radius": Object {
@@ -367,108 +787,444 @@ Object {
       "border-color": "black",
     },
     "blue": Object {
-      "border-color": "blue",
+      "border-color": "#1c7ed6",
     },
     "bottom": Object {
       "black": Object {
         "border-bottom-color": "black",
       },
       "blue": Object {
-        "border-bottom-color": "blue",
+        "border-bottom-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-bottom-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-bottom-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-bottom-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-bottom-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-bottom-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-bottom-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-bottom-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-bottom-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-bottom-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-bottom-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-bottom-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-bottom-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-bottom-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-bottom-color": "#4d3200",
       },
       "gray": Object {
-        "border-bottom-color": "gray",
+        "border-bottom-color": "#495057",
       },
       "green": Object {
-        "border-bottom-color": "green",
+        "border-bottom-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-bottom-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-bottom-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-bottom-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-bottom-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-bottom-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-bottom-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-bottom-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-bottom-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-bottom-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-bottom-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-bottom-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-bottom-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-bottom-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-bottom-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-bottom-color": "orange",
+        "border-bottom-color": "#f76707",
       },
       "purple": Object {
-        "border-bottom-color": "purple",
+        "border-bottom-color": "#ae3ec9",
       },
       "red": Object {
-        "border-bottom-color": "red",
+        "border-bottom-color": "#f03e3e",
       },
       "white": Object {
         "border-bottom-color": "white",
       },
       "yellow": Object {
-        "border-bottom-color": "yellow",
+        "border-bottom-color": "#f59f00",
       },
     },
+    "darkBlue": Object {
+      "border-color": "#155d9e",
+    },
+    "darkGray": Object {
+      "border-color": "#3a4045",
+    },
+    "darkGreen": Object {
+      "border-color": "#2a883b",
+    },
+    "darkOrange": Object {
+      "border-color": "#ae4805",
+    },
+    "darkPurple": Object {
+      "border-color": "#78278b",
+    },
+    "darkRed": Object {
+      "border-color": "#a60d0d",
+    },
+    "darkYellow": Object {
+      "border-color": "#b37400",
+    },
+    "darkerBlue": Object {
+      "border-color": "#092844",
+    },
+    "darkerGray": Object {
+      "border-color": "#23262a",
+    },
+    "darkerGreen": Object {
+      "border-color": "#123a19",
+    },
+    "darkerOrange": Object {
+      "border-color": "#4a1f02",
+    },
+    "darkerPurple": Object {
+      "border-color": "#33113c",
+    },
+    "darkerRed": Object {
+      "border-color": "#470606",
+    },
+    "darkerYellow": Object {
+      "border-color": "#4d3200",
+    },
     "gray": Object {
-      "border-color": "gray",
+      "border-color": "#495057",
     },
     "green": Object {
-      "border-color": "green",
+      "border-color": "#37b24d",
     },
     "left": Object {
       "black": Object {
         "border-left-color": "black",
       },
       "blue": Object {
-        "border-left-color": "blue",
+        "border-left-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-left-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-left-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-left-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-left-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-left-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-left-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-left-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-left-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-left-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-left-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-left-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-left-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-left-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-left-color": "#4d3200",
       },
       "gray": Object {
-        "border-left-color": "gray",
+        "border-left-color": "#495057",
       },
       "green": Object {
-        "border-left-color": "green",
+        "border-left-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-left-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-left-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-left-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-left-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-left-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-left-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-left-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-left-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-left-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-left-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-left-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-left-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-left-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-left-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-left-color": "orange",
+        "border-left-color": "#f76707",
       },
       "purple": Object {
-        "border-left-color": "purple",
+        "border-left-color": "#ae3ec9",
       },
       "red": Object {
-        "border-left-color": "red",
+        "border-left-color": "#f03e3e",
       },
       "white": Object {
         "border-left-color": "white",
       },
       "yellow": Object {
-        "border-left-color": "yellow",
+        "border-left-color": "#f59f00",
       },
     },
+    "lightBlue": Object {
+      "border-color": "#61a9ea",
+    },
+    "lightGray": Object {
+      "border-color": "#9ea6ae",
+    },
+    "lightGreen": Object {
+      "border-color": "#77d587",
+    },
+    "lightOrange": Object {
+      "border-color": "#fa9551",
+    },
+    "lightPurple": Object {
+      "border-color": "#c474d8",
+    },
+    "lightRed": Object {
+      "border-color": "#f25959",
+    },
+    "lightYellow": Object {
+      "border-color": "#ffc04d",
+    },
+    "lighterBlue": Object {
+      "border-color": "#bbdaf6",
+    },
+    "lighterGray": Object {
+      "border-color": "#d5d9dc",
+    },
+    "lighterGreen": Object {
+      "border-color": "#c5edcc",
+    },
+    "lighterOrange": Object {
+      "border-color": "#fdd2b5",
+    },
+    "lighterPurple": Object {
+      "border-color": "#e6c3ee",
+    },
+    "lighterRed": Object {
+      "border-color": "#f9b8b8",
+    },
+    "lighterYellow": Object {
+      "border-color": "#ffe4b3",
+    },
     "orange": Object {
-      "border-color": "orange",
+      "border-color": "#f76707",
     },
     "purple": Object {
-      "border-color": "purple",
+      "border-color": "#ae3ec9",
     },
     "red": Object {
-      "border-color": "red",
+      "border-color": "#f03e3e",
     },
     "right": Object {
       "black": Object {
         "border-right-color": "black",
       },
       "blue": Object {
-        "border-right-color": "blue",
+        "border-right-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-right-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-right-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-right-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-right-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-right-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-right-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-right-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-right-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-right-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-right-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-right-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-right-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-right-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-right-color": "#4d3200",
       },
       "gray": Object {
-        "border-right-color": "gray",
+        "border-right-color": "#495057",
       },
       "green": Object {
-        "border-right-color": "green",
+        "border-right-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-right-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-right-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-right-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-right-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-right-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-right-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-right-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-right-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-right-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-right-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-right-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-right-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-right-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-right-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-right-color": "orange",
+        "border-right-color": "#f76707",
       },
       "purple": Object {
-        "border-right-color": "purple",
+        "border-right-color": "#ae3ec9",
       },
       "red": Object {
-        "border-right-color": "red",
+        "border-right-color": "#f03e3e",
       },
       "white": Object {
         "border-right-color": "white",
       },
       "yellow": Object {
-        "border-right-color": "yellow",
+        "border-right-color": "#f59f00",
       },
     },
     "top": Object {
@@ -476,35 +1232,119 @@ Object {
         "border-top-color": "black",
       },
       "blue": Object {
-        "border-top-color": "blue",
+        "border-top-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-top-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-top-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-top-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-top-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-top-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-top-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-top-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-top-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-top-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-top-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-top-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-top-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-top-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-top-color": "#4d3200",
       },
       "gray": Object {
-        "border-top-color": "gray",
+        "border-top-color": "#495057",
       },
       "green": Object {
-        "border-top-color": "green",
+        "border-top-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-top-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-top-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-top-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-top-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-top-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-top-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-top-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-top-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-top-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-top-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-top-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-top-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-top-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-top-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-top-color": "orange",
+        "border-top-color": "#f76707",
       },
       "purple": Object {
-        "border-top-color": "purple",
+        "border-top-color": "#ae3ec9",
       },
       "red": Object {
-        "border-top-color": "red",
+        "border-top-color": "#f03e3e",
       },
       "white": Object {
         "border-top-color": "white",
       },
       "yellow": Object {
-        "border-top-color": "yellow",
+        "border-top-color": "#f59f00",
       },
     },
     "white": Object {
       "border-color": "white",
     },
     "yellow": Object {
-      "border-color": "yellow",
+      "border-color": "#f59f00",
     },
   },
   "radius": Object {
@@ -742,108 +1582,444 @@ Object {
       "border-color": "black",
     },
     "blue": Object {
-      "border-color": "blue",
+      "border-color": "#1c7ed6",
     },
     "bottom": Object {
       "black": Object {
         "border-bottom-color": "black",
       },
       "blue": Object {
-        "border-bottom-color": "blue",
+        "border-bottom-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-bottom-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-bottom-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-bottom-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-bottom-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-bottom-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-bottom-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-bottom-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-bottom-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-bottom-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-bottom-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-bottom-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-bottom-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-bottom-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-bottom-color": "#4d3200",
       },
       "gray": Object {
-        "border-bottom-color": "gray",
+        "border-bottom-color": "#495057",
       },
       "green": Object {
-        "border-bottom-color": "green",
+        "border-bottom-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-bottom-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-bottom-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-bottom-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-bottom-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-bottom-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-bottom-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-bottom-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-bottom-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-bottom-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-bottom-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-bottom-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-bottom-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-bottom-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-bottom-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-bottom-color": "orange",
+        "border-bottom-color": "#f76707",
       },
       "purple": Object {
-        "border-bottom-color": "purple",
+        "border-bottom-color": "#ae3ec9",
       },
       "red": Object {
-        "border-bottom-color": "red",
+        "border-bottom-color": "#f03e3e",
       },
       "white": Object {
         "border-bottom-color": "white",
       },
       "yellow": Object {
-        "border-bottom-color": "yellow",
+        "border-bottom-color": "#f59f00",
       },
     },
+    "darkBlue": Object {
+      "border-color": "#155d9e",
+    },
+    "darkGray": Object {
+      "border-color": "#3a4045",
+    },
+    "darkGreen": Object {
+      "border-color": "#2a883b",
+    },
+    "darkOrange": Object {
+      "border-color": "#ae4805",
+    },
+    "darkPurple": Object {
+      "border-color": "#78278b",
+    },
+    "darkRed": Object {
+      "border-color": "#a60d0d",
+    },
+    "darkYellow": Object {
+      "border-color": "#b37400",
+    },
+    "darkerBlue": Object {
+      "border-color": "#092844",
+    },
+    "darkerGray": Object {
+      "border-color": "#23262a",
+    },
+    "darkerGreen": Object {
+      "border-color": "#123a19",
+    },
+    "darkerOrange": Object {
+      "border-color": "#4a1f02",
+    },
+    "darkerPurple": Object {
+      "border-color": "#33113c",
+    },
+    "darkerRed": Object {
+      "border-color": "#470606",
+    },
+    "darkerYellow": Object {
+      "border-color": "#4d3200",
+    },
     "gray": Object {
-      "border-color": "gray",
+      "border-color": "#495057",
     },
     "green": Object {
-      "border-color": "green",
+      "border-color": "#37b24d",
     },
     "left": Object {
       "black": Object {
         "border-left-color": "black",
       },
       "blue": Object {
-        "border-left-color": "blue",
+        "border-left-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-left-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-left-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-left-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-left-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-left-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-left-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-left-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-left-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-left-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-left-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-left-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-left-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-left-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-left-color": "#4d3200",
       },
       "gray": Object {
-        "border-left-color": "gray",
+        "border-left-color": "#495057",
       },
       "green": Object {
-        "border-left-color": "green",
+        "border-left-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-left-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-left-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-left-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-left-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-left-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-left-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-left-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-left-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-left-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-left-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-left-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-left-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-left-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-left-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-left-color": "orange",
+        "border-left-color": "#f76707",
       },
       "purple": Object {
-        "border-left-color": "purple",
+        "border-left-color": "#ae3ec9",
       },
       "red": Object {
-        "border-left-color": "red",
+        "border-left-color": "#f03e3e",
       },
       "white": Object {
         "border-left-color": "white",
       },
       "yellow": Object {
-        "border-left-color": "yellow",
+        "border-left-color": "#f59f00",
       },
     },
+    "lightBlue": Object {
+      "border-color": "#61a9ea",
+    },
+    "lightGray": Object {
+      "border-color": "#9ea6ae",
+    },
+    "lightGreen": Object {
+      "border-color": "#77d587",
+    },
+    "lightOrange": Object {
+      "border-color": "#fa9551",
+    },
+    "lightPurple": Object {
+      "border-color": "#c474d8",
+    },
+    "lightRed": Object {
+      "border-color": "#f25959",
+    },
+    "lightYellow": Object {
+      "border-color": "#ffc04d",
+    },
+    "lighterBlue": Object {
+      "border-color": "#bbdaf6",
+    },
+    "lighterGray": Object {
+      "border-color": "#d5d9dc",
+    },
+    "lighterGreen": Object {
+      "border-color": "#c5edcc",
+    },
+    "lighterOrange": Object {
+      "border-color": "#fdd2b5",
+    },
+    "lighterPurple": Object {
+      "border-color": "#e6c3ee",
+    },
+    "lighterRed": Object {
+      "border-color": "#f9b8b8",
+    },
+    "lighterYellow": Object {
+      "border-color": "#ffe4b3",
+    },
     "orange": Object {
-      "border-color": "orange",
+      "border-color": "#f76707",
     },
     "purple": Object {
-      "border-color": "purple",
+      "border-color": "#ae3ec9",
     },
     "red": Object {
-      "border-color": "red",
+      "border-color": "#f03e3e",
     },
     "right": Object {
       "black": Object {
         "border-right-color": "black",
       },
       "blue": Object {
-        "border-right-color": "blue",
+        "border-right-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-right-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-right-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-right-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-right-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-right-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-right-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-right-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-right-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-right-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-right-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-right-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-right-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-right-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-right-color": "#4d3200",
       },
       "gray": Object {
-        "border-right-color": "gray",
+        "border-right-color": "#495057",
       },
       "green": Object {
-        "border-right-color": "green",
+        "border-right-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-right-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-right-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-right-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-right-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-right-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-right-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-right-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-right-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-right-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-right-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-right-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-right-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-right-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-right-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-right-color": "orange",
+        "border-right-color": "#f76707",
       },
       "purple": Object {
-        "border-right-color": "purple",
+        "border-right-color": "#ae3ec9",
       },
       "red": Object {
-        "border-right-color": "red",
+        "border-right-color": "#f03e3e",
       },
       "white": Object {
         "border-right-color": "white",
       },
       "yellow": Object {
-        "border-right-color": "yellow",
+        "border-right-color": "#f59f00",
       },
     },
     "top": Object {
@@ -851,35 +2027,119 @@ Object {
         "border-top-color": "black",
       },
       "blue": Object {
-        "border-top-color": "blue",
+        "border-top-color": "#1c7ed6",
+      },
+      "darkBlue": Object {
+        "border-top-color": "#155d9e",
+      },
+      "darkGray": Object {
+        "border-top-color": "#3a4045",
+      },
+      "darkGreen": Object {
+        "border-top-color": "#2a883b",
+      },
+      "darkOrange": Object {
+        "border-top-color": "#ae4805",
+      },
+      "darkPurple": Object {
+        "border-top-color": "#78278b",
+      },
+      "darkRed": Object {
+        "border-top-color": "#a60d0d",
+      },
+      "darkYellow": Object {
+        "border-top-color": "#b37400",
+      },
+      "darkerBlue": Object {
+        "border-top-color": "#092844",
+      },
+      "darkerGray": Object {
+        "border-top-color": "#23262a",
+      },
+      "darkerGreen": Object {
+        "border-top-color": "#123a19",
+      },
+      "darkerOrange": Object {
+        "border-top-color": "#4a1f02",
+      },
+      "darkerPurple": Object {
+        "border-top-color": "#33113c",
+      },
+      "darkerRed": Object {
+        "border-top-color": "#470606",
+      },
+      "darkerYellow": Object {
+        "border-top-color": "#4d3200",
       },
       "gray": Object {
-        "border-top-color": "gray",
+        "border-top-color": "#495057",
       },
       "green": Object {
-        "border-top-color": "green",
+        "border-top-color": "#37b24d",
+      },
+      "lightBlue": Object {
+        "border-top-color": "#61a9ea",
+      },
+      "lightGray": Object {
+        "border-top-color": "#9ea6ae",
+      },
+      "lightGreen": Object {
+        "border-top-color": "#77d587",
+      },
+      "lightOrange": Object {
+        "border-top-color": "#fa9551",
+      },
+      "lightPurple": Object {
+        "border-top-color": "#c474d8",
+      },
+      "lightRed": Object {
+        "border-top-color": "#f25959",
+      },
+      "lightYellow": Object {
+        "border-top-color": "#ffc04d",
+      },
+      "lighterBlue": Object {
+        "border-top-color": "#bbdaf6",
+      },
+      "lighterGray": Object {
+        "border-top-color": "#d5d9dc",
+      },
+      "lighterGreen": Object {
+        "border-top-color": "#c5edcc",
+      },
+      "lighterOrange": Object {
+        "border-top-color": "#fdd2b5",
+      },
+      "lighterPurple": Object {
+        "border-top-color": "#e6c3ee",
+      },
+      "lighterRed": Object {
+        "border-top-color": "#f9b8b8",
+      },
+      "lighterYellow": Object {
+        "border-top-color": "#ffe4b3",
       },
       "orange": Object {
-        "border-top-color": "orange",
+        "border-top-color": "#f76707",
       },
       "purple": Object {
-        "border-top-color": "purple",
+        "border-top-color": "#ae3ec9",
       },
       "red": Object {
-        "border-top-color": "red",
+        "border-top-color": "#f03e3e",
       },
       "white": Object {
         "border-top-color": "white",
       },
       "yellow": Object {
-        "border-top-color": "yellow",
+        "border-top-color": "#f59f00",
       },
     },
     "white": Object {
       "border-color": "white",
     },
     "yellow": Object {
-      "border-color": "yellow",
+      "border-color": "#f59f00",
     },
   },
   "radius": Object {

@@ -18,28 +18,112 @@ Object {
       "background": "black",
     },
     "blue": Object {
-      "background": "blue",
+      "background": "#1c7ed6",
+    },
+    "darkBlue": Object {
+      "background": "#155d9e",
+    },
+    "darkGray": Object {
+      "background": "#3a4045",
+    },
+    "darkGreen": Object {
+      "background": "#2a883b",
+    },
+    "darkOrange": Object {
+      "background": "#ae4805",
+    },
+    "darkPurple": Object {
+      "background": "#78278b",
+    },
+    "darkRed": Object {
+      "background": "#a60d0d",
+    },
+    "darkYellow": Object {
+      "background": "#b37400",
+    },
+    "darkerBlue": Object {
+      "background": "#092844",
+    },
+    "darkerGray": Object {
+      "background": "#23262a",
+    },
+    "darkerGreen": Object {
+      "background": "#123a19",
+    },
+    "darkerOrange": Object {
+      "background": "#4a1f02",
+    },
+    "darkerPurple": Object {
+      "background": "#33113c",
+    },
+    "darkerRed": Object {
+      "background": "#470606",
+    },
+    "darkerYellow": Object {
+      "background": "#4d3200",
     },
     "gray": Object {
-      "background": "gray",
+      "background": "#495057",
     },
     "green": Object {
-      "background": "green",
+      "background": "#37b24d",
+    },
+    "lightBlue": Object {
+      "background": "#61a9ea",
+    },
+    "lightGray": Object {
+      "background": "#9ea6ae",
+    },
+    "lightGreen": Object {
+      "background": "#77d587",
+    },
+    "lightOrange": Object {
+      "background": "#fa9551",
+    },
+    "lightPurple": Object {
+      "background": "#c474d8",
+    },
+    "lightRed": Object {
+      "background": "#f25959",
+    },
+    "lightYellow": Object {
+      "background": "#ffc04d",
+    },
+    "lighterBlue": Object {
+      "background": "#bbdaf6",
+    },
+    "lighterGray": Object {
+      "background": "#d5d9dc",
+    },
+    "lighterGreen": Object {
+      "background": "#c5edcc",
+    },
+    "lighterOrange": Object {
+      "background": "#fdd2b5",
+    },
+    "lighterPurple": Object {
+      "background": "#e6c3ee",
+    },
+    "lighterRed": Object {
+      "background": "#f9b8b8",
+    },
+    "lighterYellow": Object {
+      "background": "#ffe4b3",
     },
     "orange": Object {
-      "background": "orange",
+      "background": "#f76707",
     },
     "purple": Object {
-      "background": "purple",
+      "background": "#ae3ec9",
     },
     "red": Object {
-      "background": "red",
+      "background": "#f03e3e",
     },
     "white": Object {
       "background": "white",
     },
     "yellow": Object {
-      "background": "yellow",
+      "background": "#f59f00",
     },
   },
   "position": Object {

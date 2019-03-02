@@ -1,10 +1,14 @@
 import border, { defaultRules, combineRules } from './'
-import { color } from '../color'
+import { defaultRules as defaultColorRules } from '../color'
 
 describe('border', () => {
   describe('when no custom config is provided', () => {
     it('should return the default config', () => {
-      const combinedRules = combineRules(defaultRules, undefined, color)
+      const combinedRules = combineRules(
+        defaultRules,
+        undefined,
+        defaultColorRules
+      )
       expect(border(combinedRules)).toMatchSnapshot()
     })
   })
@@ -17,7 +21,7 @@ describe('border', () => {
           {
             width: { thin: '.5rem' }
           },
-          color
+          defaultColorRules
         )
         expect(border(combinedRules)).toMatchSnapshot()
       })
@@ -30,7 +34,7 @@ describe('border', () => {
           {
             radius: { huge: '20px' }
           },
-          color
+          defaultColorRules
         )
         expect(border(combinedRules)).toMatchSnapshot()
       })
@@ -43,7 +47,7 @@ describe('border', () => {
           {
             style: { solid: 'dashed' }
           },
-          color
+          defaultColorRules
         )
         expect(border(combinedRules).style.solid['border-style']).toBe('solid')
       })

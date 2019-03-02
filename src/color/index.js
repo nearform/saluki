@@ -1,81 +1,4 @@
-import { Color } from './'
-
-# Background Color
-
----
-
-## Example
-
-<Color>Hello</Color>
-
-```js
-const Text = styled.h1`
-  ${color.white}
-  ${background.color.blue}
-`
-```
-
-## Rules
-
-```js
-color.black
-color.white
-
-color.lighterGray
-color.lightGray
-color.gray
-color.darkGray
-color.darkerGray
-
-color.lighterRed
-color.lightRed
-color.red
-color.darkRed
-color.darkerRed
-
-color.lighterBlue
-color.lightBlue
-color.blue
-color.darkBlue
-color.darkerBlue
-
-color.lighterYellow
-color.lightYellow
-color.yellow
-color.darkYellow
-color.darkerYellow
-
-color.lighterGreen
-color.lightGreen
-color.green
-color.darkGreen
-color.darkerGreen
-
-color.lighterOrange
-color.lightOrange
-color.orange
-color.darkOrange
-color.darkerOrange
-
-color.lighterPurple
-color.lightPurple
-color.purple
-color.darkPurple
-color.darkerPurple
-```
-
-## Configuration
-
-Configurable via;
-
-```
-color
-```
-
-## Defaults
-
-```js
-{
+export const defaultRules = {
   black: 'black',
   white: 'white',
   lighterGray: '#d5d9dc',
@@ -114,4 +37,15 @@ color
   darkPurple: '#78278b',
   darkerPurple: '#33113c'
 }
-```
+
+const setupColor = colors => {
+  let color = {}
+  for (const [key, value] of Object.entries(colors)) {
+    color[key] = {
+      color: value
+    }
+  }
+  return color
+}
+
+export default setupColor

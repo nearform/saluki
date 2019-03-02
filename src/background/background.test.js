@@ -1,17 +1,25 @@
 import background, { defaultRules, combineRules } from './'
-import { color } from '../color'
+import { defaultRules as defaultColorRules } from '../color'
 
 describe('background', () => {
   describe('when no custom config is provided', () => {
     it('should return the default config', () => {
-      const combinedRules = combineRules(defaultRules, undefined, color)
+      const combinedRules = combineRules(
+        defaultRules,
+        undefined,
+        defaultColorRules
+      )
       expect(background(combinedRules)).toMatchSnapshot()
     })
   })
 
   describe('url', () => {
     it('should create a rule using the string passed in', () => {
-      const combinedRules = combineRules(defaultRules, undefined, color)
+      const combinedRules = combineRules(
+        defaultRules,
+        undefined,
+        defaultColorRules
+      )
       expect(
         background(combinedRules).url('https://nearform.com/logo.png')
       ).toEqual({
@@ -28,7 +36,7 @@ describe('background', () => {
           {
             size: { auto: 'cover' }
           },
-          color
+          defaultColorRules
         )
         expect(background(combinedRules).size.auto['background-size']).toBe(
           'auto'
