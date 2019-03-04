@@ -18,7 +18,7 @@ export const Box = styled.div`
 
 export const DirectionBox = styled.div`
   ${size.height.medium}
-  ${size.width.sixth}
+  ${size.width.third}
   ${({ light }) => (light ? background.color.red : background.color.black)}
 `
 export const AlignItems = styled.div`
@@ -66,7 +66,7 @@ export const JustifyContent = styled.div`
 
 export const JustifyContentBox = styled.div`
   ${size.height.medium}
-  ${size.width.sixth}
+  ${size.width.third}
   ${({ light }) => (light ? background.color.red : background.color.black)}
 `
 

@@ -1,17 +1,28 @@
 export const defaultRules = {
   width: {
-    sixth: '16.6666666667%',
     fifth: '20%',
+    twoFifths: '40%',
+    threeFifths: '60%',
+    fourFifths: '80%',
     quarter: '25%',
+    threeQuarters: '75%',
     third: '33.3333333333%',
+    twoThirds: '66.6666666666%',
     half: '50%',
     full: '100%',
-    view: '100vw'
+    view: '100vw',
+    auto: 'auto'
   },
   height: {
-    small: '1rem',
-    medium: '3rem',
-    large: '6rem'
+    small: '2rem',
+    medium: '4rem',
+    large: '8rem',
+    quarter: '25%',
+    half: '50%',
+    threeQuarters: '75%',
+    full: '100%',
+    view: '100vw',
+    auto: 'auto'
   }
 }
 

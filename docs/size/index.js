@@ -7,6 +7,6 @@ export const Width = styled.div`
 `
 
 export const Height = styled.div`
-  ${size.height.large}
+  ${size.height.medium}
   ${background.color.black}
 `
