@@ -285,25 +285,35 @@ border.style.left.dashed
 border.style.left.dotted
 border.style.left.none
 
+border.radius.none
 border.radius.small
 border.radius.medium
 border.radius.large
+border.radius.round
 
+border.radius.topRight.none
 border.radius.topRight.small
 border.radius.topRight.medium
 border.radius.topRight.large
+border.radius.topRight.round
 
+border.radius.bottomRight.none
 border.radius.bottomRight.small
 border.radius.bottomRight.medium
 border.radius.bottomRight.large
+border.radius.bottomRight.round
 
+border.radius.bottomLeft.none
 border.radius.bottomLeft.small
 border.radius.bottomLeft.medium
 border.radius.bottomLeft.large
+border.radius.bottomLeft.round
 
+border.radius.topLeft.none
 border.radius.topLeft.small
 border.radius.topLeft.medium
 border.radius.topLeft.large
+border.radius.topLeft.round
 ```
 
 ## Configuration
@@ -326,9 +336,11 @@ border
     extraThick: '8px'
   },
   radius: {
-    small: '2px',
-    medium: '4px',
-    large: '6px'
+    none: 0,
+    small: '.125rem',
+    medium: '.25rem',
+    large: '.5rem',
+    round: '9999px'
   }
 }
 ```

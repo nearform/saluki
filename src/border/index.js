@@ -13,9 +13,11 @@ export const defaultRules = {
     extraThick: '8px'
   },
   radius: {
-    small: '2px',
-    medium: '4px',
-    large: '6px'
+    none: 0,
+    small: '.125rem',
+    medium: '.25rem',
+    large: '.5rem',
+    round: '9999px'
   }
 }
 
