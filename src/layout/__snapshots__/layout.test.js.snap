@@ -81,6 +81,32 @@ Object {
       "display": "inline-flex",
     },
   },
+  "flex": Object {
+    "auto": Object {
+      "flex": "auto",
+    },
+    "grow": Object {
+      "flex-grow": 1,
+    },
+    "initial": Object {
+      "flex": "initial",
+    },
+    "noGrow": Object {
+      "flex-grow": 0,
+    },
+    "noShrink": Object {
+      "flex-shrink": 0,
+    },
+    "none": Object {
+      "flex": "none",
+    },
+    "one": Object {
+      "flex": "1",
+    },
+    "shrink": Object {
+      "flex-shrink": 1,
+    },
+  },
   "float": Object {
     "left": Object {
       "float": "left",

@@ -5,6 +5,16 @@ export const defaultRules = {
     block: 'block',
     inlineBlock: 'inline-block'
   },
+  flex: {
+    grow: 1,
+    noGrow: 0,
+    shrink: 1,
+    noShrink: 0,
+    none: 'none',
+    one: '1',
+    auto: 'auto',
+    initial: 'initial'
+  },
   float: {
     left: 'left',
     right: 'right',
@@ -76,9 +86,32 @@ function generateRules(rules, cssProp) {
   return newRules
 }
 
+function generateFlexRules(rules) {
+  const newRules = {}
+
+  for (const [key, value] of Object.entries(rules)) {
+    if (key === 'grow' || key === 'noGrow') {
+      newRules[key] = {
+        'flex-grow': value
+      }
+    } else if (key === 'shrink' || key === 'noShrink') {
+      newRules[key] = {
+        'flex-shrink': value
+      }
+    } else {
+      newRules[key] = {
+        flex: value
+      }
+    }
+  }
+
+  return newRules
+}
+
 export default function(rules) {
   return {
     display: generateRules(rules.display, 'display'),
+    flex: generateFlexRules(rules.flex),
     float: generateRules(rules.float, 'float'),
     position: generateRules(rules.position, 'position'),
     overflow: generateRules(rules.overflow, 'overflow'),

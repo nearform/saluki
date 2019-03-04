@@ -22,7 +22,7 @@ export const Container = styled.div`
 `
 
 export const Box = styled.div`
-  flex: 1;
+  ${layout.flex.one}
   ${layout.display.flex}
   ${layout.justifyContent.center}
   ${layout.direction.column}

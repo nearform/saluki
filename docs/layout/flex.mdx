@@ -1,0 +1,38 @@
+import { Container, FlexBox } from './'
+
+# Flex
+
+---
+
+## Example
+
+<Container>
+  <FlexBox bg="lightGray">Equal size</FlexBox>
+  <FlexBox bg="lighterGray">children no matter the</FlexBox>
+  <FlexBox bg="lightGray">amount of content in the box.</FlexBox>
+</Container>
+
+```jsx
+const Container = styled.div`
+  ${layout.display.flex}
+`
+
+const Box = styled.div`
+  ${size.height.medium}
+  ${layout.flex.one}
+  ${({ bg }) => background.color[bg]}
+`
+```
+
+## Rules
+
+```js
+layout.flex.grow
+layout.flex.noGrow
+layout.flex.shrink
+layout.flex.noShrink
+layout.flex.none
+layout.flex.one
+layout.flex.auto
+layout.flex.initial
+```

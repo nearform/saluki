@@ -18,6 +18,7 @@ const navOrder = [
   'responsive-design',
   'layout',
   'display',
+  'flex',
   'float',
   'position',
   'overflow',

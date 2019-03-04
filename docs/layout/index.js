@@ -16,6 +16,12 @@ export const Box = styled.div`
   ${({ light }) => (light ? background.color.red : background.color.black)}
 `
 
+export const FlexBox = styled.div`
+  ${size.height.medium}
+  ${layout.flex.one}
+  ${({ bg }) => background.color[bg]}
+`
+
 export const DirectionBox = styled.div`
   ${size.height.medium}
   ${size.width.third}
