@@ -1,6 +1,6 @@
 {
   "name": "saluki",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Utility styles for CSS-in-JS",
   "main": "dist/index.js",
   "files": [
