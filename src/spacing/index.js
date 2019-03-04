@@ -1,7 +1,9 @@
 export const defaultRules = {
+  none: '0',
+  auto: 'auto',
   small: '1rem',
   medium: '2rem',
-  large: '3rem'
+  large: '4rem'
 }
 
 export function combineRules(
