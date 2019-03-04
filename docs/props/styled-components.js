@@ -4,7 +4,7 @@ import { background, color } from '../../src'
 
 export const Styled = styled.h1`
   ${props => props.invert && color.white}
-  ${props => (props.invert ? background.black : background.white)}
+  ${props => (props.invert ? background.color.black : background.color.white)}
 `
 
 export const CSSProp = ({ children, invert }) => {
@@ -12,7 +12,7 @@ export const CSSProp = ({ children, invert }) => {
     <h1
       css={css`
         ${invert && color.white}
-        ${invert ? background.black : background.white}
+        ${invert ? background.color.black : background.color.white}
       `}>
       {children}
     </h1>
@@ -21,12 +21,15 @@ export const CSSProp = ({ children, invert }) => {
 
 export const Array = ({ children, invert }) => (
   <h1
-    css={[invert && color.white, invert ? background.black : background.white]}>
+    css={[
+      invert && color.white,
+      invert ? background.color.black : background.color.white
+    ]}>
     {children}
   </h1>
 )
 
 export const ObjectLiteral = styled.h1(props => ({
   ...(props.invert && color.white),
-  ...(props.invert ? background.black : background.white)
+  ...(props.invert ? background.color.black : background.color.white)
 }))
