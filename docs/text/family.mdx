@@ -10,15 +10,15 @@ import { Family } from './'
 
 ```jsx
 const Text = styled.h1`
-  ${text.serif}
+  ${text.family.serif}
 `
 ```
 
 ## Rules
 
 ```js
-text.sans
-text.serif
+text.family.sans
+text.family.serif
 ```
 
 ## Configuration
@@ -33,9 +33,8 @@ text
 
 ```js
 {
-  text: {
-    sans: 'sans',
-    serif: 'serif'
-  }
+  sans:
+    '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji',
+  serif: 'Georgia, Times, Times New Roman, serif'
 }
 ```

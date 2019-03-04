@@ -6,7 +6,7 @@ export const Color = styled.h1`
 `
 
 export const Family = styled.h1`
-  ${text.serif}
+  ${text.family.serif}
 `
 
 export const Size = styled.h1`

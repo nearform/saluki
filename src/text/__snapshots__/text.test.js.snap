@@ -27,12 +27,23 @@ Object {
       "text-decoration": "underline",
     },
   },
+  "family": Object {
+    "sans": Object {
+      "font-family": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+    },
+    "serif": Object {
+      "font-family": "Georgia, Times, Times New Roman, serif",
+    },
+  },
   "letterSpacing": Object {
     "large": Object {
-      "letter-spacing": ".2em",
+      "letter-spacing": ".05em",
     },
     "medium": Object {
-      "letter-spacing": ".125em",
+      "letter-spacing": ".025em",
+    },
+    "none": Object {
+      "letter-spacing": "0",
     },
     "small": Object {
       "letter-spacing": "-.05em",
@@ -40,27 +51,24 @@ Object {
   },
   "lineHeight": Object {
     "large": Object {
-      "line-height": "2em",
+      "line-height": "2",
     },
     "medium": Object {
-      "line-height": "1.5em",
+      "line-height": "1.5",
+    },
+    "none": Object {
+      "line-height": "1",
     },
     "small": Object {
-      "line-height": "1em",
+      "line-height": "1.25",
     },
-  },
-  "sans": Object {
-    "font-family": "sans",
-  },
-  "serif": Object {
-    "font-family": "serif",
   },
   "size": Object {
     "large": Object {
-      "font-size": "3rem",
+      "font-size": "2.5rem",
     },
     "medium": Object {
-      "font-size": "2rem",
+      "font-size": "1.25rem",
     },
     "small": Object {
       "font-size": ".5rem",
@@ -93,7 +101,7 @@ Object {
   },
   "weight": Object {
     "bold": Object {
-      "font-weight": "bold",
+      "font-weight": "700",
     },
     "normal": Object {
       "font-weight": "normal",
@@ -132,12 +140,23 @@ Object {
       "text-decoration": "underline",
     },
   },
+  "family": Object {
+    "sans": Object {
+      "font-family": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+    },
+    "serif": Object {
+      "font-family": "Georgia, Times, Times New Roman, serif",
+    },
+  },
   "letterSpacing": Object {
     "large": Object {
-      "letter-spacing": ".2em",
+      "letter-spacing": ".05em",
     },
     "medium": Object {
-      "letter-spacing": ".125em",
+      "letter-spacing": ".025em",
+    },
+    "none": Object {
+      "letter-spacing": "0",
     },
     "small": Object {
       "letter-spacing": "-.05em",
@@ -145,30 +164,27 @@ Object {
   },
   "lineHeight": Object {
     "large": Object {
-      "line-height": "2em",
+      "line-height": "2",
     },
     "medium": Object {
-      "line-height": "1.5em",
+      "line-height": "1.5",
+    },
+    "none": Object {
+      "line-height": "1",
     },
     "small": Object {
-      "line-height": "1em",
+      "line-height": "1.25",
     },
-  },
-  "sans": Object {
-    "font-family": "sans",
-  },
-  "serif": Object {
-    "font-family": "serif",
   },
   "size": Object {
     "extrasmall": Object {
       "font-size": ".25rem",
     },
     "large": Object {
-      "font-size": "3rem",
+      "font-size": "2.5rem",
     },
     "medium": Object {
-      "font-size": "2rem",
+      "font-size": "1.25rem",
     },
     "small": Object {
       "font-size": "1rem",
@@ -201,7 +217,7 @@ Object {
   },
   "weight": Object {
     "bold": Object {
-      "font-weight": "bold",
+      "font-weight": "700",
     },
     "normal": Object {
       "font-weight": "normal",
@@ -240,12 +256,23 @@ Object {
       "text-decoration": "underline",
     },
   },
+  "family": Object {
+    "sans": Object {
+      "font-family": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+    },
+    "serif": Object {
+      "font-family": "Georgia, Times, Times New Roman, serif",
+    },
+  },
   "letterSpacing": Object {
     "large": Object {
-      "letter-spacing": ".2em",
+      "letter-spacing": ".05em",
     },
     "medium": Object {
-      "letter-spacing": ".125em",
+      "letter-spacing": ".025em",
+    },
+    "none": Object {
+      "letter-spacing": "0",
     },
     "small": Object {
       "letter-spacing": "-.05em",
@@ -253,27 +280,24 @@ Object {
   },
   "lineHeight": Object {
     "large": Object {
-      "line-height": "2em",
+      "line-height": "2",
     },
     "medium": Object {
-      "line-height": "1.5em",
+      "line-height": "1.5",
+    },
+    "none": Object {
+      "line-height": "1",
     },
     "small": Object {
-      "line-height": "1em",
+      "line-height": "1.25",
     },
-  },
-  "sans": Object {
-    "font-family": "sans",
-  },
-  "serif": Object {
-    "font-family": "serif",
   },
   "size": Object {
     "large": Object {
-      "font-size": "3rem",
+      "font-size": "2.5rem",
     },
     "medium": Object {
-      "font-size": "2rem",
+      "font-size": "1.25rem",
     },
     "small": Object {
       "font-size": "1rem",
@@ -306,7 +330,7 @@ Object {
   },
   "weight": Object {
     "bold": Object {
-      "font-weight": "bold",
+      "font-weight": "700",
     },
     "normal": Object {
       "font-weight": "normal",
