@@ -19,7 +19,7 @@ const Text = styled.h1`
 ## Rules
 
 ```
-breakpoint.small()
+breakpoint.notSmall()
 breakpoint.medium()
 breakpoint.large()
 ```
@@ -36,8 +36,8 @@ breakpoint
 
 ```js
 {
-  small: '500px',
-  medium: '900px',
-  large: '1200px'
+  notSmall: '576px',
+  medium: { min: '768px', max: '991px' },
+  large: '992px'
 }
 ```
