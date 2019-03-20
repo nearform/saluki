@@ -1,6 +1,5 @@
 /coverage/
 /node_modules/
 /dist/
-/dist-docs/
 package-lock.json
 yarn.lock
