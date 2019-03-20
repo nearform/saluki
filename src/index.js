@@ -72,7 +72,8 @@ function generateHorizontalRules(rules, name) {
 function createRule(name) {
   return function(rule, props) {
     if (typeof rule !== 'string') {
-      return rule.theme[name][rule[name]]
+      const props = rule
+      return props.theme[name][props[name]]
     }
 
     if (props) {
@@ -94,8 +95,12 @@ function createRule(name) {
 }
 
 function createStaticRule(name) {
-  return function(value) {
-    return { [name]: value }
+  return function(arg) {
+    if (typeof arg === 'string' || arg[name]) {
+      return { [name]: arg[name] || arg }
+    }
+
+    return null
   }
 }
 

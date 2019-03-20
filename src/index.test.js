@@ -166,9 +166,24 @@ describe('standard rule', () => {
 })
 
 describe('static rule', () => {
-  describe('when a static rule is called', () => {
-    it('should create a css rule using the value passed in', () => {
+  describe('when a static rule exists in props', () => {
+    it('should use the prop rule', () => {
+      const props = {
+        fontStyle: 'italic'
+      }
+      expect(fontStyle(props)).toEqual({ fontStyle: 'italic' })
+    })
+  })
+
+  describe('when a static rule is called with a value', () => {
+    it('should create a css rule using the value', () => {
       expect(fontStyle('italic')).toEqual({ fontStyle: 'italic' })
+    })
+  })
+
+  describe('when a static rule is called without a value or corresponding props', () => {
+    it('should return null', () => {
+      expect(fontStyle({})).toBeNull()
     })
   })
 })
