@@ -27,6 +27,60 @@ describe('theme', () => {
         })
       })
     })
+
+    describe('breakpoint config', () => {
+      describe("when the custom theme contains a breakpoint config that isn't an object", () => {
+        it('should throw an error', () => {
+          expect(() => theme({ breakpoint: { palm: '418px' } })).toThrowError()
+        })
+      })
+
+      describe("when the custom theme contains a breakpoint config that is an object but doesn't contain a min or max value", () => {
+        it('should throw an error', () => {
+          expect(() =>
+            theme({ breakpoint: { palm: { minimum: '418px' } } })
+          ).toThrowError()
+        })
+      })
+
+      describe('when the custom theme contains a breakpoint with just a max value', () => {
+        it('return a max breakpoint', () => {
+          const t = theme({ breakpoint: { palm: { max: '418px' } } })
+
+          expect(breakpoint('palm', [color('red')], t)).toEqual({
+            '@media (max-width: 418px)': {
+              color: '#f03e3e'
+            }
+          })
+        })
+      })
+
+      describe('when the custom theme contains a breakpoint with just a min value', () => {
+        it('return a min breakpoint', () => {
+          const t = theme({ breakpoint: { palm: { min: '418px' } } })
+
+          expect(breakpoint('palm', [color('red')], t)).toEqual({
+            '@media (min-width: 418px)': {
+              color: '#f03e3e'
+            }
+          })
+        })
+      })
+
+      describe('when the custom theme contains a breakpoint with both min and max values', () => {
+        it('return a min and max breakpoint', () => {
+          const t = theme({
+            breakpoint: { palm: { min: '418px', max: '518px' } }
+          })
+
+          expect(breakpoint('palm', [color('red')], t)).toEqual({
+            '@media (min-width: 418px) and (max-width: 518px)': {
+              color: '#f03e3e'
+            }
+          })
+        })
+      })
+    })
   })
 })
 

@@ -159,6 +159,30 @@ const StyledHeader = styled.h1`
 export const Header = ({ children }) => <StyledHeader>{children}</StyledHeader>
 ```
 
+When creating custom breakpoint rules you need to provider either a min, max or both values.
+
+```jsx
+import React from 'react'
+import { ThemeProvider } from 'styled-components/macro'
+import { theme } from 'saluki'
+
+const customConfig = {
+  breakpoint: {
+    xl: {
+      min: '1200px',
+      max: '1500px'
+    },
+    xxl: {
+      min: '1501px'
+    }
+  }
+}
+
+export const App = ({ children }) => (
+  <ThemeProvider theme={theme(customConfig)}>{children}</ThemeProvider>
+)
+```
+
 ## Pseudo Rules
 
 Pseudo rules such as hover, active and focus can be passed an array of rules to apply.
@@ -258,9 +282,9 @@ Configurable rules can be overridden or added to via Saluki's `theme` function.
   <tr>
     <td>breakpoint</td>
     <td><pre><code>{
-  notSmall: '576px',
+  notSmall: { min: '576px' },
   medium: { min: '768px', max: '991px' },
-  large: '992px'
+  large: { min: '992px' }
 }</code></pre></td>
   </tr>
   <tr>

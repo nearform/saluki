@@ -14,16 +14,28 @@ function generateBreakpointRules(rules) {
   const newRules = {}
 
   for (const [key, value] of Object.entries(rules)) {
+    if (typeof value !== 'object' || (!value.min && !value.max)) {
+      throw new Error(
+        'Custom breakpoint rules require an object with either a min, max or both values, please check the config passed in to Saluki.'
+      )
+    }
     newRules[key] = function(rule) {
-      if (typeof rule === 'object' && value.min && value.max) {
+      if (value.min && value.max) {
         return {
           [`@media (min-width: ${value.min}) and (max-width: ${
             value.max
           })`]: rule
         }
       }
+
+      if (value.max) {
+        return {
+          [`@media (max-width: ${value.max})`]: rule
+        }
+      }
+
       return {
-        [`@media (min-width: ${value})`]: rule
+        [`@media (min-width: ${value.min})`]: rule
       }
     }
   }
@@ -189,9 +201,9 @@ function combine(name, fn, overrides, ruleName) {
       large: '4rem'
     },
     breakpoint: {
-      notSmall: '576px',
+      notSmall: { min: '576px' },
       medium: { min: '768px', max: '991px' },
-      large: '992px'
+      large: { min: '992px' }
     },
     fontSize: {
       small: '1rem',
