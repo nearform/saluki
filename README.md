@@ -12,6 +12,8 @@ Utility based CSS-in-JS theming.
 
 </div>
 
+Saluki works alongside CSS-in-JS theming solutions to allow rapid UI development with out of the box defaults and an intuitive API.
+
 ## Features
 
 - ✂️ Zero config - provides a robust default theme for rapid initial setup.
@@ -59,6 +61,8 @@ export const Header = ({ children }) => <StyledHeader>{children}</StyledHeader>
 
 ### Emotion
 
+When using Emotion's CSS prop you need to pass in your theme as the final argument to any Saluki helper.
+
 ```jsx
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core'
@@ -66,15 +70,24 @@ import { color, fontSize } from 'saluki'
 
 export const Header = ({ children }) => (
   <h1
-    css={css`
-      ${color('red')}
-      ${fontSize('large')}
+    css={theme => css`
+      ${color('red', theme)}
+      ${fontSize('large', theme)}
     `}
   >
     {children}
   </h1>
 )
 ```
+
+## Resources
+
+* [Starter example (CodeSandbox)](https://codesandbox.io/s/7kylv2nmr1)
+* [Buttons example (CodeSandbox)](https://codesandbox.io/s/mmjw3p6zj9)
+* [Responsive grid example (CodeSandbox)](https://codesandbox.io/s/5x9pv13pkk)
+* [Responsive card example (CodeSandbox)](https://codesandbox.io/s/zq8r11qvox)
+* [Styled Components usage examples (CodeSandbox)](https://codesandbox.io/s/882wx3oq9j)
+* [Emotion usage examples (CodeSandbox)](https://codesandbox.io/s/oo2m65wo4q)
 
 ## Configuration
 
@@ -121,7 +134,7 @@ export const Header = ({ children }) => (
 )
 ```
 
-Alternatively, if you don't want a 1-2-1 mapping of props to Saluki styles you can use props to apply conditional styling.
+Alternatively, if you don't want a 1-to-1 mapping of props to Saluki styles you can use props to apply conditional styling.
 
 ```jsx
 import React, { Fragment } from 'react'
