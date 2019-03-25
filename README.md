@@ -497,6 +497,7 @@ Static rules pass though the value passed in to the relevant CSS rule.
 
 - display
 - flex
+- flexWrap
 - flexBasis
 - flexGrow
 - flexShrink

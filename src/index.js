@@ -400,6 +400,7 @@ export const backgroundImage = createStaticRule('backgroundImage')
 
 export const display = createStaticRule('display')
 export const flex = createStaticRule('flex')
+export const flexWrap = createStaticRule('flexWrap')
 export const flexBasis = createStaticRule('flexBasis')
 export const flexGrow = createStaticRule('flexGrow')
 export const flexShrink = createStaticRule('flexShrink')
