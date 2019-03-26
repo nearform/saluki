@@ -331,7 +331,11 @@ export function theme(overrides = {}) {
     fontFamily: combine('fontFamily', generateRules, overrides),
     fontWeight: combine('fontWeight', generateRules, overrides),
     width: combine('width', generateRules, overrides),
+    minWidth: combine('width', generateRules, overrides, 'minWidth'),
+    maxWidth: combine('width', generateRules, overrides, 'maxWidth'),
     height: combine('height', generateRules, overrides),
+    minHeight: combine('height', generateRules, overrides, 'minHeight'),
+    maxHeight: combine('height', generateRules, overrides, 'maxHeight'),
     lineHeight: combine('lineHeight', generateRules, overrides),
     letterSpacing: combine('letterSpacing', generateRules, overrides),
     borderWidth: combine('borderWidth', generateRules, overrides),
@@ -373,7 +377,12 @@ export const textTransform = createStaticRule('textTransform')
 export const textDecoration = createStaticRule('textDecoration')
 
 export const width = createRule('width')
+export const minWidth = createRule('minWidth')
+export const maxWidth = createRule('maxWidth')
+
 export const height = createRule('height')
+export const minHeight = createRule('minHeight')
+export const maxHeight = createRule('maxHeight')
 
 export const borderWidth = createRule('borderWidth')
 export const borderRadius = createRule('borderRadius')

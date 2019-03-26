@@ -82,12 +82,12 @@ export const Header = ({ children }) => (
 
 ## Resources
 
-* [Starter example (CodeSandbox)](https://codesandbox.io/s/7kylv2nmr1)
-* [Buttons example (CodeSandbox)](https://codesandbox.io/s/mmjw3p6zj9)
-* [Responsive grid example (CodeSandbox)](https://codesandbox.io/s/5x9pv13pkk)
-* [Responsive card example (CodeSandbox)](https://codesandbox.io/s/zq8r11qvox)
-* [Styled Components usage examples (CodeSandbox)](https://codesandbox.io/s/882wx3oq9j)
-* [Emotion usage examples (CodeSandbox)](https://codesandbox.io/s/oo2m65wo4q)
+- [Starter example (CodeSandbox)](https://codesandbox.io/s/7kylv2nmr1)
+- [Buttons example (CodeSandbox)](https://codesandbox.io/s/mmjw3p6zj9)
+- [Responsive grid example (CodeSandbox)](https://codesandbox.io/s/5x9pv13pkk)
+- [Responsive card example (CodeSandbox)](https://codesandbox.io/s/zq8r11qvox)
+- [Styled Components usage examples (CodeSandbox)](https://codesandbox.io/s/882wx3oq9j)
+- [Emotion usage examples (CodeSandbox)](https://codesandbox.io/s/oo2m65wo4q)
 
 ## Configuration
 
@@ -430,6 +430,14 @@ Configurable rules can be overridden or added to via Saluki's `theme` function.
 }</code></pre></td>
   </tr>
   <tr>
+    <td>minWidth</td>
+    <td>Inherited from width</td>
+  </tr>
+  <tr>
+    <td>maxWidth</td>
+    <td>Inherited from width</td>
+  </tr>
+  <tr>
     <td>height</td>
     <td><pre><code>{
   small: '2rem',
@@ -442,6 +450,14 @@ Configurable rules can be overridden or added to via Saluki's `theme` function.
   view: '100vh',
   auto: 'auto'
 }</code></pre></td>
+  </tr>
+  <tr>
+    <td>minHeight</td>
+    <td>Inherited from height</td>
+  </tr>
+  <tr>
+    <td>maxHeight</td>
+    <td>Inherited from height</td>
   </tr>
   <tr>
     <td>borderWidth</td>
