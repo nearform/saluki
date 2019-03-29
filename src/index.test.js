@@ -1,83 +1,106 @@
-import { theme, color, fontStyle, breakpoint, hover } from '.'
+import { createTheme, color, fontStyle, breakpoint, hover } from '.'
 
-describe('theme', () => {
-  describe('when no custom theme is passed in', () => {
-    it('should return the default theme', () => {
-      expect(theme().color.red).toEqual({ color: '#f03e3e' })
+describe('createTheme', () => {
+  describe('when no theme is passed in', () => {
+    it('should throw an error', () => {
+      expect(() => createTheme()).toThrowError()
+    })
+  })
+  describe('when a theme is passed in', () => {
+    it('should return the theme rule when called', () => {
+      expect(createTheme({ color: { red: 'pink' } }).color.red).toEqual({
+        color: 'pink'
+      })
     })
   })
 
-  describe('when a custom theme is passed in', () => {
-    describe('when the custom theme overrides a default value', () => {
-      it('should return the theme with the overridden value present', () => {
-        expect(theme({ color: { red: 'yellow' } }).color.red).toEqual({
-          color: 'yellow'
+  describe('when both a theme and override are passed in', () => {
+    it('should return the theme with the value overriden and new additions', () => {
+      const theme = createTheme(
+        { color: { red: 'red' } },
+        { color: { red: 'pink', darkBlue: 'navy' } }
+      )
+      expect(theme.color.red).toEqual({
+        color: 'pink'
+      })
+      expect(theme.color.darkBlue).toEqual({
+        color: 'navy'
+      })
+    })
+  })
+
+  describe('when vertical and horizontal rules are created', () => {
+    it('should return the rules as expected', () => {
+      const theme = createTheme({ padding: { small: '1px' } })
+      expect(theme.paddingVertical.small).toEqual({
+        paddingTop: '1px',
+        paddingBottom: '1px'
+      })
+      expect(theme.paddingHorizontal.small).toEqual({
+        paddingLeft: '1px',
+        paddingRight: '1px'
+      })
+    })
+  })
+
+  describe('breakpoint config', () => {
+    describe("when the theme contains a breakpoint config that isn't an object", () => {
+      it('should throw an error', () => {
+        expect(() =>
+          createTheme({ breakpoint: { palm: '418px' } })
+        ).toThrowError()
+      })
+    })
+
+    describe("when the theme contains a breakpoint config that is an object but doesn't contain a min or max value", () => {
+      it('should throw an error', () => {
+        expect(() =>
+          createTheme({ breakpoint: { palm: { minimum: '418px' } } })
+        ).toThrowError()
+      })
+    })
+
+    describe('when the theme contains a breakpoint with just a max value', () => {
+      it('return a max breakpoint', () => {
+        const theme = createTheme({
+          breakpoint: { palm: { max: '418px' } },
+          color: { red: '#f03e3e' }
+        })
+
+        expect(breakpoint('palm', [color('red')], theme)).toEqual({
+          '@media (max-width: 418px)': {
+            color: '#f03e3e'
+          }
         })
       })
     })
 
-    describe('when the custom theme adds a new value', () => {
-      it('should return the default theme with the new value added', () => {
-        const newTheme = theme({ color: { reddish: 'pink' } })
-        expect(newTheme.color.reddish).toEqual({
-          color: 'pink'
+    describe('when the theme contains a breakpoint with just a min value', () => {
+      it('return a min breakpoint', () => {
+        const theme = createTheme({
+          breakpoint: { palm: { min: '418px' } },
+          color: { red: '#f03e3e' }
         })
-        expect(newTheme.color.red).toEqual({
-          color: '#f03e3e'
+
+        expect(breakpoint('palm', [color('red')], theme)).toEqual({
+          '@media (min-width: 418px)': {
+            color: '#f03e3e'
+          }
         })
       })
     })
 
-    describe('breakpoint config', () => {
-      describe("when the custom theme contains a breakpoint config that isn't an object", () => {
-        it('should throw an error', () => {
-          expect(() => theme({ breakpoint: { palm: '418px' } })).toThrowError()
+    describe('when the theme contains a breakpoint with both min and max values', () => {
+      it('return a min and max breakpoint', () => {
+        const theme = createTheme({
+          breakpoint: { palm: { min: '418px', max: '518px' } },
+          color: { red: '#f03e3e' }
         })
-      })
 
-      describe("when the custom theme contains a breakpoint config that is an object but doesn't contain a min or max value", () => {
-        it('should throw an error', () => {
-          expect(() =>
-            theme({ breakpoint: { palm: { minimum: '418px' } } })
-          ).toThrowError()
-        })
-      })
-
-      describe('when the custom theme contains a breakpoint with just a max value', () => {
-        it('return a max breakpoint', () => {
-          const t = theme({ breakpoint: { palm: { max: '418px' } } })
-
-          expect(breakpoint('palm', [color('red')], t)).toEqual({
-            '@media (max-width: 418px)': {
-              color: '#f03e3e'
-            }
-          })
-        })
-      })
-
-      describe('when the custom theme contains a breakpoint with just a min value', () => {
-        it('return a min breakpoint', () => {
-          const t = theme({ breakpoint: { palm: { min: '418px' } } })
-
-          expect(breakpoint('palm', [color('red')], t)).toEqual({
-            '@media (min-width: 418px)': {
-              color: '#f03e3e'
-            }
-          })
-        })
-      })
-
-      describe('when the custom theme contains a breakpoint with both min and max values', () => {
-        it('return a min and max breakpoint', () => {
-          const t = theme({
-            breakpoint: { palm: { min: '418px', max: '518px' } }
-          })
-
-          expect(breakpoint('palm', [color('red')], t)).toEqual({
-            '@media (min-width: 418px) and (max-width: 518px)': {
-              color: '#f03e3e'
-            }
-          })
+        expect(breakpoint('palm', [color('red')], theme)).toEqual({
+          '@media (min-width: 418px) and (max-width: 518px)': {
+            color: '#f03e3e'
+          }
         })
       })
     })
@@ -192,8 +215,10 @@ describe('breakpoint rule', () => {
   describe('when called with the props argument', () => {
     describe('when the props argument is the theme', () => {
       it('should return the relevant css rule', () => {
-        const large = theme().breakpoint.large
-        const t = {
+        const large = createTheme({
+          breakpoint: { large: { min: '992px' } }
+        }).breakpoint.large
+        const theme = {
           breakpoint: {
             large
           },
@@ -203,7 +228,7 @@ describe('breakpoint rule', () => {
             }
           }
         }
-        expect(breakpoint('large', [color('red')], t)).toEqual({
+        expect(breakpoint('large', [color('red')], theme)).toEqual({
           '@media (min-width: 992px)': {
             color: '#f03e3e'
           }
@@ -214,7 +239,9 @@ describe('breakpoint rule', () => {
 
   describe('when the props argument contains the theme', () => {
     it('should return the relevant css rule', () => {
-      const medium = theme().breakpoint.medium
+      const medium = createTheme({
+        breakpoint: { medium: { min: '768px', max: '991px' } }
+      }).breakpoint.medium
       const props = {
         theme: {
           breakpoint: {
