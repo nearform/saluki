@@ -21,7 +21,7 @@ Saluki works alongside CSS-in-JS theming solutions to allow rapid UI development
 
 ## Usage
 
-Install Saluki and Saluki's default theme as development dependencies.
+Install Saluki and [Saluki's default theme](https://github.com/nearform/saluki-theme-default) as development dependencies.
 
 ```sh
 npm install --save-dev saluki saluki-theme-default
